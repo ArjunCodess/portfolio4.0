@@ -3,6 +3,7 @@ import { HomeIcon, NotebookIcon, FilePen } from "lucide-react";
 
 export const DATA = {
     name: "Arjun Vijay Prakash",
+    personalBrand: 'ArjunCodess',
     initials: "ArjunCodess",
     url: "https://arjuncodess.vercel.app",
     location: "Lucknow, Uttar Pradesh, India",
