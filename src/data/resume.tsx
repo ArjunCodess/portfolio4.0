@@ -11,7 +11,7 @@ export const DATA = {
     description:
         "I'm 14yo full-stack developer, aspiring writer and student who loves to design & build stuff.",
     summary:
-        "I'm Arjun Vijay Prakash, a 14-year-old [full-stack developer](https://github.com/ArjunCodess), [technical writer](https://dev.to/arjuncodess) and student from India. I've been building websites and apps since I was young. I love turning ideas into reality through code. I've already shipped over 20 projects and even made some money freelancing. I share my coding journey on my blog, where I've built a community of over 30,000 followers. I'm actively looking to collaborate on projects, as well as on my blog.",
+        "I'm Arjun Vijay Prakash, a 14-year-old [full-stack developer](https://github.com/ArjunCodess), [technical writer](https://dev.to/arjuncodess) and [student](https://www.cmseducation.org/campuses/kanpurrd/) from India. I've been building websites and apps since I was young. I love turning ideas into reality through code. I've already shipped over 20 projects and even made some money freelancing. I share my coding journey on my blog, where I've built a community of over 30,000 followers. I'm actively looking to collaborate on projects, as well as on my blog.",
     avatarUrl: "/me.jpeg",
     skills: [
         "Clerk",
@@ -32,7 +32,6 @@ export const DATA = {
     ],
     navbar: [
         { href: "/", icon: HomeIcon, label: "Home" },
-        { href: "/blog", icon: NotebookIcon, label: "Blog" },
         { href: "/guestbook", icon: FilePen, label: "Guestbook" },
     ],
     contact: {
@@ -53,17 +52,17 @@ export const DATA = {
 
                 navbar: true,
             },
-            Email: {
-                name: "Send Email",
-                url: "mailto:arjunv.prakash12345@gmail.com",
-                icon: Icons.email,
-
-                navbar: true,
-            },
             Linktree: {
                 name: "Linktree",
                 url: "https://linktr.ee/arjuncodess",
                 icon: Icons.linktree,
+
+                navbar: true,
+            },
+            Email: {
+                name: "Send Email",
+                url: "mailto:arjunv.prakash12345@gmail.com",
+                icon: Icons.email,
 
                 navbar: true,
             },
@@ -251,39 +250,27 @@ export const DATA = {
         {
             title: "Learnt Full Stack Dev at 14",
             dates: "2024",
-            location: "Online",
-            description: "Self-taught full-stack development, mastering technologies like MERN stack at the age of 14.",
+            description: "Self-taught full-stack development, mastering tech like MERN stack w/ Next.js at the age of 14.",
             image: "",
             links: []
         },
         {
-            title: "Made 20+ Projects Using MERN",
+            title: "Made 20+ Projects",
             dates: "2020 - Present",
-            location: "Remote",
-            description: "Developed over 20 projects using the MERN stack, showcasing a wide range of applications from social media platforms to e-commerce stores.",
+            description: "Developed over 20 projects using code, using a variety of different kinds of languages, frameworks and libraries.",
             image: "",
             links: []
         },
         {
-            title: "Made my first $140 w/ Freelancing",
-            dates: "2023",
-            location: "Online",
-            description: "Earned $140 through freelancing, providing web development services and gaining practical experience.",
-            image: "",
-            links: []
-        },
-        {
-            title: "Hit 20K+ Followers on Blog",
+            title: "Hit 30K+ Followers on Blog",
             dates: "2024",
-            location: "Online",
-            description: "Built a blog with a following of over 20,000, sharing insights and tips on coding and development.",
+            description: "Built a blog with a following of over 30,000, sharing insights and tips on coding and development.",
             image: "",
             links: []
         },
         {
             title: "Listed as the Top Writer on DEV.to",
             dates: "2024",
-            location: "Online",
             description: "Recognized as a top writer on DEV.to for engaging and informative content on technology and programming.",
             image: "",
             links: []

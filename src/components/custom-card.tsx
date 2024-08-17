@@ -5,7 +5,6 @@ interface Props {
     title: string;
     description: string;
     dates: string;
-    location: string;
     image?: string;
     links?: readonly {
         icon: React.ReactNode;
@@ -18,11 +17,10 @@ export function CustomCard({
     title,
     description,
     dates,
-    location,
     links,
 }: Props) {
     return (
-        <li className="relative ml-10 py-7">
+        <li className="relative mx-10 py-7">
             <div className="flex flex-1 flex-col justify-start gap-2">
                 {dates && (
                     <time className="text-xs text-muted-foreground">{dates}</time>

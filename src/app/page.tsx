@@ -11,6 +11,15 @@ import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
 
+const images = [
+    "https://picsum.photos/seed/1/800/600",
+    "https://picsum.photos/seed/2/600/800",
+    "https://picsum.photos/seed/3/600/800",
+    "https://picsum.photos/seed/4/800/600",
+    "https://picsum.photos/seed/5/800/600",
+    "https://picsum.photos/seed/6/600/800",
+];
+
 export default function Page() {
     return (
         <main className="flex flex-col min-h-[100dvh] space-y-10">
@@ -61,6 +70,19 @@ export default function Page() {
                             </BlurFade>
                         ))}
                     </div>
+                </div>
+            </section>
+            <section id="photos">
+                <div className="columns-2 gap-4 sm:columns-3">
+                    {images.map((imageUrl, idx) => (
+                        <BlurFade key={imageUrl} delay={BLUR_FADE_DELAY * 10 + idx * 0.05} inView>
+                            <img
+                                className="mb-4 size-full rounded-lg object-contain"
+                                src={imageUrl}
+                                alt={`Random stock image ${idx + 1}`}
+                            />
+                        </BlurFade>
+                    ))}
                 </div>
             </section>
             <section id="work">
@@ -160,15 +182,10 @@ export default function Page() {
                                     Personal Achievements
                                 </div>
                                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                                    I like building things
+                                    I love building stuff.
                                 </h2>
                                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                                    During my time in university, I attended{" "}
-                                    {DATA.personalAchievements.length}+ personalAchievements. People from around the
-                                    country would come together and build incredible things in 2-3
-                                    days. It was eye-opening to see the endless possibilities
-                                    brought to life by a group of motivated and passionate
-                                    individuals.
+                                    Throughout my journey, I&apos;ve completed many personal feats. These achievements, in general taught me the importance of dedication and creativity. Few of the <i>feats</i> are listed below.
                                 </p>
                             </div>
                         </div>
@@ -183,7 +200,6 @@ export default function Page() {
                                     <CustomCard
                                         title={project.title}
                                         description={project.description}
-                                        location={project.location}
                                         dates={project.dates}
                                         image={project.image}
                                         links={project.links}
@@ -226,7 +242,6 @@ export default function Page() {
                                     <CustomCard
                                         title={project.title}
                                         description={project.description}
-                                        location={project.location}
                                         dates={project.dates}
                                         image={project.image}
                                         links={project.links}
@@ -269,7 +284,6 @@ export default function Page() {
                                     <CustomCard
                                         title={project.title}
                                         description={project.description}
-                                        location={project.location}
                                         dates={project.dates}
                                         image={project.image}
                                         links={project.links}
