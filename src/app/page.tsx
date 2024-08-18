@@ -146,8 +146,7 @@ export default function Page() {
                                 </h2>
                                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                                     I&apos;ve worked on a variety of projects, from simple
-                                    websites to complex web applications. Here are a few of my
-                                    favorites.
+                                    websites to complex web applications. Here are a few of my favorites.
                                 </p>
                             </div>
                         </div>
@@ -182,7 +181,7 @@ export default function Page() {
                                     Personal Achievements
                                 </div>
                                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                                    I love building stuff.
+                                    My Biggest Achievements
                                 </h2>
                                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                                     Throughout my journey, I&apos;ve completed many personal feats. These achievements, in general taught me the importance of dedication and creativity. Few of the <i>feats</i> are listed below.
@@ -201,8 +200,6 @@ export default function Page() {
                                         title={project.title}
                                         description={project.description}
                                         dates={project.dates}
-                                        image={project.image}
-                                        links={project.links}
                                     />
                                 </BlurFade>
                             ))}
@@ -219,15 +216,10 @@ export default function Page() {
                                     Personality Traits
                                 </div>
                                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                                    I like building things
+                                    Hardworking + Creative = 🔥
                                 </h2>
                                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                                    During my time in university, I attended{" "}
-                                    {DATA.personalAchievements.length}+ personalAchievements. People from around the
-                                    country would come together and build incredible things in 2-3
-                                    days. It was eye-opening to see the endless possibilities
-                                    brought to life by a group of motivated and passionate
-                                    individuals.
+                                    I try to get things done and always look for new ways to solve problems. I enjoy learning, and I work well in different situations. My goal is to bring fresh ideas and help make any project a <i>success.</i>
                                 </p>
                             </div>
                         </div>
@@ -236,15 +228,12 @@ export default function Page() {
                         <ul className="mb-4 ml-4 divide-y divide-dashed border-l pr-2">
                             {DATA.personalityTraits.map((project, id) => (
                                 <BlurFade
-                                    key={project.title + project.dates}
+                                    key={project.title}
                                     delay={BLUR_FADE_DELAY * 15 + id * 0.05}
                                 >
                                     <CustomCard
                                         title={project.title}
                                         description={project.description}
-                                        dates={project.dates}
-                                        image={project.image}
-                                        links={project.links}
                                     />
                                 </BlurFade>
                             ))}
@@ -258,18 +247,13 @@ export default function Page() {
                         <div className="flex flex-col items-center justify-center space-y-4 text-center">
                             <div className="space-y-2">
                                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                                    Hobbies Interests
+                                    Hobbies & Interests
                                 </div>
                                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                                    I like building things
+                                    What I Enjoy
                                 </h2>
                                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                                    During my time in university, I attended{" "}
-                                    {DATA.personalAchievements.length}+ personalAchievements. People from around the
-                                    country would come together and build incredible things in 2-3
-                                    days. It was eye-opening to see the endless possibilities
-                                    brought to life by a group of motivated and passionate
-                                    individuals.
+                                    I enjoy reading, coding, writing, exploring music and creating it. These activities help me learn, create, and grow. Some of my hobbies are listed below.
                                 </p>
                             </div>
                         </div>
@@ -278,15 +262,12 @@ export default function Page() {
                         <ul className="mb-4 ml-4 divide-y divide-dashed border-l pr-2">
                             {DATA.hobbiesInterests.map((project, id) => (
                                 <BlurFade
-                                    key={project.title + project.dates}
+                                    key={project.title}
                                     delay={BLUR_FADE_DELAY * 15 + id * 0.05}
                                 >
                                     <CustomCard
                                         title={project.title}
                                         description={project.description}
-                                        dates={project.dates}
-                                        image={project.image}
-                                        links={project.links}
                                     />
                                 </BlurFade>
                             ))}

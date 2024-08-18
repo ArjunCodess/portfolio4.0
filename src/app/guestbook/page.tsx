@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import BlurFade from "@/components/magicui/blur-fade";
 import GuestbookEntries from "@/components/guestbook/guestbook-entries";
 import Guestbook from "@/components/guestbook/guestbook";
+import Loader from "@/components/loader";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -16,7 +17,7 @@ export default function page() {
 
             <section className="mx-auto w-full max-w-2xl space-y-8">
                 <BlurFade delay={BLUR_FADE_DELAY * 3}>
-                    <Suspense fallback={<p className="text-center">loading...</p>}>
+                    <Suspense fallback={<Loader />}>
                         <Guestbook />
                         <GuestbookEntries />
                     </Suspense>

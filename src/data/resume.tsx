@@ -251,121 +251,65 @@ export const DATA = {
             title: "Learnt Full Stack Dev at 14",
             dates: "2024",
             description: "Self-taught full-stack development, mastering tech like MERN stack w/ Next.js at the age of 14.",
-            image: "",
-            links: []
         },
         {
             title: "Made 20+ Projects",
             dates: "2020 - Present",
             description: "Developed over 20 projects using code, using a variety of different kinds of languages, frameworks and libraries.",
-            image: "",
-            links: []
         },
         {
             title: "Hit 30K+ Followers on Blog",
             dates: "2024",
             description: "Built a blog with a following of over 30,000, sharing insights and tips on coding and development.",
-            image: "",
-            links: []
         },
         {
             title: "Listed as the Top Writer on DEV.to",
             dates: "2024",
             description: "Recognized as a top writer on DEV.to for engaging and informative content on technology and programming.",
-            image: "",
-            links: []
         }
     ],
     personalityTraits: [
         {
             title: "Self-motivated",
-            dates: "Ongoing",
-            location: "Self",
-            description: "Driven to achieve my goals 🚀, always pushing myself to reach new heights in both personal and professional life.",
-            image: "",
-            links: []
+            description: "Driven to achieve my goals, always pushing myself to reach new heights in both personal and professional life.",
         },
         {
             title: "Curious",
-            dates: "Ongoing",
-            location: "Self",
-            description: "Always eager to learn new things 🧠, constantly exploring new technologies and concepts to expand my knowledge.",
-            image: "",
-            links: []
+            description: "Always eager to learn new things, constantly exploring new technologies and concepts to expand my knowledge.",
         },
         {
             title: "Anti-Social",
-            dates: "Ongoing",
-            location: "Self",
-            description: "Doesn't enjoy working with others 👤, preferring to focus on individual tasks and projects.",
-            image: "",
-            links: []
+            description: "Doesn't enjoy working with others, preferring to focus on individual tasks and projects.",
         },
         {
             title: "Small-circle",
-            dates: "Ongoing",
-            location: "Self",
-            description: "Prefers a small group of like-minded people 🫂, valuing quality over quantity in personal connections.",
-            image: "",
-            links: []
+            description: "Prefers a small group of like-minded people, valuing quality over quantity in personal connections.",
         },
         {
             title: "Open-minded",
-            dates: "Ongoing",
-            location: "Self",
-            description: "Enjoys hearing different opinions 💬, open to diverse perspectives and ideas for personal and professional growth.",
-            image: "",
-            links: []
+            description: "Enjoys hearing different opinions, open to diverse perspectives and ideas for personal and professional growth.",
         },
         {
             title: "Detail-oriented",
-            dates: "Ongoing",
-            location: "Self",
-            description: "Pays attention to the little things 🤓, ensuring accuracy and thoroughness in all tasks and projects.",
-            image: "",
-            links: []
+            description: "Pays attention to the little things, ensuring accuracy and thoroughness in all tasks and projects.",
         }
     ],
     hobbiesInterests: [
         {
             title: "Enthusiastic Reader",
-            dates: "Ongoing",
-            location: "Self",
-            description: "Reading non-fiction and self-help books 📚 to gain insights and improve knowledge.",
-            image: "",
-            links: []
+            description: "Reading non-fiction and self-help books to gain insights and improve knowledge.",
         },
         {
             title: "Love Coding",
-            dates: "Ongoing",
-            location: "Self",
-            description: "Building stuff out of code 👨🏼‍💻, turning ideas into functional applications and tools.",
-            image: "",
-            links: []
+            description: "Building stuff out of code, turning ideas into functional applications and tools.",
         },
         {
             title: "Consistent Writer",
-            dates: "Ongoing",
-            location: "Self",
-            description: "Writing general knowledge, practical tips, and development-related content ✍️ to share insights and help others.",
-            image: "",
-            links: []
+            description: "Writing general knowledge, practical tips, and development-related content to share insights and help others.",
         },
         {
-            title: "Music Lover",
-            dates: "Ongoing",
-            location: "Self",
-            description: "Compiling and sharing underrated hip-hop songs 🎵, discovering and promoting hidden musical gems.",
-            image: "",
-            links: []
-        },
-        {
-            title: "Exploring Visual Arts",
-            dates: "Ongoing",
-            location: "Self",
-            description: "Particularly interested in sketching 🎨, experimenting with different styles and techniques in visual art.",
-            image: "",
-            links: []
+            title: "Music Lover and Aspiring Producer",
+            description: "Compiling and sharing underrated hip-hop songs. Just started out in music production, exploring beats and sound design.",
         }
     ],
 } as const;
