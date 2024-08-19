@@ -1,3 +1,4 @@
+import CertificateImage from "@/components/certificate-image";
 import { CustomCard } from "@/components/custom-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -6,23 +7,15 @@ import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
+import { ArrowUp } from "lucide-react";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
 
-const images = [
-    "https://picsum.photos/seed/1/800/600",
-    "https://picsum.photos/seed/2/600/800",
-    "https://picsum.photos/seed/3/600/800",
-    "https://picsum.photos/seed/4/800/600",
-    "https://picsum.photos/seed/5/800/600",
-    "https://picsum.photos/seed/6/600/800",
-];
-
 export default function Page() {
     return (
-        <main className="flex flex-col min-h-[100dvh] space-y-10">
+        <main className="flex flex-col min-h-[100dvh] z-10 space-y-10">
             <section id="hero">
                 <div className="mx-auto w-full max-w-2xl space-y-8">
                     <div className="gap-2 flex justify-between">
@@ -72,19 +65,6 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-            <section id="photos">
-                <div className="columns-2 gap-4 sm:columns-3">
-                    {images.map((imageUrl, idx) => (
-                        <BlurFade key={imageUrl} delay={BLUR_FADE_DELAY * 10 + idx * 0.05} inView>
-                            <img
-                                className="mb-4 size-full rounded-lg object-contain"
-                                src={imageUrl}
-                                alt={`Random stock image ${idx + 1}`}
-                            />
-                        </BlurFade>
-                    ))}
-                </div>
-            </section>
             <section id="work">
                 <div className="flex min-h-0 flex-col gap-y-3">
                     <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -131,6 +111,27 @@ export default function Page() {
                             />
                         </BlurFade>
                     ))}
+                </div>
+            </section>
+            <section id="cs50">
+                <div className="flex min-h-0 flex-col gap-y-3">
+                    <BlurFade delay={BLUR_FADE_DELAY * 9}>
+                        <h2 className="text-xl font-bold">Harvard CS50 Certifications</h2>
+                    </BlurFade>
+                    <div className="gap-4 columns-2">
+                        {DATA.images.map((imageUrl, idx) => (
+                            <BlurFade key={imageUrl} delay={BLUR_FADE_DELAY * 10 + idx * 0.05} inView>
+                                <CertificateImage
+                                    className="size-full object-contain hover:cursor-pointer py-2"
+                                    src={imageUrl}
+                                    alt={`CS50 Certificate ${idx + 1}`}
+                                />
+                            </BlurFade>
+                        ))}
+                    </div>
+                    <BlurFade delay={BLUR_FADE_DELAY * 9}>
+                        <p className="text-xs flex flex-row">try clicking on one of the above.<ArrowUp height={15} width={15} /></p>
+                    </BlurFade>
                 </div>
             </section>
             <section id="projects">

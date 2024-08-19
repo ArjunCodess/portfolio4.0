@@ -34,6 +34,12 @@ export const DATA = {
         { href: "/", icon: HomeIcon, label: "Home" },
         { href: "/guestbook", icon: FilePen, label: "Guestbook" },
     ],
+    images: [
+        "/CS50T.png",
+        "/CS50xPuzzleDay2024.png",
+        "/CS50x.png",
+        "/ReadyPlayer50.png",
+    ],
     contact: {
         email: "arjunv.prakash12345@gmail.com",
         tel: "+91 8601404303",
@@ -266,6 +272,11 @@ export const DATA = {
             title: "Listed as the Top Writer on DEV.to",
             dates: "2024",
             description: "Recognized as a top writer on DEV.to for engaging and informative content on technology and programming.",
+        },
+        {
+            title: "CS50 Achievements",
+            dates: "2023 - 2024",
+            description: "Completed CS50T and CS50x, two of Harvard's top computer science courses. Competed in Ready Player 50 in 2023 and Puzzle Day in 2024, successfully completing all levels of difficulty and earning gold certificates."
         }
     ],
     personalityTraits: [
