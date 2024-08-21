@@ -9,7 +9,7 @@ import {
 import { cn } from '@/lib/utils';
 import { XIcon } from 'lucide-react';
 
-export default function CertificateImage({ src, alt, className }: { src: string; alt: string; className?: string; }) {
+export default function CertificateImage({ src, alt, className, style }: { src: string; alt: string; className?: string; style?: object;}) {
     return (
         <Dialog
             transition={{
@@ -22,6 +22,7 @@ export default function CertificateImage({ src, alt, className }: { src: string;
                     src={src}
                     alt={alt}
                     className={cn('max-w-xs', className)}
+                    style={style}
                 />
             </DialogTrigger>
             <DialogContainer>

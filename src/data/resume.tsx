@@ -34,11 +34,16 @@ export const DATA = {
         { href: "/", icon: HomeIcon, label: "Home" },
         { href: "/guestbook", icon: FilePen, label: "Guestbook" },
     ],
-    images: [
+    cs50_images: [
         "/CS50T.png",
         "/CS50xPuzzleDay2024.png",
         "/CS50x.png",
         "/ReadyPlayer50.png",
+    ],
+    fcc_images: [
+        "/FrontendDevelopmentLibraries.png",
+        "/CollegeAlgebraWithPython.png",
+        "/ResponsiveWebDesign.png",
     ],
     contact: {
         email: "arjunv.prakash12345@gmail.com",

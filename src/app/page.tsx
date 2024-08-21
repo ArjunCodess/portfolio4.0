@@ -119,7 +119,7 @@ export default function Page() {
                         <h2 className="text-xl font-bold">Harvard CS50 Certifications</h2>
                     </BlurFade>
                     <div className="gap-4 columns-2">
-                        {DATA.images.map((imageUrl, idx) => (
+                        {DATA.cs50_images.map((imageUrl, idx) => (
                             <BlurFade key={imageUrl} delay={BLUR_FADE_DELAY * 10 + idx * 0.05} inView>
                                 <CertificateImage
                                     className="size-full object-contain hover:cursor-pointer py-2"
@@ -130,7 +130,34 @@ export default function Page() {
                         ))}
                     </div>
                     <BlurFade delay={BLUR_FADE_DELAY * 9}>
-                        <p className="text-xs flex flex-row">try clicking on one of the above.<ArrowUp height={15} width={15} /></p>
+                        <p className="text-xs flex flex-row dark:text-neutral-300 text-neutral-700">try clicking on one of the above.<ArrowUp height={15} width={15} /></p>
+                    </BlurFade>
+                </div>
+            </section>
+            <section id="freecodecamp">
+                <div className="flex min-h-0 flex-col gap-y-3">
+                    <BlurFade delay={BLUR_FADE_DELAY * 9}>
+                        <h2 className="text-xl font-bold">freeCodeCamp Professional Certifications</h2>
+                    </BlurFade>
+                    <div className="gap-4 columns-2">
+                        {DATA.fcc_images.map((imageUrl, idx) => {
+                            const isLastElement = DATA.fcc_images.length % 2 === 1 && idx === DATA.fcc_images.length - 1;
+
+                            return (
+                                <BlurFade key={imageUrl} delay={BLUR_FADE_DELAY * 10 + idx * 0.05} inView>
+                                    <div className={`${isLastElement ? 'transform -translate-x-1/2' : ''}`}>
+                                        <CertificateImage
+                                            className="size-full object-contain hover:cursor-pointer py-2"
+                                            src={imageUrl}
+                                            alt={`freeCodeCamp Professional Certificate ${idx + 1}`}
+                                        />
+                                    </div>
+                                </BlurFade>
+                            );
+                        })}
+                    </div>
+                    <BlurFade delay={BLUR_FADE_DELAY * 9}>
+                        <p className="text-xs flex flex-row dark:text-neutral-300 text-neutral-700">try clicking on one of the above.<ArrowUp height={15} width={15} /></p>
                     </BlurFade>
                 </div>
             </section>
