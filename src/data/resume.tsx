@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon, FilePen } from "lucide-react";
+import { HomeIcon, FilePen } from "lucide-react";
 
 export const DATA = {
     name: "Arjun Vijay Prakash",
@@ -9,7 +9,7 @@ export const DATA = {
     location: "Lucknow, Uttar Pradesh, India",
     locationLink: "https://www.google.com/maps/place/lucknow",
     description:
-        "I'm 14yo full-stack developer, aspiring writer and student who loves to design & build stuff.",
+        "I'm a 14-year-old full-stack developer, aspiring writer and student who loves to design & build stuff.",
     summary:
         "I'm Arjun Vijay Prakash, a 14-year-old [full-stack developer](https://github.com/ArjunCodess), [technical writer](https://dev.to/arjuncodess) and [student](https://www.cmseducation.org/campuses/kanpurrd/) from India. I've been building websites and apps since I was young. I love turning ideas into reality through code. I've already shipped over 20 projects and even made some money freelancing. I share my coding journey on my blog, where I've built a community of over 30,000 followers. I'm actively looking to collaborate on projects, as well as on my blog.",
     avatarUrl: "/me.jpeg",
