@@ -168,27 +168,53 @@ export default function Page() {
           <SectionHeader
             badge="My Projects"
             title="Check out my latest work"
-            description="I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites."
+            description={
+              <>
+                I&apos;ve worked on a variety of projects, from research to web
+                applications. Here are a few of my favorites. See the full
+                archive on{" "}
+                <Link
+                  href="/projects"
+                  className="font-semibold text-blue-600 underline dark:text-blue-400"
+                >
+                  /projects
+                </Link>
+                .
+              </>
+            }
             delay={BLUR_FADE_DELAY * 11}
           />
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-            {DATA.projects.map((project, id) => (
-              <BlurFade
-                key={project.title}
-                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
-              >
-                <ProjectCard
-                  href={project.href}
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  dates={project.dates}
-                  tags={project.technologies}
-                  image={project.image}
-                  links={project.links}
-                />
-              </BlurFade>
-            ))}
+            {DATA.projects
+              .filter((project) => project.featured)
+              .map((project, id, featuredProjects) => {
+                const isLastOdd =
+                  featuredProjects.length % 2 === 1 &&
+                  id === featuredProjects.length - 1;
+
+                return (
+                  <BlurFade
+                    key={project.title}
+                    delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+                    className={
+                      isLastOdd
+                        ? "sm:col-span-2 sm:mx-auto sm:w-[calc(50%_-_0.375rem)]"
+                        : ""
+                    }
+                  >
+                    <ProjectCard
+                      href={project.href}
+                      key={project.title}
+                      title={project.title}
+                      description={project.description}
+                      dates={project.dates}
+                      tags={project.technologies}
+                      image={"image" in project ? project.image : undefined}
+                      links={project.links}
+                    />
+                  </BlurFade>
+                );
+              })}
           </div>
         </div>
       </section>
