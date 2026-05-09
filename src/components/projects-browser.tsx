@@ -41,16 +41,18 @@ export function ProjectsBrowser() {
         <div className="space-y-2">
           <div className="flex items-center justify-between gap-3">
             <h2 className="text-sm font-semibold">Categories</h2>
-            {hasFilters && (
-              <Button
-                type="button"
-                variant="ghost"
-                size="sm"
-                onClick={() => setSelectedCategories([])}
-              >
-                Clear
-              </Button>
-            )}
+            <Button
+              type="button"
+              variant="ghost"
+              size="sm"
+              className={cn(
+                "h-7 px-2 text-xs",
+                hasFilters ? "" : "invisible pointer-events-none",
+              )}
+              onClick={() => setSelectedCategories([])}
+            >
+              Clear
+            </Button>
           </div>
           <div className="flex flex-wrap gap-1.5">
             {categories.map((category) => {
@@ -61,10 +63,12 @@ export function ProjectsBrowser() {
                   key={category}
                   type="button"
                   size="sm"
-                  variant={selected ? "default" : "outline"}
+                  variant="outline"
                   className={cn(
-                    "h-7 rounded-md px-2 text-xs",
-                    selected ? "" : "bg-background",
+                    "h-7 rounded-md border px-2 text-xs shadow-none transition-colors",
+                    selected
+                      ? "bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground"
+                      : "bg-background",
                   )}
                   onClick={() =>
                     setSelectedCategories((current) =>
