@@ -166,3 +166,27 @@ code[data-line-numbers-max-digits="2"] > [data-line]::before {
 code[data-line-numbers-max-digits="3"] > [data-line]::before {
   width: 3rem;
 }
+
+@layer utilities {
+  .link-underline {
+    text-decoration-line: underline;
+    text-decoration-color: color-mix(in srgb, currentColor 30%, transparent);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition-property: color, text-decoration-color;
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .link-underline:hover {
+    text-decoration-color: currentColor;
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
