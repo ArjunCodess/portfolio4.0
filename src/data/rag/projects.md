@@ -1,20 +1,19 @@
 # ArjunCodess Projects Knowledge Base
 
-> Auto-generated from GitHub API on Wed Feb 04 2026. Use this file to train the RAG model.
+> Auto-generated from GitHub API on Sat May 09 2026. Use this file to train the RAG model.
 
 ## Project: WebCrawlAI
 
 **Description:** AI-powered web scraping platform that leverages Gemini AI to extract specific information from websites — handles dynamic content, CAPTCHAs, and provides clean JSON output for easy integration.
 
-**Key Stats:** ⭐ 120 Stars | 🍴 23 Forks
-**Tech Stack:** Python, HTML, JavaScript
+**Key Stats:** 122 Stars | 23 Forks
+**Tech Stack:** CSS, Python, HTML
 **Live Demo:** https://webcrawlai.onrender.com/
 **Repository:** https://github.com/ArjunCodess/WebCrawlAI
 **Topics:** gemini, python, selenium, thordata
 
 ### README Content
-
-````markdown
+```markdown
 <h1 align="center">WebCrawlAI - AI-Powered Web Scraping Platform</h1>
 
 <div align="center">
@@ -35,6 +34,62 @@
 ---
 
 ## 🏆 Sponsors
+
+### RapidProxy
+
+<div align="center">
+  <img src="assets/rapidproxy-banner.png" alt="RapidProxy Banner" width="100%"/>
+</div>
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="200">
+      <a href="https://www.rapidproxy.io/?ref=WebCrawlAI" target="_blank">
+        <img src="assets/rapidproxy-logo.png" alt="RapidProxy Logo" width="150" height="150"/>
+      </a>
+    </td>
+    <td align="left" width="600">
+      <strong>RapidProxy</strong> - Stable, scalable residential proxies for efficient data collection.<br/><br/>
+      RapidProxy offers 90M+ real residential IPs across 200+ locations, with high concurrency, smart IP rotation, non-expiring traffic, and AI-powered CAPTCHA bypass. Built for developers, data engineers, and businesses working on web scraping, market research, e-commerce, social media automation, and large-scale data operations.<br/><br/>
+      <strong><a href="https://www.rapidproxy.io/?ref=WebCrawlAI" target="_blank">Visit RapidProxy</a></strong> or view the <strong><a href="https://docs.rapidproxy.io/" target="_blank">RapidProxy tutorial</a></strong>.
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+### Swiftproxy
+
+<div align="center">
+  <img src="assets/swiftproxy-banner.png" alt="Swiftproxy Banner" width="100%"/>
+</div>
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="200">
+      <a href="https://www.swiftproxy.net/?ref=WebCrawlAI" target="_blank">
+        <img src="assets/swiftproxy-logo.png" alt="Swiftproxy Logo" width="150" height="150"/>
+      </a>
+    </td>
+    <td align="left" width="600">
+      <strong>Swiftproxy</strong> - Seamless access to global web data at scale.<br/><br/>
+      Powered by an 80M+ ethically sourced residential IP pool across 195+ countries, Swiftproxy delivers fast, stable, and secure connections for web scraping, AI, BI, and automation workflows.<br/><br/>
+      <strong>Free Trial Available!</strong> Experience reliable proxy infrastructure today.<br/><br/>
+      <strong>Exclusive: Use code "PROXY90" for 10% off your first purchase!</strong><br/>
+      <strong><a href="https://www.swiftproxy.net/?ref=WebCrawlAI" target="_blank">Visit Swiftproxy</a></strong>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
 
 ### CyberYozh
 
@@ -129,7 +184,6 @@ These instructions will get you a copy of the project up and running on your loc
    git clone https://github.com/ArjunCodess/WebCrawlAI.git
    cd WebCrawlAI
    ```
-````
 
 2. **Install dependencies**
 
@@ -164,11 +218,13 @@ Currently, the project uses manual testing and user acceptance testing. Automate
 ### Manual Testing
 
 1. **Development Testing**
+
    - Run the development server with `python main.py`
    - Test core features: web scraping, AI extraction, JSON output
    - Verify error handling and retry mechanisms
 
 2. **Integration Testing**
+
    - Test with various website types (static, dynamic, with CAPTCHAs)
    - Verify AI extraction accuracy with different prompts
    - Test API endpoints and response formats
@@ -183,21 +239,25 @@ Currently, the project uses manual testing and user acceptance testing. Automate
 ### Core Features
 
 1. **Web Scraping**
+
    - Handle static and dynamic websites
    - Bypass CAPTCHAs and anti-bot measures
    - Support for JavaScript-heavy sites
 
 2. **AI-Powered Extraction**
+
    - Natural language prompts for data extraction
    - Precise parsing using Gemini AI
    - Structured JSON output
 
 3. **Web Interface**
+
    - User-friendly interface for non-technical users
    - Real-time extraction results
    - Error handling and status updates
 
 4. **API Integration**
+
    - RESTful API for programmatic access
    - Clean JSON responses
    - Easy integration into existing workflows
@@ -222,6 +282,7 @@ The project is configured for deployment on Render with the following setup:
 ### Production Deployment
 
 1. **Render Deployment**
+
    - Connect your repository to Render
    - Configure environment variables in Render dashboard
    - Deploy automatically on pushes to main branch
@@ -236,11 +297,13 @@ The project is configured for deployment on Render with the following setup:
    ```
 
 3. **Service Configuration**
+
    - Configure as a Web Service on Render
    - Set build command: `pip install -r requirements.txt`
    - Set start command: `python main.py`
 
 4. **Monitoring and Error Tracking**
+
    - GetAnalyzr integration for event tracking
    - Built-in error handling and logging
    - Performance monitoring capabilities
@@ -337,6 +400,8 @@ _Note: This project embraces open-source values and transparency. We love open s
 
 ### Sponsors
 
+- **[RapidProxy](https://www.rapidproxy.io/?ref=WebCrawlAI)** for providing 90M+ residential IPs, smart IP rotation, non-expiring traffic, and AI-powered CAPTCHA bypass for scalable data collection
+- **[Swiftproxy](https://www.swiftproxy.net/?ref=WebCrawlAI)** for providing an 80M+ ethically sourced residential proxy network for web scraping, AI, BI, and automation workflows
 - **[CyberYozh](https://cyberyozh.com)** for providing reliable SMS activation and proxy solutions for multi-accounting and automation
 - **[Thordata](https://thordata.com)** for powering our web scraping infrastructure with their global network of 60M+ residential proxies
 
@@ -359,7 +424,7 @@ _Built with ❤️ for developers and data enthusiasts_
 
 </div>
 
-````
+```
 
 ---
 
@@ -367,7 +432,7 @@ _Built with ❤️ for developers and data enthusiasts_
 
 **Description:** Instant analytics for your apps.
 
-**Key Stats:** ⭐ 31 Stars | 🍴 3 Forks
+**Key Stats:** 30 Stars | 3 Forks
 **Tech Stack:** TypeScript, JavaScript, CSS
 **Live Demo:** https://getanalyzr.vercel.app
 **Repository:** https://github.com/ArjunCodess/analyzr
@@ -451,20 +516,20 @@ Here are some of the core features of Analyzr:
 - **Real-Time Tracking:** See what's happening on your website as it happens.
 
 - **Custom Event Tracking:** Track specific actions your visitors take (for example, clicks on certain buttons).
-
+  
   Here's how to track custom events:
 
   Using JavaScript/Node.js:
   ```javascript
   const axios = require('axios');
-
+  
   const API_KEY = "YOUR_API_KEY";
   const url = "https://getanalyzr.vercel.app/api/events";
   const headers = {
       "Content-Type": "application/json",
       "Authorization": `Bearer ${API_KEY}`
   };
-
+  
   const eventData = {
       name: "",        // required - event name
       domain: "",      // required - your website domain
@@ -473,12 +538,12 @@ Here are some of the core features of Analyzr:
       fields: [       // optional - additional fields for Discord notification
         {
           name: "Field Name",
-          value: "Field Value",
+          value: "Field Value", 
           inline: true // optional - display fields in same line
         }
       ]
   };
-
+  
   const sendRequest = async () => {
       try {
         const response = await axios.post(url, eventData, { headers });
@@ -487,48 +552,47 @@ Here are some of the core features of Analyzr:
         console.error("Error:", error.response ? error.response.data : error.message);
       }
   };
-
+  
   sendRequest();
-````
+  ```
 
-Using Python:
+  Using Python:
+  ```python
+  import requests
+  
+  API_KEY = "YOUR_API_KEY"
+  url = "https://getanalyzr.vercel.app/api/events"
+  headers = {
+      "Content-Type": "application/json",
+      "Authorization": f"Bearer {API_KEY}"
+  }
+  
+  event_data = {
+      "name": "",        # required - event name
+      "domain": "",      # required - your website domain
+      "description": "", # required - event description
+      "emoji": "🔔",    # optional - emoji for Discord notification
+      "fields": [       # optional - additional fields for Discord notification
+        {
+          "name": "Field Name",
+          "value": "Field Value",
+          "inline": True # optional - display fields in same line
+        }
+      ]
+  }
+  
+  def send_request():
+      try:
+          response = requests.post(url, json=event_data, headers=headers)
+          response.raise_for_status()
+          print("Event sent successfully", response.json())
+      except requests.exceptions.RequestException as error:
+          print("Error:", error)
+  
+  send_request()
+  ```
 
-```python
-import requests
-
-API_KEY = "YOUR_API_KEY"
-url = "https://getanalyzr.vercel.app/api/events"
-headers = {
-    "Content-Type": "application/json",
-    "Authorization": f"Bearer {API_KEY}"
-}
-
-event_data = {
-    "name": "",        # required - event name
-    "domain": "",      # required - your website domain
-    "description": "", # required - event description
-    "emoji": "🔔",    # optional - emoji for Discord notification
-    "fields": [       # optional - additional fields for Discord notification
-      {
-        "name": "Field Name",
-        "value": "Field Value",
-        "inline": True # optional - display fields in same line
-      }
-    ]
-}
-
-def send_request():
-    try:
-        response = requests.post(url, json=event_data, headers=headers)
-        response.raise_for_status()
-        print("Event sent successfully", response.json())
-    except requests.exceptions.RequestException as error:
-        print("Error:", error)
-
-send_request()
-```
-
-Yes, it's that simple!
+  Yes, it's that simple!
 
 - **Performance Monitoring:** Monitor how fast your site loads (and find areas to improve with smart suggestions on what to optimize next).
 
@@ -617,21 +681,20 @@ Once set up, you'll get real-time notifications for:
 It's super easy to get started:
 
 1. **Add the Tracking Script (and other stuff if needed)**
-
+   
    For Vanilla/React apps:
-
    ```html
    <script
      defer
      data-domain="your-website.com"
      src="https://getanalyzr.vercel.app/tracking-script.js"
-   ></script>
+   >
+   </script>
    ```
 
    For Next.js apps:
-
    ```html
-   <script
+   <Script
      defer
      data-domain="your-website.com"
      src="https://getanalyzr.vercel.app/tracking-script.js"
@@ -663,7 +726,7 @@ Got questions? Ideas? Just want to say hi.
 - Drop an issue on GitHub
 - DM me on Discord or X (@ArjunCodess)
 
-We love hearing from users!
+We love hearing from users! 
 
 ---
 
@@ -709,8 +772,7 @@ P.S. If you like it, maybe give us a star on GitHub and an upvote on Product Hun
    - No complex setup needed
    - Privacy-focused approach
    - Completely open source
-
-````
+```
 
 ---
 
@@ -718,7 +780,7 @@ P.S. If you like it, maybe give us a star on GitHub and an upvote on Product Hun
 
 **Description:** Connect AI tools to Storyblok instantly - use natural language to manage your CMS like magic.
 
-**Key Stats:** ⭐ 9 Stars | 🍴 7 Forks
+**Key Stats:** 9 Stars | 8 Forks
 **Tech Stack:** JavaScript, TypeScript
 **Repository:** https://github.com/ArjunCodess/storyblok-mcp
 
@@ -816,7 +878,7 @@ This enables AI clients, such as Cursor or Claude Desktop, to interact with Stor
    ```sh
    git clone https://github.com/ArjunCodess/storyblok-mcp.git
    cd storyblok-mcp
-````
+   ```
 
 2. Install dependencies:
 
@@ -836,10 +898,10 @@ This enables AI clients, such as Cursor or Claude Desktop, to interact with Stor
 
 ### Clone the repo:
 
-```sh
-git clone https://github.com/ArjunCodess/storyblok-mcp.git
-cd storyblok-mcp
-```
+   ```sh
+   git clone https://github.com/ArjunCodess/storyblok-mcp.git
+   cd storyblok-mcp
+   ```
 
 ### Connect with Cursor
 
@@ -901,7 +963,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Restore a story to a previous version.
 
 - **import_story**  
- Import a story, optionally specifying language code and whether to import language settings.
+  Import a story, optionally specifying language code and whether to import language settings.
 </details>
 
 <details>
@@ -917,7 +979,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Create a tag and immediately assign it to a story.
 
 - **delete_tag**  
- Delete a tag by its ID.
+  Delete a tag by its ID.
 </details>
 
 <details>
@@ -936,7 +998,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update an existing webhook's endpoint, events, or other properties.
 
 - **delete_webhook**  
- Delete a webhook by its ID.
+  Delete a webhook by its ID.
 </details>
 
 <details>
@@ -958,7 +1020,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Publish all stories in a release.
 
 - **delete_release**  
- Delete a release.
+  Delete a release.
 </details>
 
 <details>
@@ -977,7 +1039,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update an existing preset's content, name, or appearance settings.
 
 - **delete_preset**  
- Delete a preset by its ID.
+  Delete a preset by its ID.
 </details>
 
 <details>
@@ -996,7 +1058,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update an existing story scheduling (e.g., change publish time or language).
 
 - **delete_story_scheduling**  
- Delete a story scheduling by its ID.
+  Delete a story scheduling by its ID.
 </details>
 
 <details>
@@ -1015,7 +1077,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update an existing access token's properties (type, name, min_cache, story_ids, branch_id).
 
 - **delete_access_token**  
- Delete an access token by its ID.
+  Delete an access token by its ID.
 </details>
 
 <details>
@@ -1034,7 +1096,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Start uploading a new asset.
 
 - **complete_asset_upload**  
- Complete the asset upload process.
+  Complete the asset upload process.
 </details>
 
 <details>
@@ -1050,7 +1112,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Rename an asset folder.
 
 - **delete_asset_folder**  
- Delete an asset folder.
+  Delete an asset folder.
 </details>
 
 <details>
@@ -1069,7 +1131,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update a component's schema or settings.
 
 - **delete_component**  
- Delete a component.
+  Delete a component.
 </details>
 
 <details>
@@ -1079,14 +1141,14 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Search for stories using advanced filters (by slug, tag, etc.).
 
 - **get_story_by_slug**  
- Fetch a story by its slug.
+  Fetch a story by its slug.
 </details>
 
 <details>
 <summary>12. Folder Info</summary>
 
 - **fetch_folders**  
- List all story folders.
+  List all story folders.
 </details>
 
 <details>
@@ -1105,7 +1167,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update an existing datasource (name, slug, dimensions).
 
 - **delete_datasource**  
- Delete a datasource by its ID.
+  Delete a datasource by its ID.
 </details>
 
 <details>
@@ -1124,96 +1186,96 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update an existing datasource entry.
 
 - **delete_datasource_entry**  
- Delete a datasource entry by its ID.
+  Delete a datasource entry by its ID.
 </details>
 
 <details>
 <summary>15. Utility</summary>
 
 - **ping**  
- Check if the server and Storyblok API are reachable.
+  Check if the server and Storyblok API are reachable.
 </details>
 
 <details>
 <summary>16. Component Folders Management</summary>
 
-- **fetch_component_folders**  
+* **fetch_component_folders**  
   List all component folders in the space.
 
-- **get_component_folder**  
+* **get_component_folder**  
   Fetch a single component folder by its ID.
 
-- **create_component_folder**  
+* **create_component_folder**  
   Create a new component folder with optional parent ID.
 
-- **update_component_folder**  
+* **update_component_folder**  
   Update an existing component folder's name or parent ID.
 
-- **delete_component_folder**  
- Delete a component folder by its ID.
+* **delete_component_folder**  
+  Delete a component folder by its ID.
 </details>
 
 <details>
 <summary>17. Space Roles Management</summary>
 
-- **fetch_space_roles**  
+* **fetch_space_roles**  
   List all space roles in your Storyblok space.
 
-- **get_space_role**  
+* **get_space_role**  
   Fetch a single space role by its ID.
 
-- **create_space_role**  
+* **create_space_role**  
   Create a new space role with custom permissions settings.
 
-- **update_space_role**  
+* **update_space_role**  
   Update an existing space role's permissions and settings.
 
-- **delete_space_role**  
- Delete a space role by its ID.
+* **delete_space_role**  
+  Delete a space role by its ID.
 </details>
 
 <details>
 <summary>18. Space Management</summary>
 
-- **fetch_spaces**  
+* **fetch_spaces**  
   List all spaces accessible to your account. Supports pagination.
 
-- **get_space**  
+* **get_space**  
   Get information about the current Storyblok space.
 
-- **create_space**  
+* **create_space**  
   Create a new space with optional configuration for billing, environments, and custom options.
 
-- **update_space**  
+* **update_space**  
   Update an existing space's settings including name, domain, hooks, and configuration options.
 
-- **delete_space**  
+* **delete_space**  
   Delete a space by its ID.
 
-- **duplicate_space**  
+* **duplicate_space**  
   Create a copy of an existing space with options to duplicate content and components.
 
-- **backup_space**  
- Trigger a backup for a space.
+* **backup_space**  
+  Trigger a backup for a space.
 </details>
 
 <details>
 <summary>19. AI Tools</summary>
 
-- **generate_alt_text**  
+* **generate_alt_text**  
   Automatically create alt text for images based on content or context.
 
-- **translate_story**  
+* **translate_story**  
   Translate the content of a story into different languages using AI.
 
-- **generate_meta_tags**  
+* **generate_meta_tags**  
   Generate SEO-friendly meta titles and descriptions for any story.
 
-- **summarize_story**  
+* **summarize_story**  
   Get a brief AI-generated summary of a story's content.
 
-- **tag_story_with_ai**  
- Auto-generate relevant tags for a story using natural language processing.
+* **tag_story_with_ai**  
+  Auto-generate relevant tags for a story using natural language processing.
 </details>
 
 <details>
@@ -1235,7 +1297,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Create a duplicate of an existing workflow with a new name and content types.
 
 - **delete_workflow**  
- Delete a workflow by its ID.
+  Delete a workflow by its ID.
 </details>
 
 <details>
@@ -1254,7 +1316,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update an existing workflow stage's permissions, name, color, or position.
 
 - **delete_workflow_stage**  
- Delete a workflow stage by its ID.
+  Delete a workflow stage by its ID.
 </details>
 
 <details>
@@ -1267,7 +1329,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Fetch a single workflow stage change by its ID.
 
 - **create_workflow_stage_change**  
- Create a new workflow stage change by assigning a story to a specific workflow stage.
+  Create a new workflow stage change by assigning a story to a specific workflow stage.
 </details>
 
 <details>
@@ -1298,7 +1360,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Compare content between two branches to see differences.
 
 - **copy_stories_between_branches**  
- Copy stories from one branch to another.
+  Copy stories from one branch to another.
 </details>
 
 <details>
@@ -1311,7 +1373,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Create a new branch deployment with required branch ID and optional release UUIDs. Requires the Pipelines application to be installed.
 
 - **get_branch_deployment**  
- Fetch a single branch deployment by its ID.
+  Fetch a single branch deployment by its ID.
 </details>
 
 ---
@@ -1325,10 +1387,10 @@ Found bugs or want features? Open an issue.
 
 ## Useful Links
 
-- [Storyblok Docs](https://www.storyblok.com/docs)
-- [MCP Protocol](https://github.com/modelcontextprotocol)
-- [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
-- [DEV.to Challenge](https://dev.to/challenges/storyblok)
+* [Storyblok Docs](https://www.storyblok.com/docs)
+* [MCP Protocol](https://github.com/modelcontextprotocol)
+* [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
+* [DEV.to Challenge](https://dev.to/challenges/storyblok)
 
 ---
 
@@ -1341,8 +1403,7 @@ Made with ❤️ for the [DEV.to Storyblok Challenge](https://dev.to/challenges/
 ## License
 
 MIT
-
-````
+```
 
 ---
 
@@ -1350,7 +1411,7 @@ MIT
 
 **Description:** A machine learning pipeline for predicting Multiple Endocrine Neoplasia type 2 (MEN2) syndrome.
 
-**Key Stats:** ⭐ 1 Stars | 🍴 0 Forks
+**Key Stats:** 6 Stars | 1 Forks
 **Tech Stack:** Python, TeX
 **Live Demo:** https://huggingface.co/spaces/arjuncodess/men2-predictor
 **Repository:** https://github.com/ArjunCodess/men2-predictor
@@ -1360,23 +1421,24 @@ MIT
 ```markdown
 # MEN2 Predictor: Rare Disease Machine Learning Pipeline
 
-![Accuracy](https://img.shields.io/badge/Accuracy-97.20%25-brightgreen)
+![Accuracy](https://img.shields.io/badge/Accuracy-96.19%25-brightgreen)
 ![Recall](https://img.shields.io/badge/Recall%20(Original)-100%25-success)
-![Recall (Expanded)](https://img.shields.io/badge/Recall%20(Expanded)-96--98%25-informational)
 ![Models](https://img.shields.io/badge/Models-5-blue)
-![Variants](https://img.shields.io/badge/RET%20Variants-24-blue)
+![Variants](https://img.shields.io/badge/RET%20Variants-14-blue)
 
 **Can we save those 20k Rs people with just a simple blood test?**
 
 In India, genetic testing for MEN2 costs INR 20,000 (~$225 USD), putting life-saving diagnosis out of reach for most families. This research asks: *can machine learning on routine blood biomarkers (calcitonin, CEA) and clinical features predict MTC risk without expensive genetic sequencing?*
 
-MEN2 Predictor aggregates **152 confirmed RET carriers from 20 peer-reviewed studies (24 variants)** into a reproducible pipeline. On the real clinical data alone, we achieve **100% sensitivity** (74.19% accuracy with XGBoost) - catching every documented cancer case. The expanded synthetic-augmented models push accuracy to 97.20% while maintaining 96-98% recall, potentially offering a cost-effective screening alternative for resource-limited settings.
+MEN2 Predictor evaluates whether published MEN2/RET-carrier records can support a transparent rare-disease machine-learning benchmark for MTC status. The scientific answer must stay modest: this is not a diagnostic, screening, triage, or clinical decision-support system.
+
+MEN2 Predictor now aggregates **149 confirmed RET carriers from 10 peer-reviewed studies (14 variants)** into a reproducible pipeline. On the real literature-derived cohort, **XGBoost reached 100% sensitivity** with **83.33% accuracy**. The expanded case-control workflow reaches **96.19% accuracy with LightGBM**, but those augmented records are not a real clinical cohort.
 
 ## Table of Contents
 - [Awards & Recognition](#awards--recognition)
 - [Key Findings](#key-findings)
 - [About The Project](#about-the-project)
-- [Clinical Performance](#clinical-performance)
+- [Benchmark Performance](#benchmark-performance)
 - [Scientific Contribution](#scientific-contribution)
 - [Data Sources](#data-sources)
 - [Getting Started](#getting-started)
@@ -1406,44 +1468,50 @@ This project was selected for the [INSEF Regional Fair (Online) 2025](https://sc
 
 ## Key Findings
 
-### Real-Patient Cohort (152 carriers across 20 studies)
+### Real-Patient Cohort (149 carriers across 10 studies)
 
-The paper-only dataset now contains **152 confirmed carriers** across 24 variants (including non-hotspot deletions and the new C634G kindred). On this purely clinical cohort, **XGBoost and SVM achieve 100% recall** (74.19% and 64.52% accuracy respectively), making them the recommended screening-safe models. For triage, **LightGBM on expanded data achieves 97.20% accuracy** with 96.08% recall.
+The paper-only dataset now contains **149 confirmed carriers** across **14 RET variants**. On this filtered cohort, **XGBoost** is the primary exploratory model because it reached **100% sensitivity** with **83.33% accuracy**. The expanded synthetic-augmentation analysis is secondary; **LightGBM on expanded data achieves 96.19% accuracy** with **90.20% recall**.
 
 ### Synthetic Augmentation Impact
 
-Synthetic controls + SMOTE expand the training pool to 1,069 records (case-control dataset). The ctDNA cohort contributes 16 paired calcitonin/CEA observations. Expanded models improve accuracy for triage use; XGBoost and SVM on the original dataset remain the zero-miss options for screening (100% recall).
+Synthetic controls + SMOTE expand the case-control dataset to **1,047 records**. After filtering out the post-diagnostic and mixed-heavy papers, the biomarker coupling analysis is based on **12 paired calcitonin/CEA observations from 6 studies**. Expanded models improve discrimination in simulation, while the original-data XGBoost model remains the primary literature-derived benchmark.
 
 | Model                | Dataset      | Accuracy   | Precision  | Avg Precision   | Recall     | F1 Score  | ROC AUC  |
 | ---------------------- | ------------ | ---------- | ---------- | --------------- | ---------- | ---------- | -------- |
-| **Logistic Regression**| Original     | 70.97%     | 65.00%     | 88.18%          | 86.67%     | 74.29%     | 0.8667   |
-| **Logistic Regression**| Expanded     | 79.44%     | 53.76%     | 95.42%          | 98.04%     | 69.44%     | 0.9824   |
-| **Random Forest**      | Original     | 80.65%     | 73.68%     | 85.38%          | 93.33%     | 82.35%     | 0.8750   |
-| **Random Forest**      | Expanded     | 93.46%     | 80.33%     | 97.42%          | 96.08%     | 87.50%     | 0.9871   |
-| **LightGBM**           | Original     | 80.65%     | 76.47%     | 82.66%          | 86.67%     | 81.25%     | 0.8583   |
-| **LightGBM**           | Expanded     | **97.20%** | **92.45%** | **98.21%**      | **96.08%** | **94.23%** | **0.9922** |
-| **XGBoost**            | Original     | 74.19%     | 65.22%     | 81.63%          | **100%**   | 78.95%     | 0.8125   |
-| **XGBoost**            | Expanded     | 87.38%     | 65.79%     | 97.58%          | 98.04%     | 78.74%     | 0.9894   |
-| **SVM (Linear)**       | Original     | 64.52%     | 57.69%     | 89.78%          | **100%**   | 73.17%     | 0.9083   |
-| **SVM (Linear)**       | Expanded     | 46.26%     | 30.49%     | 68.95%          | 98.04%     | 46.51%     | 0.8684   |
+| **Logistic Regression**| Original     | 80.00%     | 71.43%     | 79.93%          | **100%**   | 83.33%     | 0.8267   |
+| **Logistic Regression**| Expanded     | 73.33%     | 47.62%     | 85.01%          | **98.04%** | 64.10%     | 0.9457   |
+| **Random Forest**      | Original     | 83.33%     | 91.67%     | 90.68%          | 73.33%     | 81.48%     | 0.9156   |
+| **Random Forest**      | Expanded     | 92.86%     | 86.00%     | 92.19%          | 84.31%     | 85.15%     | 0.9686   |
+| **LightGBM**           | Original     | 80.00%     | 90.91%     | 91.39%          | 66.67%     | 76.92%     | 0.9156   |
+| **LightGBM**           | Expanded     | **96.19%** | **93.88%** | **97.40%**      | 90.20%     | **92.00%** | **0.9917** |
+| **XGBoost**            | Original     | **83.33%** | 75.00%     | **92.08%**      | **100%**   | **85.71%** | 0.9156   |
+| **XGBoost**            | Expanded     | 89.52%     | 71.01%     | 93.63%          | 96.08%     | 81.67%     | 0.9784   |
+| **SVM (Linear)**       | Original     | 73.33%     | 70.59%     | 75.26%          | 80.00%     | 75.00%     | 0.7867   |
+| **SVM (Linear)**       | Expanded     | 79.05%     | 55.93%     | 60.62%          | 64.71%     | 60.00%     | 0.7267   |
 
 ### Clinical Interpretation
 
-- **Zero-miss option:** XGBoost and SVM on the paper-only cohort maintain **100% sensitivity** (0/15 cancers missed in hold-out testing across all 20 studies).
-- **Highest accuracy:** LightGBM on expanded data achieves **97.20% accuracy** with 96.08% recall, ideal for triage workflows.
-- **Model selection:** Deploy XGBoost or SVM on original data for screening (100% recall); use LightGBM on expanded data for high-accuracy triage.
+- **Primary exploratory result:** XGBoost on the paper-only cohort reached **100% sensitivity** with **83.33% accuracy**.
+- **Highest simulated accuracy:** LightGBM on expanded data achieves **96.19% accuracy** with **90.20% recall**.
+- **Model interpretation:** XGBoost-original is the primary literature-derived benchmark; LightGBM-expanded is a secondary synthetic-augmentation result.
 
 ### Statistical Tests on Recall Drops
 
-- Permutation tests (10,000 shuffles) show **no statistically significant recall drop** for any model (`p = 1` for all models). Logistic and XGBoost drop 2.0 percentage points; Random Forest and LightGBM increase recall by 2.7 points; SVM remains flat.
-- McNemar's test cannot be applied because the original and expanded test sets share no overlapping positive patients; all positives are unique to each cohort.
-- Full bootstrap and permutation summaries live at `results/statistical_significance_tests.txt` (generated automatically when running both datasets together via `python main.py --m=all --d=both`; statistical tests run only in the both-datasets workflow).
+- Permutation tests show **no significant recall loss** for Logistic Regression, Random Forest, XGBoost, or SVM. LightGBM shows a significant **recall gain** on the expanded dataset (`p = 0.0422`), improving from 66.7% to 90.2%.
+- McNemar's test remains mostly uninformative because overlapping positive patients are sparse across original and expanded test sets.
+- Full bootstrap and permutation summaries live at `results/statistical_tests/statistical_significance_tests.txt` (generated automatically when running both datasets together via `python main.py --m=all --d=both`; statistical tests run only in the both-datasets workflow).
 
 ### Why This Matters
 
-**Saving the 20k Rs People:** Every documented carrier in these studies represents a family that faced the 20k Rs barrier to genetic testing. Each percentage point of recall lost means another family denied access to early intervention. Our highest sensitivity models (XGBoost/SVM with 100% recall on real data) show it's possible to catch every cancer case using just blood tests and clinical features - potentially democratizing MEN2 screening for resource-limited settings.
+#### 1. Saving the 20k Rs People
 
-Even as the real dataset grows to **152 patients with 34 calcitonin/CEA pairs**, synthetic augmentation remains volatile. Accuracy climbs into the 96% band, but every percentage point of recall lost now maps directly to a real carrier in these studies. Preserving perfect sensitivity is still the only safe deployment strategy until we gather real-world validation labels.
+In India, genetic testing for MEN2 costs INR 20,000 (~$225 USD), putting life-saving diagnosis out of reach for many families. The central question is whether machine learning on routine blood biomarkers like calcitonin and CEA, plus clinical features, can identify useful MTC-risk patterns without immediately depending on expensive genetic sequencing.
+
+#### 2. Why This Matters for Rare-Disease ML
+
+Every documented carrier in these studies represents scarce published evidence, and every delayed answer can matter to a family trying to understand inherited cancer risk. The benchmark makes model assumptions visible, especially whether non-genetic blood biomarkers and clinical features retain signal when RET/ATA features are removed, along with CEA imputation uncertainty, biomarker-timing leakage risk, and the limits of synthetic augmentation.
+
+Even with the filtered cohort at **149 patients and 12 paired calcitonin/CEA observations**, synthetic augmentation remains model-dependent. Accuracy climbs into the 96% band, but the primary evidence remains the original-data benchmark rather than the expanded workflow.
 
 ### Learning Paradigm Coverage
 
@@ -1464,110 +1532,110 @@ This comprehensive coverage ensures findings generalize across fundamentally dif
 
 ### Calcitonin vs CEA Biomarker Coupling (Multi-study)
 
-- Integrated **12 cohorts with paired calcitonin/CEA labs** yielding **34 observed pairs** (ctDNA + legacy MEN2 series plus new MEN2B/C634R/S891A additions).
-- Pearson correlation now sits at **r = 0.243** with the expanded cohort, confirming that CEA still tracks calcitonin when labs are collected together but with larger variance.
-- `create_datasets.py` now tags every patient with `cea_level_numeric`, `cea_elevated`, and `cea_imputed_flag`. Thirty-four observations seed the **MICE + Predictive Mean Matching** pipeline that fills the remaining **118 gaps** while re-using observed donor values.
-- Full provenance is saved in `results/biomarker_ceaimputation_summary.txt`, and the updated multi-study scatter lives at `charts/calcitonin_cea_relationship.png`.
+- Integrated **6 cohorts with paired calcitonin/CEA labs** yielding **12 observed pairs** in the filtered dataset.
+- Pearson correlation is now **r = 0.116**, reflecting a much weaker but still measurable coupling after removing post-diagnostic-heavy studies.
+- `create_datasets.py` tags every patient with `cea_level_numeric`, `cea_elevated`, and `cea_imputed_flag`. Those 12 observed pairs seed the **MICE + Predictive Mean Matching** pipeline that fills the remaining **137 gaps**.
+- Full provenance is saved in `results/biomarker_summary/biomarker_ceaimputation_summary.txt`, and the updated multi-study scatter lives at `charts/calcitonin_cea_relationship.png`.
 
 ### CEA Imputation Validation Study
 
-**Concern addressed:** Weak calcitonin-CEA correlation (r=0.24) may undermine imputation reliability.
+**Concern addressed:** Weak calcitonin-CEA correlation (**r = 0.1158** from **12 paired observations**) may undermine imputation reliability.
 
 **Key findings from `src/cea_validation_study.py`:**
 
 | Analysis | Result |
 |----------|--------|
-| With vs Without CEA | LightGBM achieves **97.20% with CEA, 96.73% without** (-0.47% impact) |
-| Imputation method robustness | Accuracy varies **<1%** across MICE, mean, median, zero imputation |
-| Conclusion | CEA provides minimal predictive benefit; imputation quality has negligible impact |
+| Best recall model | **XGBoost-original** keeps **100% recall** with or without CEA, and reaches **90.00% accuracy without CEA** |
+| Best accuracy model | **LightGBM-expanded** improves from **92.86% without CEA** to **96.19% with CEA** |
+| Conclusion | CEA is **model-dependent**: optional for XGBoost-original, helpful for LightGBM-expanded |
 
 **Imputation Method Comparison (LightGBM, Expanded Dataset):**
 
 | Method | Accuracy | Recall | Δ vs MICE |
 |--------|----------|--------|-----------|
-| MICE+PMM (current) | **97.20%** | 96.08% | --- |
-| Mean imputation | 96.73% | 96.08% | -0.47% |
-| Median imputation | **97.20%** | 96.08% | 0.00% |
-| Zero imputation | 96.26% | 96.08% | -0.93% |
+| MICE+PMM | **96.19%** | 90.20% | --- |
+| Mean imputation | 93.81% | 86.27% | -2.38% |
+| Median imputation | 92.86% | 90.20% | -3.33% |
+| Zero imputation | 93.81% | 86.27% | -2.38% |
 
-**Why include CEA if it has minimal impact?** Calcitonin alone can be elevated in many non-MTC conditions (hypergastrinemia, kidney insufficiency, certain medications). Clinical guidelines recommend combined calcitonin-CEA assessment because CEA adds prognostic value for monitoring disease aggressiveness. See [detailed rationale](reports/cea_imputation_validation.md#clinical-rationale-for-including-cea-despite-minimal-predictive-impact).
+**Why include CEA?** Because the highest-accuracy simulation model benefits from it. Removing CEA lowers LightGBM-expanded accuracy from **96.19%** to **92.86%**, while XGBoost-original keeps **100% recall** either way. See [detailed rationale](reports/cea_imputation_validation.md).
 
-Run the study: `python src/cea_validation_study.py --m=all --d=both`
+Run the study: `python src/cea_validation_study.py --m=lightgbm --d=expanded`
 
 ## About The Project
 
-**The 20k Rs Question:** In India, MEN2 genetic testing costs INR 19,000-20,000 (~$225 USD) - a prohibitive barrier that prevents families from accessing life-saving diagnosis. This research explores whether we can save those "20k Rs people" with just routine blood tests and clinical features, using machine learning to predict MTC risk without expensive genetic sequencing.
+**Benchmark question:** This research began with a practical, emotionally direct question: **Can we save those 20k Rs people with just a simple blood test?** In India, genetic testing for MEN2 costs INR 20,000 (~$225 USD), putting life-saving diagnosis out of reach for most families. This research asks: *can machine learning on routine blood biomarkers (calcitonin, CEA) and clinical features predict MTC risk without expensive genetic sequencing?* The study answers that question as a reproducible benchmark, while explicitly testing genotype-aware and genotype-blind models, CEA imputation uncertainty, and synthetic-augmentation limits.
 
-MEN2 (Multiple Endocrine Neoplasia type 2) is a rare hereditary cancer syndrome caused by RET gene mutations. This project developed machine learning models to predict MTC (medullary thyroid carcinoma) risk across **24 different RET variants** using clinical and genetic features from **152 confirmed carriers** across 20 peer-reviewed research studies.
+MEN2 (Multiple Endocrine Neoplasia type 2) is a rare hereditary cancer syndrome caused by RET gene mutations. This project developed machine learning models to predict MTC (medullary thyroid carcinoma) risk across **14 RET variants** using clinical and genetic features from **149 confirmed carriers** across 10 peer-reviewed research studies.
 
-**Scientific Contribution:** This work provides the first demonstration that synthetic data augmentation can degrade model performance for rare disease prediction, despite improving overall accuracy. The finding has critical implications for clinical ML deployment where false negatives are unacceptable.
+**Scientific Contribution:** This work provides a reproducible rare-disease ML benchmark showing that synthetic augmentation changes performance in a strongly model-dependent way. Augmentation improves simulated accuracy substantially, while the primary literature-derived result comes from **XGBoost on original data**.
 
-## Clinical Performance
+## Benchmark Performance
 
-### Recommended Model for Screening
+### Primary Original-Data Model
 
-**XGBoost on the paper-only dataset** — Zero-miss option for safety-critical workflows.
+**XGBoost on the paper-only dataset** - primary exploratory literature-derived benchmark.
 
 | Metric                   | Value     |
 | ------------------------ | --------- |
-| **Accuracy**             | 74.19%    |
+| **Accuracy**             | 83.33%    |
 | **Recall (Sensitivity)** | **100%**  |
-| **Precision**            | 65.22%    |
-| **F1 Score**             | 78.95%    |
-| **ROC AUC**              | 0.8125    |
+| **Precision**            | 75.00%    |
+| **F1 Score**             | 85.71%    |
+| **ROC AUC**              | 0.9156    |
 
-### Recommended Model for Triage
+### Highest-Accuracy Expanded Model
 
-**LightGBM on the expanded dataset** — Highest accuracy with strong recall.
+**LightGBM on the expanded dataset** - highest accuracy in the synthetic-augmentation experiment.
 
 | Metric                   | Value     |
 | ------------------------ | --------- |
-| **Accuracy**             | **97.20%**|
-| **Recall (Sensitivity)** | 96.08%    |
-| **Precision**            | 92.45%    |
-| **F1 Score**             | 94.23%    |
-| **ROC AUC**              | 0.9922    |
+| **Accuracy**             | **96.19%**|
+| **Recall (Sensitivity)** | 90.20%    |
+| **Precision**            | 93.88%    |
+| **F1 Score**             | 92.00%    |
+| **ROC AUC**              | 0.9917    |
 
 ### Performance Comparison
 
 | Model              | Dataset   | Accuracy   | Recall     | Use Case                        |
 | ------------------ | --------- | ---------- | ---------- | ------------------------------- |
-| **XGBoost**        | Original  | 74.19%     | **100%**   | Screening (zero missed cancers) |
-| **LightGBM**       | Expanded  | **97.20%** | 96.08%     | Triage (highest accuracy)       |
+| **XGBoost**        | Original  | **83.33%** | **100%**   | Primary original-data benchmark |
+| **LightGBM**       | Expanded  | **96.19%** | 90.20%     | Synthetic-augmentation benchmark |
 
-> **⚠️ CRITICAL:** For screening workflows where missing a cancer is unacceptable, use XGBoost on original data (100% recall). For high-accuracy triage after initial screening, use LightGBM on expanded data (97.20% accuracy).
+> **Important:** These are internal benchmark results only. They should not be used for diagnosis, screening, triage, or treatment decisions.
 
 ## Scientific Contribution
 
-This project makes three critical contributions to medical machine learning:
+This project makes three main contributions to rare-disease machine learning:
 
-### 1. First Demonstration of Synthetic Data Volatility in Rare Diseases
+### 1. Model-Dependent Evaluation of Synthetic Augmentation
 
-- Shows that SMOTE and rule-based synthetic controls shift recall by **0-2.7 percentage points** even after adding 23 new real patients.
-- Demonstrates that higher accuracy (96.7% vs 70.9%) can mask recall variability (96-100% vs 100%).
-- Provides evidence that synthetic augmentation must be validated with real patients before clinical deployment.
+- Shows that synthetic controls plus SMOTE can improve discrimination while affecting recall differently across algorithms.
+- **LightGBM improves from 80.00% to 96.19% accuracy** and from **66.7% to 90.2% recall** when moving from original to expanded data.
+- At the same time, the primary original-data benchmark remains with **XGBoost on original data**, which reached **100% sensitivity** in one internal held-out split.
 
 ### 2. Methodological Framework for Rare Disease ML
 
 - Systematic comparison: 5 models × 2 datasets = 10 configurations
-- Emphasis on recall over accuracy for screening applications
+- Emphasis on raw counts, sensitivity, and confidence intervals for small rare-disease benchmarks
 - Validation on real held-out data, not synthetic test sets
 
-### 3. Clinical Deployment Guidelines
+### 3. Clinical Deployment Framing
 
-- Recommends original dataset models for deployment (100% recall)
-- Quantifies clinical risk: "missing even 1/50 cases" is more impactful than "79% accuracy"
-- Provides template for rare disease ML with limited data
+- Reports **XGBoost on original data** as the primary literature-derived benchmark.
+- Reports **LightGBM on expanded data** as the highest-accuracy synthetic-augmentation benchmark.
+- Provides a reproducible template for comparing genotype-aware, genotype-blind, no-CEA, and augmented analyses in small rare-disease cohorts.
 
 ### Publication Status
 
 **Ready for submission** to:
 
-- Machine Learning for Healthcare (MLHC) - Primary target
-- Scientific Reports (Nature) - Accepts negative results
-- Journal of Biomedical Informatics - Clinical ML focus
+- Journal of High School Science (JHSS) - Current target
+- Framed as an exploratory computational methods / original research paper
+- Prospective external validation is still required before clinical use
 
-**Estimated impact**: High. Negative results are under-published but critical for preventing clinical failures.
+**Estimated impact**: Moderate to high. The project combines reproducible rare-disease data curation, model benchmarking, explainability, and ablation analysis in a clinically interpretable workflow.
 
 ### Future Work
 
@@ -1575,7 +1643,7 @@ This project makes three critical contributions to medical machine learning:
 
 - ✅ Add SHAP explainability to show models learned real biology, not artifacts
 - ✅ Implement uncertainty quantification (bootstrap confidence intervals on all metrics)
-- Create clinical decision support interface with deployment guidelines
+- Keep hosted demos explicitly educational and non-clinical
 
 **Short-term (3-6 months)**:
 
@@ -1586,102 +1654,62 @@ This project makes three critical contributions to medical machine learning:
 **Long-term (6-12 months)**:
 
 - Multi-center validation study
-- Investigate why synthetic augmentation specifically degrades recall
+- Investigate how synthetic augmentation changes recall and calibration across model families
 - Explore transfer learning from general thyroid cancer datasets
 
 ## Data Sources
 
-Clinical data extracted from twenty peer-reviewed research studies:
+Clinical data extracted from ten peer-reviewed research studies:
 
 | Study No. | Citation & Year | Key Variant(s) / Description | Patients (n) |
 |-----------|-----------------|------------------------------|--------------|
-| 1 | JCEM Case Reports (2025) | RET K666N carriers | 4 |
-| 2 | JCEM (2016) RET Exon 7 Deletion | E505_G506del carrier | 1 |
-| 3 | Thyroid Journal (2016) | 8 K666N families | 24 |
-| 4 | Eur. J. Endocrinol. (2006) | 10 variants | 46 |
-| 5 | Laryngoscope (2021) MEN2A penetrance | RET K666N with calcitonin/CEA labs | 4 |
-| 6 | JCEM (2018) Homozygous K666N | Homozygous/heterozygous K666N | 6 |
-| 7 | Oncotarget (2015) RET S891A | RET S891A, FMTC/CA | 15 |
-| 8 | AJCR (2022) | Calcitonin-negative V804M metastatic | 1 |
-| 9 | JCEM (2022) ctDNA cohort | Sporadic MTC cases (ctDNA-pos) | 21 |
-| 10 | Genes (2022) RET c.1901G>A | RET C634Y carriers | 2 |
-| 11 | BMC Pediatr (2020) MEN2B | Pediatric RET M918T | 1 |
-| 12 | Annales d'Endocrinologie (2015) | RET Y791F pheochromocytoma | 1 |
-| 13 | Surgery Today (2014) RET S891A | Pheochromocytoma-first MEN2A | 2 |
-| 14 | Annals of Medicine & Surgery (2025) | RET C634R MEN2A case | 2 |
-| 15 | Case Reports in Medicine (2012) | MEN2B (RET M918T) | 1 |
-| 16 | Case Reports in Endocrinology (2020) | RET exon 11 delins | 1 |
-| 17 | Clinics and Practice (2024) | RET C634G kindred | 6 |
-| 18 | Endocrinol. Diabetes Metab. Case Reports (2024) | RET K666N family | 4 |
-| 19 | Indian Journal of Cancer (2021) | RET S891A family | 7 |
-| 20 | World Journal of Clinical Cases (2024) | RET C634Y family | 3 |
+| 1 | Thyroid Journal (2016) | 8 K666N families | 24 |
+| 2 | Eur. J. Endocrinol. (2006) | 10 variants after prophylactic thyroidectomy | 46 |
+| 3 | Oncotarget (2015) RET S891A | RET S891A FMTC / cutaneous amyloidosis pedigree | 15 |
+| 4 | Clinics and Practice (2024) | RET C634G kindred | 6 |
+| 5 | Endocrinol. Diabetes Metab. Case Reports (2024) | RET K666N family | 4 |
+| 6 | Indian Journal of Cancer (2021) | RET S891A family | 7 |
+| 7 | World Journal of Clinical Cases (2024) | RET C634Y family | 3 |
+| 8 | Int. J. Pediatr. Endocrinol. (2012) | Familial MEN2B infant | 2 |
+| 9 | JCEM (2010) RET S891A MEN2A Spectrum | Multicenter S891A cohort | 36 |
+| 10 | Journal of Biosciences (2014) | Chinese Han FMTC family | 6 |
 
-**Multi-Variant Dataset:** 152 confirmed RET germline mutation carriers across 24 variants (K666N, L790F, Y791F, V804M, S891A, R525W, M918T, E505_G506del, C634R, C634Y, C634W, C634S, C634G, C618S, C630R, C630G, C620Y, C620W, A883F, E632_C634del, E632_L633del, D898_E901del, V899_E902del, D631_L633delinsE) with ATA risk stratification.
+**Multi-Variant Dataset:** 149 confirmed RET germline mutation carriers across 14 variants (S891A, K666N, C634Y, C634R, R525W, C634G, C630R, C634W, L790F, V804M, Y791F, C618S, C620Y, M918T) with ATA risk stratification.
 
-**Key Feature:** Dataset spans calcitonin-negative FMTC, pediatric MEN2B, ctDNA-positive metastatic disease, and presymptomatic carriers, enabling cross-paradigm learning with paired calcitonin/CEA labs in twelve cohorts.
+**Key Feature:** The filtered dataset is centered on family-based surveillance and prophylactic-thyroidectomy cohorts, while still retaining pediatric MEN2B, C634-family MEN2A kindreds, and paired calcitonin/CEA observations in six cohorts.
 
 <details>
 <summary><b>Detailed Study Information</b></summary>
 
-1. **Study 1 - JCEM Case Reports (2025)**
-   - Medullary thyroid carcinoma outcomes in heterozygous RET K666N carriers.
+1. **Study 1 - Thyroid Journal (2016)**
+   - Eight RET K666N families used for penetrance profiling in a family-screening context.
 
-2. **Study 2 - JCEM (2016) RET Exon 7 Deletion**
-   - First MEN2A case with the E505_G506del in-frame deletion (pheochromocytoma-first timeline, micro-MTC at age 37).
+2. **Study 2 - European Journal of Endocrinology (2006)**
+   - Prospective prophylactic-thyroidectomy cohort across 10 RET variants.
 
-3. **Study 3 - Thyroid Journal (2016)**
-   - Eight RET K666N families with MTC penetrance profiling.
+3. **Study 3 - Oncotarget (2015) RET S891A FMTC**
+   - Four-generation pedigree linking RET S891A to familial MTC and cutaneous amyloidosis.
 
-4. **Study 4 - European Journal of Endocrinology (2006)**
-   - Prospective prophylactic thyroidectomy outcomes in 46 gene carriers across 10 variants.
+4. **Study 4 - Clinics and Practice (2024) RET C634G**
+   - RET C634G family kindred with cutaneous lichen amyloidosis.
 
-5. **Study 5 - Laryngoscope (2021) MEN2A penetrance**
-   - Serial calcitonin + CEA monitoring of RET K666N carriers to quantify penetrance.
+5. **Study 5 - Endocrinol. Diabetes Metab. Case Reports (2024) RET K666N**
+   - Familial MEN2 phenotype in K666N carriers.
 
-6. **Study 6 - JCEM (2018) Homozygous RET K666N**
-   - First documented homozygous K666N case with metastatic disease and bilateral pheochromocytomas.
+6. **Study 6 - Indian Journal of Cancer (2021) RET S891A**
+   - FMTC pedigree with multiple S891A-positive relatives.
 
-7. **Study 7 - Oncotarget (2015) RET S891A FMTC/CA**
-   - Four-generation pedigree linking RET S891A + OSMR G513D to FMTC with cutaneous amyloidosis.
+7. **Study 7 - World Journal of Clinical Cases (2024) RET C634Y**
+   - MEN2A family case report across two generations.
 
-8. **Study 8 - AJCR (2022) Calcitonin-negative V804M**
-   - Imaging and immunohistochemistry guided total thyroidectomy when serum markers were falsely negative.
+8. **Study 8 - International Journal of Pediatric Endocrinology (2012)**
+   - Familial MEN2B infant-focused cohort.
 
-9. **Study 9 - JCEM (2022) ctDNA cohort**
-   - 21-patient prospective ctDNA study with matched calcitonin/CEA, tissue sequencing, and TKI status.
+9. **Study 9 - JCEM (2010) RET S891A MEN2A Spectrum**
+   - Multicenter S891A cohort spanning MEN2A and FMTC phenotypes.
 
-10. **Study 10 - Genes (2022) RET c.1901G>A family**
-    - Familial MEN2A with RET C634Y and a novel SLC12A3 frameshift causing early bilateral pheochromocytomas.
-
-11. **Study 11 - BMC Pediatrics (2020) MEN2B**
-    - Pediatric RET M918T case linking severe constipation, Hirschsprung disease, and MEN2B progression.
-
-12. **Study 12 - Annales d'Endocrinologie (2015) RET Y791F**
-    - Questioning Y791F pathogenicity via pheochromocytoma presentation with normal calcitonin and refused thyroidectomy.
-
-13. **Study 13 - Surgery Today (2014) RET S891A**
-    - Pheochromocytoma-first MEN2A presentation plus presymptomatic RET-positive son with normal ultrasound/calcitonin.
-
-14. **Study 14 - Annals of Medicine & Surgery (2025) RET C634R**
-    - MEN2A case report with persistent biochemical disease and a RET-positive child carrier.
-
-15. **Study 15 - Case Reports in Medicine (2012) MEN2B**
-    - RET M918T MEN2B case with metastatic MTC and gastrointestinal ganglioneuromatosis.
-
-16. **Study 16 - Case Reports in Endocrinology (2020) RET delins**
-    - Novel exon 11 deletion (Asp631_Leu633delinsGlu) with MEN2A/B features and hyperparathyroidism.
-
-17. **Study 17 - Clinics and Practice (2024) RET C634G**
-    - Single-family MEN2 kindred with cutaneous lichen amyloidosis and RET C634G carriers.
-
-18. **Study 18 - Endocrinol. Diabetes Metab. Case Reports (2024) RET K666N**
-    - Familial MEN2 phenotype in K666N carriers with PHEO and micro-MTC.
-
-19. **Study 19 - Indian Journal of Cancer (2021) RET S891A**
-    - FMTC kindred with multiple S891A carriers and postoperative monitoring.
-
-20. **Study 20 - World Journal of Clinical Cases (2024) RET C634Y**
-    - MEN2A family case report with C634Y carriers across two generations.
+10. **Study 10 - Journal of Biosciences (2014)**
+    - Chinese Han familial MTC kindred with RET S891A.
 
 
 </details>
@@ -1689,29 +1717,21 @@ Clinical data extracted from twenty peer-reviewed research studies:
 
 ### Dataset Characteristics
 
-**Multi-Variant Dataset:** 152 confirmed RET germline mutation carriers spanning 20 cohorts
+**Multi-Variant Dataset:** 149 confirmed RET germline mutation carriers spanning 10 cohorts
 
-- **Studies 1-3 (RET K666N families + exon 7 deletion):** 29 patients.
-- **Study 4 (European Journal 2006):** 46 prophylactic thyroidectomy cases across 10 variants.
-- **Study 5 (Laryngoscope MEN2A):** 4 RET K666N relatives with serial calcitonin/CEA.
-- **Study 6 (JCEM Homozygous K666N):** 6 family members (one homozygote).
-- **Study 7 (Oncotarget S891A FMTC/CA):** 15 four-generation carriers.
-- **Study 8 (AJCR Calcitonin-negative V804M):** 1 metastatic case.
-- **Study 9 (JCEM ctDNA):** 21 sporadic MTC cases with pre/post biomarkers.
-- **Study 10 (Genes RET c.1901G>A):** 2 RET C634Y/SLC12A3 carriers.
-- **Study 11 (BMC Pediatrics MEN2B):** 1 pediatric RET M918T patient.
-- **Study 12 (Annales RET Y791F Pheo):** 1 pheochromocytoma with normal calcitonin.
-- **Study 13 (Surgery Today RET S891A):** 2 pheochromocytoma-first MEN2A carriers.
-- **Study 14 (Annals of Medicine & Surgery C634R):** 2 MEN2A carriers.
-- **Study 15 (Case Reports in Medicine MEN2B):** 1 RET M918T case.
-- **Study 16 (Case Reports in Endocrinology delins):** 1 RET exon 11 deletion case.
-- **Study 17 (Clinics and Practice C634G):** 6 RET C634G carriers.
-- **Study 18 (EDM Case Reports K666N):** 4 RET K666N carriers.
-- **Study 19 (Indian Journal of Cancer S891A):** 7 RET S891A carriers.
-- **Study 20 (World Journal of Clinical Cases C634Y):** 3 RET C634Y carriers.
-- **Age range:** 1-90 years.
-- **Gender distribution (F/M):** 107/45.
-- **RET Variants Included:** 24 total (K666N, L790F, Y791F, V804M, S891A, R525W, M918T, E505_G506del, A883F, C618S, C620Y, C620W, C630R, C630G, C634R, C634Y, C634W, C634S, C634G, E632_C634del, E632_L633del, D898_E901del, V899_E902del, D631_L633delinsE).
+- **Study 1 (Thyroid Journal 2016):** 24 RET K666N family carriers.
+- **Study 2 (European Journal of Endocrinology 2006):** 46 prophylactic thyroidectomy cases across 10 variants.
+- **Study 3 (Oncotarget 2015):** 15 RET S891A/R525W FMTC-family carriers.
+- **Study 4 (Clinics and Practice 2024):** 6 RET C634G family carriers.
+- **Study 5 (EDM Case Reports 2024):** 4 RET K666N family carriers.
+- **Study 6 (Indian Journal of Cancer 2021):** 7 RET S891A pedigree members.
+- **Study 7 (World Journal of Clinical Cases 2024):** 3 RET C634Y family carriers.
+- **Study 8 (International Journal of Pediatric Endocrinology 2012):** 2 familial MEN2B carriers.
+- **Study 9 (JCEM 2010):** 36 RET S891A multicenter carriers.
+- **Study 10 (Journal of Biosciences 2014):** 6 RET S891A family carriers.
+- **Age range:** 0.17-90 years.
+- **Gender distribution (F/M):** 99/50.
+- **RET Variants Included:** 14 total (S891A, K666N, C634Y, C634R, R525W, C634G, C630R, C634W, L790F, V804M, Y791F, C618S, C620Y, M918T).
 
 **ATA Risk Level Distribution:**
 
@@ -1721,12 +1741,12 @@ Clinical data extracted from twenty peer-reviewed research studies:
 
 **Clinical Outcomes:**
 
-- MTC diagnosis now documented in **72/152 (47.4%)** real patients.
-- C-cell disease (MTC + C-cell hyperplasia) observed in **76/152 (50.0%)** across all risk levels.
-- Pheochromocytoma captured in 14 real patients (plus presymptomatic carriers) enabling MEN2A/MEN2B phenotyping.
-- Hyperparathyroidism captured in 6 real patients across multiple risk tiers.
+- MTC diagnosis is documented in **73/149 (49.0%)** real patients.
+- C-cell disease (MTC + C-cell hyperplasia) is observed in **84/149 (56.4%)** patients.
+- Pheochromocytoma is captured in **9/149 (6.0%)** real patients.
+- Hyperparathyroidism is captured in **5/149 (3.4%)** real patients.
 
-**Expanded Dataset:** Original 152 patients + synthetic variant-matched controls (1,069 rows total)
+**Expanded Dataset:** Original 149 patients + synthetic variant-matched controls (**1,047 rows total**)
 
 - Includes literature-based synthetic cases with variant-specific distributions.
 - SMOTE augmentation applied inside the training loop for class balance.
@@ -1770,7 +1790,7 @@ The dataset includes the following structured clinical and genetic features:
 
 The raw clinical data is stored in the [`data/raw`](data/raw) folder as structured json files:
 
-- **[study_1.json](data/raw/study_1.json) ... [study_20.json](data/raw/study_20.json)**: Individual study extracts covering 20 included cohorts (see Data Sources table)
+- **[study_1.json](data/raw/study_1.json) ... [study_10.json](data/raw/study_10.json)**: Individual study extracts covering the 10 retained cohorts (see Data Sources table)
 - **[literature_data.json](data/raw/literature_data.json)**: Aggregated statistics and meta-data
 - **[mutation_characteristics.json](data/raw/mutation_characteristics.json)**: RET variant characteristics
 
@@ -1785,20 +1805,20 @@ This modular structure allows for:
 
 The [create_datasets.py](src/create_datasets.py) script:
 
-1. Loads patient data from JSON files in the [`data/raw`](data/raw) folder (20 studies)
-2. Extracts and combines data from multiple research studies (152 patients, 24 variants across 20 sources)
+1. Loads patient data from JSON files in the [`data/raw`](data/raw) folder (10 studies)
+2. Extracts and combines data from multiple research studies (149 patients, 14 variants across 10 sources)
 3. Maps each variant to ATA risk level (1=Moderate, 2=High, 3=Highest)
 4. Converts qualitative measurements to structured numeric features
 5. Handles multiple reference ranges for calcitonin levels across studies
 6. Engineers derived features (age groups, nodule presence, variant-specific interactions)
 7. Generates two datasets:
-   - `data/processed/ret_multivariant_training_data.csv`: Original 152 patients from literature
+   - `data/processed/ret_multivariant_training_data.csv`: Original 149 patients from literature
    - `data/processed/ret_multivariant_expanded_training_data.csv`: Expanded with synthetic controls
    - `data/processed/ret_multivariant_case_control_dataset.csv`: Further expanded with variant-matched controls
 
 ### Important Notes on Data Quality
 
-- **Multi-Variant Dataset:** Includes 24 different RET variants with varying penetrance and risk profiles
+- **Multi-Variant Dataset:** Includes 14 RET variants with varying penetrance and risk profiles
 - **Risk Stratification:** Variants classified by ATA guidelines (Level 1/2/3)
 - **Incomplete Penetrance:** Not all carriers develop MTC; penetrance varies by variant
 - **Variable Follow-up:** Some carriers elected surveillance over prophylactic surgery
@@ -1816,8 +1836,8 @@ The [create_datasets.py](src/create_datasets.py) script:
 - **Automated data creation and expansion:** Scripts extract and structure relevant research data, and generate synthetic control samples to augment the dataset for robust modeling.
 - **Comprehensive statistical analysis:** Automatic generation of descriptive statistics and visualization of the dataset for informed modeling.
 - **Advanced model development:** Cross-validation and adaptive SMOTE balancing to handle class imbalance across all model types.
-- **Clinical risk stratification:** 4-tier risk assessment (Low/Moderate/High/Very High) for actionable clinical decision-making.
-- **Artifacts generated:** Processed datasets, trained model files, ROC curves, confusion matrices, and confidence interval summaries for clinically transparent scoring.
+- **Research risk stratification:** 4-tier exploratory output (Low/Moderate/High/Very High) for transparent model interpretation.
+- **Artifacts generated:** Processed datasets, trained model files, ROC curves, confusion matrices, and confidence interval summaries for transparent benchmark scoring.
 
 **Pipeline steps (as run by `main.py`):**
 
@@ -1831,12 +1851,12 @@ The [create_datasets.py](src/create_datasets.py) script:
 
 **Advanced features:**
 
-- **Automated Model Comparison:** Every test run generates comprehensive comparison of all 5 models with complete patient data, enabling pattern identification and clinical validation
+- **Automated Model Comparison:** Every test run generates comprehensive comparison of all 5 models with complete patient data, enabling pattern identification and internal benchmark review
 - **Data Leakage Prevention:** SMOTE applied after train/test split to ensure realistic evaluation
 - **Feature Engineering:** Polynomial features (age²) and interactions (calcitonin×age, risk×age, nodule_severity)
-- **Variant-Aware Modeling:** One-hot encoding of 24 RET variants + risk level stratification
+- **Variant-Aware Modeling:** One-hot encoding of 14 RET variants + risk level stratification
 - **Constant Feature Removal:** Automatic detection and removal of non-informative features
-- **Risk Stratification:** 4-tier system for clinical decision support instead of binary classification
+- **Risk Stratification:** 4-tier research output for exploratory interpretation instead of binary-only reporting
 - **Comprehensive Metrics:** ROC-AUC, F1-Score, Average Precision Score, ROC curves, confusion matrices, and automatic 95% bootstrap confidence intervals
 - **Patient-Level Transparency:** See exactly which patients each model predicted correctly/incorrectly with full clinical context
 
@@ -1868,7 +1888,7 @@ The [create_datasets.py](src/create_datasets.py) script:
    ```sh
    git clone https://github.com/ArjunCodess/men2-predictor.git
    cd men2-predictor
-````
+   ```
 
 2. Create and activate virtual environment:
 
@@ -1885,17 +1905,18 @@ The [create_datasets.py](src/create_datasets.py) script:
 ### Project Structure
 
 - data/processed/ (processed CSVs)
-  - ret_multivariant_training_data.csv - Original 152 patients
+  - ret_multivariant_training_data.csv - Original 149 patients
   - ret_multivariant_expanded_training_data.csv - Expanded with synthetic controls
   - ret_multivariant_case_control_dataset.csv - Additional control augmentation
 - data/raw/ (study JSON files)
-  - study_1.json ... study_7.json
+  - study_1.json ... study_10.json
   - literature_data.json
   - mutation_characteristics.json
 - models/ - reusable model classes (base_model.py, random_forest_model.py, lightgbm_model.py, xgboost_model.py, logistic_regression_model.py)
 - results/ - metrics, logs, ROC/confusion charts, biomarker summaries
 - src/ - pipeline scripts (create_datasets.py, data_analysis.py, data_expansion.py, train_model.py, test_model.py)
 - main.py - orchestrates dataset creation, analysis, training, testing
+- paper/submission_data/ - anonymized review/submission CSVs generated automatically by main.py from processed data
 - requirements.txt - Python dependencies
 
 ## Usage
@@ -1925,15 +1946,16 @@ Choose which model to train:
 
 Choose which dataset to use:
 
-- `o` or `original`: Original 152 patients (no synthetic data) ⭐ **Recommended for clinical use**
+- `o` or `original`: Original 149 patients (no synthetic data) ⭐ **Recommended for clinical use**
 - `e` or `expanded`: Expanded with synthetic controls + SMOTE (default)
 - `b` or `both`: Run on both datasets for comparison
+
 
 ### Examples
 
 ```sh
-# ✅ RECOMMENDED FOR CLINICAL USE: Logistic Regression on original data
-python main.py --m=logistic --d=original
+# Primary original-cohort benchmark run: XGBoost on original data
+python main.py --m=xgboost --d=original
 
 # Research comparison: LightGBM on original data
 python main.py --m=lightgbm --d=original
@@ -1944,12 +1966,13 @@ python main.py --m=svm --d=original
 # Compare all models on original dataset (identify best performer)
 python main.py --m=all --d=original
 
-# Demonstrate recall drop from synthetic augmentation (research use)
-python main.py --m=random_forest --d=both
+# Compare the full benchmark across both datasets
+python main.py --m=all --d=both
 
-# ⚠️ NOT RECOMMENDED: Expanded dataset (lower recall for safest models)
-python main.py --m=random_forest --d=expanded  # Only for research comparison
+# Triage-oriented high-accuracy run
+python main.py --m=lightgbm --d=expanded
 ```
+
 
 ### Model Comparison Mode
 
@@ -1969,7 +1992,7 @@ When using `--d=both`, the pipeline:
 3. Generates separate results files
 4. Displays a comparison table showing performance differences
 
-This mode clearly demonstrates the recall degradation from synthetic augmentation.
+This mode compares how each model behaves on the paper-only cohort versus the expanded case-control workflow.
 
 Statistical significance tests are triggered automatically only when running both datasets together (e.g., `python main.py --m=all --d=both`).
 
@@ -1998,23 +2021,24 @@ python src/ablation_study.py --m=random_forest --d=both
 
 **Ablation Configurations:**
 
-| Configuration     | Features Removed               | Purpose                            |
-| ----------------- | ------------------------------ | ---------------------------------- |
-| `baseline`        | None                           | Full model performance             |
-| `no_risk_level`   | `ret_risk_level`, interactions | Test ATA risk contribution         |
-| `no_variants`     | All `variant_*` dummies        | Test variant encoding contribution |
-| `no_genetics`     | All genetic features           | Pure biomarker prediction          |
-| `no_calcitonin`   | `calcitonin_*` features        | Test if genetics alone suffice     |
-| `no_cea`          | `cea_level_numeric`            | Address CEA imputation concerns    |
-| `genetics_only`   | All biomarkers, nodules        | Test if model is "just consensus"  |
-| `biomarkers_only` | All genetic features           | Clinical utility without genetics  |
+| Configuration | Features Removed | Purpose |
+|---------------|------------------|---------|
+| `baseline` | None | Full model performance |
+| `no_risk_level` | `ret_risk_level`, interactions | Test ATA risk contribution |
+| `no_variants` | All `variant_*` dummies | Test variant encoding contribution |
+| `no_genetics` | All genetic features | Pure biomarker prediction |
+| `no_calcitonin` | `calcitonin_*` features | Test if genetics alone suffice |
+| `no_cea` | `cea_level_numeric` | Address CEA imputation concerns |
+| `genetics_only` | All biomarkers, nodules | Test if model is "just consensus" |
+| `biomarkers_only` | All genetic features | Clinical utility without genetics |
 
 **Results saved to:** `results/ablation/`
-
 - `{model}_{dataset}_ablation_results.txt` - Detailed findings
 - `{model}_{dataset}_ablation_results.csv` - For analysis
 
-**Key Finding:** With all genetic features removed, the model still achieves 94.9% accuracy using only biomarkers - proving it learns beyond "restating consensus knowledge."
+**Key Finding:** In the highest-accuracy model, LightGBM-expanded still reaches **93.33% accuracy** after removing all genetic features. In the primary original-data benchmark, XGBoost-original preserves **100% recall** even after removing CEA and variant one-hot encodings.
+
+**Calcitonin Feature Behavior:** In the highest-accuracy model, removing calcitonin lowers LightGBM-expanded accuracy from **96.19% to 95.24%**. In the primary original-data benchmark, XGBoost-original retains **100% recall** even without calcitonin. Full analysis in [ablation_feature_contribution_analysis.md](reports/ablation_feature_contribution_analysis.md).
 
 ### Explainability (SHAP + LIME)
 
@@ -2057,7 +2081,6 @@ client.view_api()
 **What you get:**
 
 The comparison table includes for each test patient:
-
 - **Patient identification**: study_id for original data, source_id for synthetic controls
 - **Complete clinical data**: age, sex, RET variant, risk level, calcitonin levels, nodules, family history, etc.
 - **Actual diagnosis**: MTC or No_MTC
@@ -2065,10 +2088,9 @@ The comparison table includes for each test patient:
 - **Color-coded terminal output**: green for correct predictions, red for incorrect
 - **Accuracy summary**: total correct/incorrect for each model
 
-**Saved file:** `results/model_comparison_{dataset_type}_detailed_results.txt`
+**Saved file:** `results/model_comparison/model_comparison_{dataset_type}_detailed_results.txt`
 
 This file includes:
-
 - Complete legend explaining all abbreviations
 - Data split methodology (80/20, stratified, random_state=42)
 - SMOTE application details (only on training data)
@@ -2102,9 +2124,9 @@ Patients with source_id (e.g., "33_control", "mtc_s0_control") are synthetic con
 
 **Results:**
 
-- `results/{model_type}_{dataset_type}_test_results.txt` - individual model performance summaries with embedded 95% confidence intervals
-- `results/model_comparison_{dataset_type}_detailed_results.txt` - comprehensive comparison of all models with complete patient data
-- `results/{model_type}_{dataset_type}_confidence_intervals.txt` - standalone bootstrap confidence intervals (automatically calculated for all models)
+- `results/test_results/{model_type}_{dataset_type}_test_results.txt` - individual model performance summaries with embedded 95% confidence intervals
+- `results/model_comparison/model_comparison_{dataset_type}_detailed_results.txt` - comprehensive comparison of all models with complete patient data
+- `results/confidence_intervals/{model_type}_{dataset_type}_confidence_intervals.txt` - standalone bootstrap confidence intervals (automatically calculated for all models)
 - `charts/roc_curves/{model_type}_{dataset_type}.png` - ROC curves with area under the curve and optimal-threshold marker
 - `charts/confusion_matrices/{model_type}_{dataset_type}.png` - paired raw-count and normalized confusion matrices
 - `charts/correlation_matrices/{model_type}_{dataset_type}.png` - feature correlation matrix for LightGBM (expanded dataset)
@@ -2128,7 +2150,7 @@ Patients with source_id (e.g., "33_control", "mtc_s0_control") are synthetic con
 
 **Genetic Features:**
 
-- RET variant (one-hot encoded across 24 variants)
+- RET variant (one-hot encoded across 14 variants)
 - ATA risk level (ordinal: 1=Moderate, 2=High, 3=Highest)
 
 **Biomarker Features:**
@@ -2158,7 +2180,7 @@ Patients with source_id (e.g., "33_control", "mtc_s0_control") are synthetic con
 <details>
 <summary><b>Pipeline Steps</b></summary>
 
-1. **create_datasets.py:** Loads patient data from JSON (all 20 studies), performs calcitonin<->CEA correlation plus MICE+PMM imputation, and writes enriched CSVs
+1. **create_datasets.py:** Loads patient data from JSON (all 10 retained studies), performs calcitonin<->CEA correlation plus MICE+PMM imputation, and writes enriched CSVs
 2. **data_analysis.py:** Computes descriptive statistics, generates visualizations
 3. **data_expansion.py:** Produces variant-matched synthetic control samples (optional)
 4. **train_model.py:** Trains models with cross-validation, SMOTE balancing, threshold optimization
@@ -2200,15 +2222,15 @@ Patients with source_id (e.g., "33_control", "mtc_s0_control") are synthetic con
 
 **Original Dataset:**
 
-- 152 confirmed RET germline mutation carriers from 20 peer-reviewed studies
-- 24 RET variants (K666N, L790F, Y791F, V804M, S891A, R525W, M918T, E505_G506del, A883F, C618S, C620Y, C620W, C630R, C630G, C634R, C634Y, C634W, C634S, C634G, E632_C634del, E632_L633del, D898_E901del, V899_E902del, D631_L633delinsE)
-- Age range: 1-90 years
-- Gender distribution (F/M): 107/45
+- 149 confirmed RET germline mutation carriers from 10 peer-reviewed studies
+- 14 RET variants (S891A, K666N, C634Y, C634R, R525W, C634G, C630R, C634W, L790F, V804M, Y791F, C618S, C620Y, M918T)
+- Age range: 0.17-90 years
+- Gender distribution (F/M): 99/50
 - ATA risk levels: Level 1 (Moderate), Level 2 (High), Level 3 (Highest)
 
 - **Expanded Dataset:**
 
-- Original 152 patients + synthetic variant-matched controls (total rows: 216)
+- Original 149 patients + synthetic variant-matched controls (total rows: 1,047)
 - Literature-based synthetic cases for improved balance
 - SMOTE applied during training
 
@@ -2226,13 +2248,13 @@ Patients with source_id (e.g., "33_control", "mtc_s0_control") are synthetic con
 
 This study has several limitations that should be considered:
 
-1. **Small sample size**: 152 patients is still typical for rare genetic conditions but limits statistical power
+1. **Small sample size**: 149 patients is still typical for rare genetic conditions but limits statistical power
 2. **Retrospective data**: Extracted from published case series, not prospective validation
-3. **Study heterogeneity**: Different calcitonin reference ranges and protocols across 20 studies
+3. **Study heterogeneity**: Different calcitonin reference ranges and protocols across 10 studies
 4. **Limited diversity**: Primarily European descent patients; generalizability to other populations unknown
 5. **No external validation**: Performance validated on held-out data from same studies, not independent cohorts
 
-**However**: These limitations are representative of rare disease ML challenges. Our finding (synthetic data harm) is strengthened by the fact that it persists across models and datasets.
+**However**: These limitations are representative of rare disease ML challenges. The results show that augmentation can help some models substantially while leaving the strongest literature-derived sensitivity result in the original-data benchmark, which is exactly why explicit cross-dataset comparison matters.
 
 **Next steps**: Prospective validation in clinical setting with multi-center collaboration.
 
@@ -2243,23 +2265,20 @@ This project is licensed under the MIT License.
 ## Authors & Contributions
 
 ### Harnoor Kaur
-
-_City Montessori School, Kanpur Road, Lucknow, India_  
-_E-mail: har.nooor16@gmail.com_
+*City Montessori School, Kanpur Road, Lucknow, India*  
+*E-mail: har.nooor16@gmail.com*
 
 **Contributions:** Literature search, study identification, data curation, and biological interpretation.
 
 ### Arjun Vijay Prakash
-
-_City Montessori School, Kanpur Road, Lucknow, India_  
-_E-mail: arjunv.prakash12345@gmail.com_
+*City Montessori School, Kanpur Road, Lucknow, India*  
+*E-mail: arjunv.prakash12345@gmail.com*
 
 **Contributions:** Designed and implemented the machine learning pipeline, trained models, performed computational analysis, developed the Hugging Face Space deployment, and maintained the reproducible codebase.
 
 ### Shashwat Mishra (Corresponding Author)
-
-_City Montessori School, Kanpur Road, Lucknow, India_  
-_E-mail: mishra.shashwat4002@gmail.com_
+*City Montessori School, Kanpur Road, Lucknow, India*  
+*E-mail: mishra.shashwat4002@gmail.com*
 
 **Contributions:** Mentorship, advised on methodological decisions including the MICE+PMM imputation strategy, and oversaw project direction.
 
@@ -2279,364 +2298,29 @@ Thanks to open source communities and packages including scikit-learn, pandas, n
 
 Special thanks to the authors of the research studies that provided clinical data:
 
-- JCEM Case Reports (2025) - RET K666N carriers
-- JCEM (2016) RET exon 7 deletion case
-- Xu et al. Thyroid (2016) - RET K666N carriers
-- European Journal of Endocrinology (2006) - Multi-variant RET carriers
+- Thyroid Journal (2016) - RET K666N family cohort
+- European Journal of Endocrinology (2006) - multi-variant prophylactic-thyroidectomy cohort
+- Oncotarget (2015) - RET S891A familial MTC pedigree
+- Clinics and Practice (2024) - RET C634G kindred
+- Endocrinology, Diabetes & Metabolism Case Reports (2024) - RET K666N family
+- Indian Journal of Cancer (2021) - RET S891A family cohort
+- World Journal of Clinical Cases (2024) - RET C634Y family
+- International Journal of Pediatric Endocrinology (2012) - familial MEN2B cohort
+- JCEM (2010) - RET S891A MEN2A spectrum cohort
+- Journal of Biosciences (2014) - Chinese familial MTC kindred
 
-````
-
----
-
-## Project: app
-
-**Description:** No description provided.
-
-**Key Stats:** ⭐ 2 Stars | 🍴 1 Forks
-**Tech Stack:** TypeScript, CSS, JavaScript
-**Live Demo:** https://pilot-ops-app.vercel.app
-**Repository:** https://github.com/getpilot/app
-
-### README Content
-```markdown
-<p align="center">
-  <a href="https://pilot-ops.vercel.app" rel="noopener">
- <img width=750px height=394px src="https://pilot-ops.vercel.app/og.png" alt="Pilot - Instagram Automation Platform"></a>
-</p>
-
-<h3 align="center">Pilot - Instagram Automation & Deal Management Platform</h3>
-
-<div align="center">
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/getpilot/app.svg)](https://github.com/getpilot/app/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/getpilot/app.svg)](https://github.com/getpilot/app/pulls)
-[![License](https://img.shields.io/badge/license-Proprietary-blue.svg)]()
-
-</div>
-
----
-
-<p align="center">
-  AI-powered Instagram automation for lead management and sales — built for creators, entrepreneurs, and social media managers to automate responses, manage contacts, and streamline deals.
-</p>
-
-## 📝 Table of Contents
-
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [Documentation](./docs/)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
-
-## 🧐 About <a name = "about"></a>
-
-Pilot is an Instagram automation and deal management platform designed to help creators, entrepreneurs, small businesses, and social media managers transform their Instagram presence into a powerful lead generation and sales engine.
-
-The platform features an AI-powered "Sidekick" that acts as a personalized assistant for managing deals, tracking progress, and providing intelligent recommendations. Users can automate responses to Instagram reels and interactions (e.g., replying 'YES' to receive resources or packages in their inbox), manage contacts with advanced scoring and filtering, and create custom automation workflows for repetitive tasks.
-
-Built with modern web technologies, Pilot emphasizes AI-driven personalization, seamless Instagram integration, and user-friendly automations to streamline social commerce workflows. The platform is currently in active development and focuses on transparency through open-source practices.
-
-## 🏁 Getting Started <a name = "getting_started"></a>
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-- **Node.js** (v18 or higher)
-- **pnpm** package manager
-- **PostgreSQL** database (or compatible like Neon)
-- **Instagram Developer Account** (for API features)
-
-### Installing
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/getpilot/app.git
-   cd app
-````
-
-2. **Install dependencies**
-
-   ```bash
-   pnpm install
-   ```
-
-3. **Set up environment variables**
-   Copy `.env.example` to `.env.local` and configure.
-
-4. **Set up the database**
-
-   ```bash
-   # Generate and run migrations
-   pnpm db:generate
-   pnpm db:migrate
-
-   # Optional: Open Drizzle Studio for database inspection
-   pnpm db:studio
-   ```
-
-5. **Start the development server**
-
-   ```bash
-   # Basic development server
-   pnpm dev
-
-   # Or run all services together (includes Inngest and database studio)
-   pnpm dev:all
-   ```
-
-The application will be available at `http://localhost:3000`.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Currently, the project uses manual testing and user acceptance testing. Automated testing setup is planned for future releases.
-
-### Manual Testing
-
-1. **Development Testing**
-   - Run the development server with `pnpm dev`
-   - Test core features: Instagram login, contact management, automation creation, sidekick interactions
-   - Verify database operations and API endpoints
-
-2. **Integration Testing**
-   - Test Instagram API connections
-   - Verify webhook functionality
-   - Test real-time features and chat integration
-
-3. **User Journey Testing**
-   - Complete onboarding flow
-   - Create and test automations
-   - Manage contacts and view analytics
-
-### Code Quality Checks
-
-Run linting and type checking:
-
-```bash
-# Lint the codebase
-pnpm lint
-
-# Type checking
-pnpm typecheck
 ```
 
-## 🎈 Usage <a name="usage"></a>
-
-### Core Features
-
-1. **Instagram Integration**
-   - Connect your Instagram account via OAuth
-   - Set up automated responses to reels and stories
-   - Configure lead capture from direct messages
-
-2. **Contact Management**
-   - View and organize Instagram contacts in a centralized table
-   - Score contacts based on engagement and relevance
-   - Add custom tags and notes for better organization
-   - Filter and search through your contact database
-
-3. **Automation Workflows**
-   - Create custom automation templates
-   - Set up triggers based on Instagram interactions
-   - Configure automated responses and follow-ups
-   - Monitor automation performance and logs
-
-4. **AI Sidekick**
-   - Set up your personalized AI assistant
-   - Configure prompts and behavior preferences
-   - Use for deal management and recommendations
-   - Track conversation history and insights
-
-5. **Dashboard and Analytics**
-   - Monitor key metrics and performance
-   - View automation success rates
-   - Track contact engagement and conversion
-
-### Getting Started Workflow
-
-1. Complete the onboarding process
-2. Connect your Instagram account
-3. Set up your first automation (e.g., "YES" response to reels)
-4. Import or start collecting contacts
-5. Configure your AI Sidekick preferences
-6. Monitor and optimize your automations
-
-For detailed guides, see the [documentation](./docs/) folder.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-The project is configured for deployment on Vercel with the following services:
-
-### Production Deployment
-
-1. **Vercel Deployment**
-   - Connect your repository to Vercel
-   - Configure environment variables in Vercel dashboard
-   - Deploy automatically on pushes to main branch
-
-2. **Required Environment Variables**
-
-   ```env
-   BETTER_AUTH_SECRET=""
-   BETTER_AUTH_URL=""
-
-   DATABASE_URL=""
-
-   GOOGLE_CLIENT_ID=""
-   GOOGLE_CLIENT_SECRET=""
-
-   POLAR_ACCESS_TOKEN=""
-   POLAR_ORG_SLUG=""
-
-   INSTAGRAM_CLIENT_ID=""
-   INSTAGRAM_CLIENT_SECRET=""
-   NEXT_PUBLIC_APP_URL=""
-
-   NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=""
-   CLOUDINARY_API_KEY=""
-   CLOUDINARY_API_SECRET=""
-
-   GOOGLE_GENERATIVE_AI_API_KEY=""
-
-   NODE_ENV="development"
-
-   SENTRY_AUTH_TOKEN=""
-   SENTRY_DSN=""
-   ```
-
-3. **Database Setup**
-
-- Use Neon PostgreSQL for production database
-- Run migrations on deployment: `pnpm db:migrate`
-
-4. **Monitoring and Error Tracking**
-
-- Sentry is configured for error tracking and performance monitoring
-- Check Sentry dashboard for any production issues
-
-5. **Domain Configuration**
-
-- Configure custom domain in Vercel
-- Update NEXTAUTH_URL to match your domain
-
-### Additional Services
-
-- **Inngest**: For data ingestion and workflow automation
-- **Polar**: For payments and subscriptions
-- **Cloudinary**: For image management and optimization
-
-### Waitlist Integration (src/app/api/waitlist/route.ts)
-
-The main app integrates with the marketing website (`pilot-ops.vercel.app`) through a secure API connection for waitlist functionality.
-
-#### Setting up WAITLIST_API_TOKEN
-
-To connect the marketing site to this app, you need to set the same token in both repositories:
-
-1. **Generate a secure token** (any random string like `your-super-secret-token-12345`)
-2. **Add to this app** (`getpilot/app`): Set `WAITLIST_API_TOKEN=your-token-here` in your `.env.local`
-3. **Add to marketing site** (`getpilot/website`): Set `WAITLIST_API_TOKEN=your-token-here` in their `.env.local`
-
-The token can be simple - just make sure it's identical in both places and keep it secure in your environment variables.
-
-#### How It Works
-
-- The marketing site collects waitlist signups and sends them to this app's `/api/waitlist` endpoint
-- This app verifies the token and processes the waitlist data
-- The marketing site gets a response and shows success/error messages to users
-
-This setup keeps the marketing site lightweight while letting the main app handle all the real data processing.
-
-## ⛏️ Built Using <a name = "built_using"></a>
-
-### Core Framework
-
-- [Next.js](https://nextjs.org/) - React Framework with App Router
-- [React](https://react.dev/) - UI Library (v19.1.1)
-- [TypeScript](https://www.typescriptlang.org/) - Type Safety
-- [Node.js](https://nodejs.org/en/) - Runtime Environment
-
-### Database & ORM
-
-- [Drizzle ORM](https://orm.drizzle.team/) - Database Toolkit
-- [PostgreSQL](https://www.postgresql.org/) - Primary Database
-- [Neon](https://neon.tech/) - Serverless PostgreSQL
-
-### Authentication & Authorization
-
-- [Better Auth](https://better-auth.com/) - Authentication System
-- [NextAuth.js](https://next-auth.js.org/) - Authentication Integration
-
-### UI & Styling
-
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-First CSS Framework
-- [shadcn/ui](https://ui.shadcn.com/) - Modern UI Components
-- [Radix UI](https://www.radix-ui.com/) - Headless UI Components
-- [Lucide React](https://lucide.dev/) - Icon Library
-
-### AI & External APIs
-
-- [Vercel AI SDK](https://sdk.vercel.ai/) - AI Integration
-- [Google AI](https://ai.google.dev/) - AI Provider
-- [Instagram API](https://developers.facebook.com/docs/instagram) - Social Media Integration
-
-### Development & Deployment
-
-- [Vercel](https://vercel.com/) - Deployment Platform
-- [pnpm](https://pnpm.io/) - Package Manager
-- [ESLint](https://eslint.org/) - Code Linting
-- [Sentry](https://sentry.io/) - Error Tracking & Performance Monitoring
-
-### Additional Libraries
-
-- [React Hook Form](https://react-hook-form.com/) - Form Management
-- [TanStack Table](https://tanstack.com/table) - Data Tables
-- [Motion](https://motion.dev/) - Animation Library
-- [date-fns](https://date-fns.org/) - Date Utilities
-- [Zod](https://zod.dev/) - Schema Validation
-
-## ✍️ Authors <a name = "authors"></a>
-
-- **ArjunCodess** - Project development and maintenance
-
-_Note: This project embraces open-source values and transparency. We love open source because it keeps us accountable, fosters collaboration, and drives innovation. For collaboration opportunities or questions, please reach out through the appropriate channels._
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- **Instagram** for providing the API that powers our social media integrations
-- **Vercel** for the excellent deployment platform and AI SDK
-- **Neon** for reliable serverless PostgreSQL hosting
-- **shadcn/ui** and **Radix UI** for beautiful, accessible component libraries
-- **Drizzle Team** for the powerful ORM toolkit
-- **Open Source Community** for the countless libraries and tools that make modern web development possible
-
 ---
 
-<div align="center">
+## Project: legacy-website
 
-**Pilot** - Transforming Instagram interactions into business opportunities
+**Description:** (Used to be) The front door to Pilot — a simple, friendly site where you can learn what Pilot is all about and join the waitlist to get early access when we launch. 
 
-_Built with ❤️ for creators and entrepreneurs_
-
-</div>
-
-````
-
----
-
-## Project: website
-
-**Description:** No description provided.
-
-**Key Stats:** ⭐ 1 Stars | 🍴 0 Forks
+**Key Stats:** 1 Stars | 0 Forks
 **Tech Stack:** TypeScript, CSS, JavaScript
 **Live Demo:** https://pilot-ops.vercel.app
-**Repository:** https://github.com/getpilot/website
+**Repository:** https://github.com/getpilot/legacy-website
 
 ### README Content
 ```markdown
@@ -2650,8 +2334,8 @@ _Built with ❤️ for creators and entrepreneurs_
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/getpilot/website.svg)](https://github.com/getpilot/website/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/getpilot/website.svg)](https://github.com/getpilot/website/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/pilot-ops-crm/website.svg)](https://github.com/pilot-ops-crm/website/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/pilot-ops-crm/website.svg)](https://github.com/pilot-ops-crm/website/pulls)
 [![License](https://img.shields.io/badge/license-Proprietary-blue.svg)]()
 
 </div>
@@ -2698,9 +2382,9 @@ Want to run this marketing site locally? Here's what you need to do.
 1. **Grab the code**
 
    ```bash
-   git clone https://github.com/getpilot/website.git
+   git clone https://github.com/pilot-ops-crm/website.git
    cd website
-````
+   ```
 
 2. **Install everything**
 
@@ -2710,7 +2394,6 @@ Want to run this marketing site locally? Here's what you need to do.
 
 3. **Set up your environment**
    Copy `.env.example` to `.env.local` and add your WAITLIST_API_TOKEN:
-
    ```env
    WAITLIST_API_TOKEN=your_token_from_main_app
    ```
@@ -2763,7 +2446,7 @@ To set up the connection between the marketing site and main app, you just need 
 
 1. **Generate a secure token** (can be any random string like `your-super-secret-token-12345`)
 2. **Add to marketing site** (this repo): Set `WAITLIST_API_TOKEN=your-token-here` in your `.env.local`
-3. **Add to main app** (`getpilot/app`): Set `WAITLIST_API_TOKEN=your-token-here` in your `.env.local`
+3. **Add to main app** (`pilot-ops-crm/app`): Set `WAITLIST_API_TOKEN=your-token-here` in your `.env.local`
 
 The token doesn't need to be complex - just make sure it's the same in both places and keep it secure.
 
@@ -2787,7 +2470,6 @@ This site is set up to deploy on Vercel, just like the main app.
    Connect your GitHub repo to Vercel, set up the environment variables in their dashboard, and it will deploy automatically when you push to main.
 
 2. **Environment Variables You Need**
-
    ```env
    WAITLIST_API_TOKEN=your_token_from_main_app
    ```
@@ -2847,7 +2529,7 @@ _Built with ❤️ for creators and entrepreneurs_
 
 </div>
 
-````
+```
 
 ---
 
@@ -2855,7 +2537,7 @@ _Built with ❤️ for creators and entrepreneurs_
 
 **Description:** No description provided.
 
-**Key Stats:** ⭐ 2 Stars | 🍴 0 Forks
+**Key Stats:** 2 Stars | 0 Forks
 **Tech Stack:** TypeScript, CSS, JavaScript
 **Live Demo:** https://vendx-admin.vercel.app
 **Repository:** https://github.com/ArjunCodess/VendX-Admin
@@ -2873,7 +2555,7 @@ Store - https://vendx-store.vercel.app/
 
 This application provides a complete solution for managing and displaying products, categories, and orders, complete with user authentication and a fully functional admin dashboard.
 
-> **NOTE**: This project is based on a tutorial by Code With Antonio (https://youtu.be/5miHyP6lExg).
+> **NOTE**: This project is based on a tutorial by Code With Antonio (https://youtu.be/5miHyP6lExg). 
 
 > Please note that this project is not an exact replica of the one shown in the video due to differences in the tech stack:
 
@@ -2914,7 +2596,7 @@ This application provides a complete solution for managing and displaying produc
 2. A REAL Payment Flow (use `isPaid: true` for queries in the dashboard)
 3. Multiple Stores per User Functionality
 4. Use `isArchived: true` Property in the Dashboard
-````
+```
 
 ---
 
@@ -2922,13 +2604,12 @@ This application provides a complete solution for managing and displaying produc
 
 **Description:** No description provided.
 
-**Key Stats:** ⭐ 1 Stars | 🍴 0 Forks
+**Key Stats:** 1 Stars | 0 Forks
 **Tech Stack:** TypeScript, JavaScript, CSS
 **Live Demo:** https://vendx-store.vercel.app
 **Repository:** https://github.com/ArjunCodess/VendX-Store
 
 ### README Content
-
 ```markdown
 # VendX
 
@@ -2941,7 +2622,7 @@ Store - https://vendx-store.vercel.app/
 
 This application provides a complete solution for managing and displaying products, categories, and orders, complete with user authentication and a fully functional admin dashboard.
 
-> **NOTE**: This project is based on a tutorial by Code With Antonio (https://youtu.be/5miHyP6lExg).
+> **NOTE**: This project is based on a tutorial by Code With Antonio (https://youtu.be/5miHyP6lExg). 
 
 > Please note that this project is not an exact replica of the one shown in the video due to differences in the tech stack:
 
@@ -2990,27 +2671,28 @@ This application provides a complete solution for managing and displaying produc
 
 **Description:** No description provided.
 
-**Key Stats:** ⭐ 4 Stars | 🍴 0 Forks
+**Key Stats:** 4 Stars | 0 Forks
 **Tech Stack:** TypeScript, JavaScript, CSS
 **Live Demo:** https://typethelyrics.vercel.app
 **Repository:** https://github.com/ArjunCodess/typethelyrics
 
 ### README Content
-
-````markdown
+```markdown
 # TypeTheLyrics - Type Along with Your Favorite Songs
 
-This project is a fun and engaging web application that allows users to practice their typing skills while following along with synchronized lyrics from their favorite Spotify songs. It combines a typing test with a music player, creating an interactive and motivating experience. Users can input a Spotify track URL, and the application will fetch the lyrics and synchronize the typing test with the music playback.
+This project is a fun and engaging web application that allows users to practice their typing skills while following along with synchronized lyrics from their favorite Spotify songs.  It combines a typing test with a music player, creating an interactive and motivating experience. Users can input a Spotify track URL, and the application will fetch the lyrics and synchronize the typing test with the music playback.
+
 
 ## Features
 
-- **Synchronized Lyrics:** Type along with the music in real-time, thanks to synchronized lyrics.
-- **Typing Test:** Tracks words per minute (WPM) and accuracy.
-- **Spotify Integration:** Seamlessly integrates with Spotify to fetch song details and lyrics.
-- **Leaderboard:** Compete with others by viewing the leaderboard of top typists and most played songs.
-- **User Authentication:** Secure user accounts for score saving.
-- **Customizable Filters:** Option to enable lowercase only or remove punctuation from the lyrics.
-- **Responsive Design:** Works smoothly on various screen sizes.
+*   **Synchronized Lyrics:**  Type along with the music in real-time, thanks to synchronized lyrics.
+*   **Typing Test:**  Tracks words per minute (WPM) and accuracy.
+*   **Spotify Integration:**  Seamlessly integrates with Spotify to fetch song details and lyrics.
+*   **Leaderboard:**  Compete with others by viewing the leaderboard of top typists and most played songs.
+*   **User Authentication:** Secure user accounts for score saving.
+*   **Customizable Filters:** Option to enable lowercase only or remove punctuation from the lyrics.
+*   **Responsive Design:**  Works smoothly on various screen sizes.
+
 
 ## Usage
 
@@ -3021,6 +2703,7 @@ This project is a fun and engaging web application that allows users to practice
 5.  View your WPM, raw WPM, and accuracy after finishing the test.
 6.  Check out the Leaderboard to see how you rank against other users and popular songs.
 
+
 ## Installation
 
 1.  Clone the repository: `git clone https://github.com/[YourGitHubUsername]/TypeTheLyrics.git`
@@ -3028,19 +2711,21 @@ This project is a fun and engaging web application that allows users to practice
 3.  Install dependencies: `npm install` or `yarn install` or `pnpm install` or `bun install`
 4.  Run the development server: `npm run dev` or `yarn dev` or `pnpm dev` or `bun dev`
 
+
 ## Technologies Used
 
-- **Next.js:** React framework for building the user interface.
-- **React:** JavaScript library for building user interfaces.
-- **Tailwind CSS:** Utility-first CSS framework for styling.
-- **Supabase:** Backend service for authentication and database management. Provides authentication and a PostgreSQL database for user data and song tracking.
-- **Spotify Web API:** Used to fetch song information and lyrics from Spotify.
-- **`@supabase/auth-helpers-nextjs`:** Supabase helper library for Next.js authentication.
-- **Lucide:** Icon library for UI elements.
-- **clsx:** Utility for efficiently joining classNames.
-- **tailwind-merge:** Utility for merging Tailwind CSS classes.
-- **class-variance-authority:** Utility for creating reusable and variant-aware CSS classes.
-- **`next/font`:** Next.js's font optimization library.
+*   **Next.js:**  React framework for building the user interface.
+*   **React:**  JavaScript library for building user interfaces.
+*   **Tailwind CSS:**  Utility-first CSS framework for styling.
+*   **Supabase:**  Backend service for authentication and database management.  Provides authentication and a PostgreSQL database for user data and song tracking.
+*   **Spotify Web API:**  Used to fetch song information and lyrics from Spotify.
+*   **`@supabase/auth-helpers-nextjs`:**  Supabase helper library for Next.js authentication.
+*   **Lucide:** Icon library for UI elements.
+*   **clsx:** Utility for efficiently joining classNames.
+*   **tailwind-merge:** Utility for merging Tailwind CSS classes.
+*   **class-variance-authority:** Utility for creating reusable and variant-aware CSS classes.
+*   **`next/font`:** Next.js's font optimization library.
+
 
 ## API Documentation
 
@@ -3055,7 +2740,7 @@ Returns the top 10 users and top 10 songs.
 ```json
 {
   "topUsers": [
-    { "username": "user1", "score": 1000 }
+    { "username": "user1", "score": 1000 },
     // ... more users
   ],
   "topSongs": [
@@ -3065,12 +2750,11 @@ Returns the top 10 users and top 10 songs.
       "play_count": 50,
       "spotify_url": "spotify_url",
       "most_played_by_username": "user1"
-    }
+    },
     // ... more songs
   ]
 }
 ```
-````
 
 ### `/api/lyrics`
 
@@ -3161,21 +2845,24 @@ Tracks a song play, updating play count and potentially the user who played it m
 }
 ```
 
+
 ## Dependencies
 
 Refer to `package.json` for a complete list of project dependencies.
+
 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
+
 ## Testing
 
-No explicit testing framework is present in this codebase. Adding unit or integration tests is recommended for future development.
+No explicit testing framework is present in this codebase.  Adding unit or integration tests is recommended for future development.
 
-_README.md was made with [Etchr](https://etchr.dev)_
 
-````
+*README.md was made with [Etchr](https://etchr.dev)*
+```
 
 ---
 
@@ -3183,7 +2870,7 @@ _README.md was made with [Etchr](https://etchr.dev)_
 
 **Description:** No description provided.
 
-**Key Stats:** ⭐ 12 Stars | 🍴 1 Forks
+**Key Stats:** 12 Stars | 1 Forks
 **Tech Stack:** TypeScript, CSS, JavaScript
 **Live Demo:** https://starfall-kit.vercel.app
 **Repository:** https://github.com/ArjunCodess/starfall
@@ -3240,17 +2927,17 @@ It offers a full set of tools and components. These tools work together to make 
 
 ### 2. **Scalable, and Easy to Maintain**
 Starfall's architecture is built for growth.
-
+   
 It uses best practices for organizing folders, designing components, and managing state. This helps keep your project easy to maintain as it expands. Security features are also built-in to keep your project safe.
 
 ### 3. **Beautifully Designed UI**
 Starfall makes your app look modern, thanks to Shadcn/UI and Aceternity UI.
-
+   
 You can easily switch between dark and light modes. Plus, you can customize gradients and blur effects for a unique look.
 
 ### 4. **Focus on Developer Experience**
 Starfall is made with developers in mind.
-
+   
 The code is clean and easy to understand. It follows modern best practices and comes with good documentation. Pre-configured environments mean you spend less time setting up and more time building features.
 
 ## 📚 Getting Started
@@ -3266,14 +2953,15 @@ To begin using Starfall, all that is required is a couple of things.
 
 ```bash
 git clone https://github.com/ArjunCodess/neon-oss-starter-kit.git my-app
-````
+```
+    
 
 ### Step 3
 
 ```bash
 cd my-app
 ```
-
+    
 ### Step 4
 
 ```bash
@@ -3283,11 +2971,11 @@ npm install
 ### Step 5
 
 Rename the .env.example file to .env. And pull up your environment variables and paste them in the .env file.
-
+    
 Having trouble? Check out the [configuration guide](https://starfall-docs.vercel.app/docs/configuration)
 
 ### Step 6
-
+    
 ```bash
 npm run dev
 ```
@@ -3315,7 +3003,7 @@ These are the commands that you can use and what they do in brief:
 
 I chose this stack because it provides a complete set of tools for modern web development.
 
-Using Next.js and Tailwind CSS makes building fast, responsive apps easy. Neon and Drizzle ORM simplify database management. Clerk handles authentication, which is crucial for secure applications. TypeScript adds extra reliability to the code.
+Using Next.js and Tailwind CSS makes building fast, responsive apps easy. Neon and Drizzle ORM simplify database management. Clerk handles authentication, which is crucial for secure applications. TypeScript adds extra reliability to the code. 
 
 Throughout this process, I learned how to integrate these tools effectively. It was challenging but rewarding to see everything come together in a single starter kit. I would like to thank DEV and Neon for organising a challenge like this!
 
@@ -3361,15 +3049,15 @@ If you have any questions or feedback, feel free to reach out or open an issue o
 
 Connect with me: [Linktree](https://linktr.ee/arjuncodess). Follow me on [X](https://x.com/arjuncodess).
 
-````
+```
 
 ---
 
 ## Project: astroscope
 
-**Description:** AstroScope is an interactive dashboard that visualizes near-Earth asteroid data from NASA's NeoWs API.
+**Description:** AstroScope is an interactive dashboard that visualizes near-Earth asteroid data from NASA's NeoWs API. 
 
-**Key Stats:** ⭐ 7 Stars | 🍴 1 Forks
+**Key Stats:** 7 Stars | 1 Forks
 **Tech Stack:** Python
 **Live Demo:** https://astroscope.streamlit.app/
 **Repository:** https://github.com/ArjunCodess/astroscope
@@ -3413,22 +3101,19 @@ AstroScope is an interactive dashboard that visualizes near-Earth asteroid data 
    - How will you use the APIs? (optional)
 3. Submit the form and check your email to receive your API key.
 4. Add the key to your `.env` file:
-````
-
-NASA_API_KEY="YOUR_KEY_HERE"
-
-````
+   ```
+   NASA_API_KEY="YOUR_KEY_HERE"
+   ```
 
 ### Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/ArjunCodess/astroscope.git
-cd astroscope
-````
+   ```bash
+   git clone https://github.com/ArjunCodess/astroscope.git
+   cd astroscope
+   ```
 
 2. Install dependencies:
-
    ```bash
    pip install -r requirements.txt
    ```
@@ -3459,7 +3144,6 @@ python -m streamlit run app.py
 The dashboard will be available at [http://localhost:8501](http://localhost:8501).
 
 The application will automatically:
-
 1. Check if data files exist
 2. If not, fetch asteroid data from NASA's NeoWs API
 3. Process the raw data into a clean format
@@ -3468,7 +3152,6 @@ The application will automatically:
    - Includes a "Daily Closest Miss" table showing the closest approach per day and ranking the top 10 dates by proximity
 
 > **Note**: You can still run the data pipeline steps separately if needed:
->
 > - `python -m lib.data_fetcher` - Fetch data only
 > - `python -m lib.data_processing` - Process data only
 > - `python -m lib.analysis` - Analyze data only
@@ -3488,8 +3171,7 @@ The application will automatically:
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-````
+```
 
 ---
 
@@ -3497,7 +3179,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Description:** Decode your chats. Understand your relationships. Get brutally honest insights about what's really happening between the lines. Spot warning signs early. No more “Wish I would've seen this coming.“
 
-**Key Stats:** ⭐ 3 Stars | 🍴 0 Forks
+**Key Stats:** 3 Stars | 0 Forks
 **Tech Stack:** TypeScript, CSS, JavaScript
 **Live Demo:** https://chemistrycheck.vercel.app
 **Repository:** https://github.com/ArjunCodess/chemistrycheck
@@ -3551,7 +3233,7 @@ Want to run ChemistryCheck locally? Here's what you need to do.
    ```bash
    git clone https://github.com/ArjunCodess/chemistrycheck.git
    cd chemistrycheck
-````
+   ```
 
 2. **Install everything**
 
@@ -3670,7 +3352,7 @@ The analysis includes everything from basic message counts to advanced AI insigh
 
 - **Vercel AI SDK** for unified AI interactions and streaming
 - **Google Gemini AI** (gemini-3-flash-preview) for generating relationship insights and analysis
-- **Gemini gemini-embedding-2-preview** for semantic embeddings (RAG chatbot)
+- **Gemini gemini-embedding-001** for semantic embeddings (RAG chatbot)
 - **pgvector** for vector similarity search
 - **Inngest** for background job processing (parsing & embedding)
 - Custom chat parsers for WhatsApp, Telegram, and Instagram exports
@@ -3709,7 +3391,6 @@ This application is set up to deploy on Vercel.
    - Deploy automatically when you push to main
 
 2. **Environment Variables You Need**
-
    ```env
    GOOGLE_GENERATIVE_AI_API_KEY=
    BLOB_READ_WRITE_TOKEN=
@@ -3757,7 +3438,7 @@ _Built with ❤️ for those seeking honest insights_
 
 </div>
 
-````
+```
 
 ---
 
@@ -3765,7 +3446,7 @@ _Built with ❤️ for those seeking honest insights_
 
 **Description:** No description provided.
 
-**Key Stats:** ⭐ 3 Stars | 🍴 0 Forks
+**Key Stats:** 3 Stars | 0 Forks
 **Tech Stack:** Python
 **Repository:** https://github.com/ArjunCodess/algorithm_visualizer_pygame
 **Topics:** algorithm-visualisation, algorithm-visualizer, gui, pygame, python, sorting-algorithms
@@ -3796,17 +3477,14 @@ Requirements:
 **Installation:**
 ```py
 pip install pygame
-````
-
+```
 Running the Program:
-
 ```py
 python sortingwiz.py
 ```
 
 **Features**
 Visualization of the following sorting algorithms:
-
 - Bubble Sort
 - Insertion Sort
 - Selection Sort
@@ -3816,7 +3494,6 @@ Visualization of the following sorting algorithms:
 There are the key user controls for the sorting program: a start/stop button, reset button, sorting order change(ascending/descending), and switch to another algorithm.
 
 **Controls**
-
 - Q: Quit the program.
 
 - R: Reset the list.
@@ -3848,7 +3525,6 @@ There are the key user controls for the sorting program: a start/stop button, re
 
 **Contributing**
 If you'd like to contribute to SortingWiz, please follow these steps:
-
 - Fork the repository.
 - Create a new branch for your feature or bug fix.
 - Make your changes.
@@ -3860,7 +3536,7 @@ If you'd like to contribute to SortingWiz, please follow these steps:
 **Acknowledgments**
 This project was developed as a part of the CS50 Fall 2023 Final Project - SortingWiz.
 
-````
+```
 
 ---
 
@@ -3868,7 +3544,7 @@ This project was developed as a part of the CS50 Fall 2023 Final Project - Sorti
 
 **Description:** No description provided.
 
-**Key Stats:** ⭐ 3 Stars | 🍴 0 Forks
+**Key Stats:** 3 Stars | 0 Forks
 **Tech Stack:** TypeScript, JavaScript, CSS
 **Live Demo:** https://flashreels.vercel.app
 **Repository:** https://github.com/ArjunCodess/FlashReels
@@ -3924,7 +3600,7 @@ Want to run Flash Reels locally? Here's what you need to do.
    ```bash
    git clone https://github.com/your-username/FlashReels.git
    cd FlashReels
-````
+   ```
 
 2. **Install everything**
 
@@ -3937,7 +3613,7 @@ Want to run Flash Reels locally? Here's what you need to do.
    ```
 
 3. **Set up your environment**
-
+   
    Create a `.env.local` file in the root directory and add all required environment variables (see [Environment Variables](#environment_variables) section below).
 
 4. **Set up the database**
@@ -4129,7 +3805,7 @@ The site will be live and ready to create AI-powered videos!
 
 ## ✍️ Author <a name = "authors"></a>
 
-- **ArjunCodess** - _Built and maintain Flash Reels_
+- **ArjunCodess** - *Built and maintain Flash Reels*
 
 **I believe** in making video creation accessible to everyone through the power of AI. If you want to collaborate or have questions, feel free to reach out.
 
@@ -4152,7 +3828,7 @@ _Built with ❤️ for creators and content makers_
 
 </div>
 
-````
+```
 
 ---
 
@@ -4160,7 +3836,7 @@ _Built with ❤️ for creators and content makers_
 
 **Description:** TBH lets users receive anonymous messages and reply to them, all in one simple profile. Built with Next.js, MongoDB, and Tailwind. (Heavily inspired from NGL)
 
-**Key Stats:** ⭐ 4 Stars | 🍴 0 Forks
+**Key Stats:** 4 Stars | 0 Forks
 **Tech Stack:** TypeScript, CSS, JavaScript
 **Live Demo:** https://mytbh.vercel.app/
 **Repository:** https://github.com/ArjunCodess/tbh
@@ -4225,7 +3901,7 @@ Want to run TBH locally? Here's what you need.
    ```bash
    git clone https://github.com/ArjunCodess/tbh.git
    cd tbh
-````
+   ```
 
 2. **Install everything**
 
@@ -4235,7 +3911,6 @@ Want to run TBH locally? Here's what you need.
 
 3. **Set up your environment**
    Copy `.env.example` to `.env.local` and add your configuration:
-
    ```env
    MONGODB_URI=your_mongodb_connection_string
    NEXTAUTH_SECRET=your_nextauth_secret
@@ -4329,7 +4004,6 @@ TBH is set up to deploy on Vercel with MongoDB Atlas for the database.
    Connect your GitHub repo to Vercel and set up the environment variables in their dashboard.
 
 2. **Environment Variables You Need**
-
    ```env
    MONGODB_URI=your_mongodb_atlas_connection_string
    NEXTAUTH_SECRET=your_secure_random_secret
@@ -4369,4 +4043,829 @@ _Built with ❤️ for authentic conversations_
 
 ---
 
+## Project: NGTA
+
+**Description:** NGTA is a neurosymbolic clinical prediction architecture that maps neural uncertainty into NARS truth values and feeds revised confidence back into Transformer attention during inference.
+
+**Key Stats:** 1 Stars | 0 Forks
+**Tech Stack:** Python, TeX
+**Repository:** https://github.com/ArjunCodess/NGTA
+
+### README Content
+```markdown
+# NGTA
+
+**NARS-Guided Transformer Attention for clinical transformers under extreme missingness**
+
+**TL;DR:** NGTA is a clinical transformer that does not just rank patients; it tries to tell the truth about its own uncertainty. It estimates epistemic uncertainty with MC Dropout, heuristically converts that uncertainty into initial NARS-style truth values, injects explicit human-written medical rules at inference time, and feeds the revised confidence back into attention so brittle evidence is downweighted before the final prediction is made.
+
+NGTA is a neurosymbolic clinical prediction architecture that maps neural uncertainty into NARS truth values and feeds revised confidence back into Transformer attention during inference. The repository now supports two benchmarks in parallel:
+
+- `tcga`: TCGA-THCA lymph node metastasis prediction from merged clinical tables plus a mutation-derived binary gene panel
+- `wids`: WiDS Datathon 2020 ICU hospital mortality prediction from a high-missingness ICU tabular cohort
+
+The research paper lives in [`paper/main.pdf`](paper/main.pdf), with source in [`paper/main.tex`](paper/main.tex).
+
+## April 21, 2026 Feedback Update
+
+After an email exchange on April 21, 2026, Pei Wang pointed out two conceptual issues that now shape this repository:
+
+- Statistical variance is not itself NARS evidence amount or native NARS confidence. In NGTA, MC-dropout variance is now described explicitly as a heuristic initializer for neural confidence that can later be revised by symbolic evidence.
+- The strong-deduction confidence calculation in the manuscript needed to match the standard NAL rule rather than the custom form previously written in the paper.
+
+Repository updates made from that feedback:
+
+- [`src/nars_interface.py`](src/nars_interface.py) now exposes standard NAL strong deduction, revision, evidence-confidence conversion, and expectation helpers.
+- Triggered symbolic rules are grounded by an explicit deduction step from empirical observations before neural-symbolic revision.
+- The README and paper now attribute these clarifications to Pei Wang and describe the variance-to-confidence mapping more carefully.
+
+## Key Achievements
+
+- **Inference-Time Logic Injection:** Fuses MC-Dropout epistemic uncertainty with NARS symbolic logic and pushes the revised confidence signal directly into Transformer attention during inference.
+- **Scale & Safety:** Benchmarked on `91,713` ICU stays. In the current full run, the baseline transformer is best on AUC at `0.88294`, the flat-confidence control is best on ECE at `0.00490` with 95% CI `[0.00411, 0.00969]`, the MC-confidence-only ablation is best on accuracy at `0.92905`, and the NARS-gated variant is best on Brier score at `0.05618` with 95% CI `[0.05327, 0.05945]`.
+- **Glass-Box Activity:** On held-out WiDS ICU data, explicit symbolic rules fired in `8551` of `13757` stays for `13031` total feature-level revisions, showing that the logic layer is active rather than decorative.
+- **Multi-Modal Ready:** Demonstrated on fused clinical tabular features and genomic mutation matrices on TCGA-THCA, where the same interface remains operational as a clinical-plus-genomic proof of concept. The TCGA transformer variants are not statistically separated from one another on the 69-case held-out split.
+
+## Overview
+
+### What it does
+
+NGTA is a medical prediction system for messy hospital-style tables where many values are missing. It uses a Transformer to make predictions, but it does not stop at producing a single risk score. It estimates epistemic uncertainty, checks a set of human-written medical rules, and then uses both pieces of information to adjust how the model pays attention to the input features before the final output is emitted.
+
+### Why it matters
+
+Many clinical AI systems can give a strong prediction even when the data are incomplete or unreliable. That is dangerous in real settings because missing hospital data can produce overconfident probabilities that look trustworthy when they are not. NGTA is designed to separate "high score" from "high confidence" and to expose a human-readable revision path when symbolic rules intervene. That makes the system more useful in high-missingness environments like ICU data, where safer calibration matters as much as raw accuracy.
+
+In standard clinical prediction, models optimize for point-estimate accuracy but lack native mechanisms to express epistemic doubt, leading to overconfident extrapolation when faced with missing features. NGTA is built around the opposite design goal: instead of a black-box predictor that guesses blindly across data gaps, it calculates feature-level uncertainty and can route attention toward explicit medical heuristics when uncertainty is high. In that sense, the repository's core contrast is simple: standard transformers behave like black boxes, while NGTA is designed to behave like a glass box.
+
+### What is novel here
+
+The main novelty is not just "Transformer + rules." The key idea is that NGTA turns neural uncertainty into explicit symbolic truth values in a NARS-compatible evidential space, revises those values with domain rules, and then feeds the revised confidence back into Transformer attention. In simple terms: the model can use both learned patterns and symbolic evidence to decide how much trust to place in each feature at inference time, while also leaving behind an auditable evidential trace.
+
+This repository is not a full NARS cognitive architecture. It operationalizes selected NAL truth-value functions as an interface layer for a clinical transformer: heuristic neural truth initialization, explicit symbolic deduction from triggered observations, and revision-based fusion before attention reweighting.
+
+The end result is not just another tabular model with a rules layer attached to the side. It is an auditable, human-in-the-loop reasoning engine: instead of emitting an overconfident scalar score on missing data, the system exposes what it does not confidently know and provides a direct insertion point for clinicians to inject overriding physiological rules into the inference path itself. We refer to this uncertainty-conditioned attention update as Dynamic Evidential Routing. The novel outcome of this project is that calibration, clinician steerability, and auditability all appear in the same deployed inference loop.
+
+### How it works
+
+1. The Transformer reads the patient features and predicts risk.
+2. Monte Carlo dropout is used to measure how stable that prediction is across repeated passes.
+3. That uncertainty is heuristically converted into initial NARS-style truth values: frequency and confidence.
+4. If a symbolic rule fires, the rule is first grounded by explicit NAL deduction from an empirical observation and then combined with the neural truth value using NARS revision.
+5. The revised confidence is used to reweight attention, so uncertain or weakly supported features matter less.
+6. The pipeline then evaluates discrimination, calibration, decision curves, symbolic trigger activity, and baseline comparisons.
+
+### Why there are two datasets
+
+The two benchmarks test different strengths of the architecture:
+
+- `tcga` is the multi-modal proof of concept. It shows that NGTA can fuse clinical variables with a genomic mutation matrix without breaking the mathematical interface.
+- `wids` is the primary empirical validation. It shows that the same architecture scales to a much larger ICU dataset with heavy missingness and gives the clearest large-scale view of calibration, uncertainty routing, and symbolic activity.
+
+### What we found
+
+The main result is that NGTA works as intended on both a small multi-modal cancer dataset and a much larger high-missingness ICU dataset, but the two datasets support different claims.
+
+- On `tcga`, the Transformer-based models still beat the random-forest baseline numerically. The best default AUC is `0.72605`, tied across `flat_confidence`, `mc_confidence_only`, and `nars_gated`, versus `0.66134` for random forest. This supports the claim that the interface can learn useful signal from combined clinical and genomic inputs, but it does not support a claim that NARS gating is statistically better than the other Transformer variants.
+- The flat-confidence control is the strongest TCGA Transformer variant overall in the current default run because it pairs that tied-best AUC with the best Brier score (`0.21184`), the best ECE (`0.13897`), and the best accuracy (`0.68116`). TCGA should therefore still be treated as a multi-modal interface proof of concept rather than evidence that dynamic NARS gating dominates simpler confidence gates on very small cohorts.
+- On `wids`, all Transformer variants are extremely close on AUC around `0.8829`. At full precision, the baseline transformer is best on AUC, the flat-confidence control is best on ECE at `0.00490`, the MC-confidence-only ablation is best on accuracy at `0.92905`, and the NARS-gated version is best on Brier score at `0.05618`.
+- The WiDS baseline-vs-NARS paired bootstrap intervals now include zero for both Brier difference (`-0.000004` to `0.000061`) and ECE difference (`-0.000355` to `0.001796`). That means the current run does not statistically establish a calibration gain for NARS gating over the baseline transformer.
+- The WiDS NARS-gated variant is also not statistically separated from the flat-confidence control on Brier or ECE. The new MC-confidence-only ablation sits almost exactly between the generic confidence gate and the symbolic gate, which makes the interpretation sharper: symbolic rules are active at scale, but the current default run still does not isolate their marginal calibration effect over neural uncertainty gating alone.
+- The WiDS result still matters because the transformer family remains stronger than the random forest on the main summaries, and the symbolic path is physically active during inference. But the right interpretation is now narrower: this run supports operational neurosymbolic routing and competitive calibration, not a confirmed within-family superiority claim for NARS gating.
+- The symbolic rules were not just decorative. On the held-out WiDS test set, ICU rules fired in `8551` of `13757` cases for `13031` total feature-level revisions, which means the neurosymbolic revision path was active at scale rather than sitting unused.
+- Taken together, the results support a narrower and more defensible claim than "always better accuracy": NGTA is competitive on discrimination, operational as a human-auditable instrumentation layer under heavy missingness, and strongest as a framework for explicit uncertainty routing rather than as a proved winner over every control.
+
+Put differently: the main architectural achievement here is safety-oriented behavior, not just ranking performance. NGTA turns the transformer's attention update from an opaque mapping into a transparent and auditable inference path, where uncertainty is explicit, rule interventions are traceable, and probability reliability becomes something the user can inspect rather than simply assume.
+
+## Running
+
+Create an environment and install dependencies:
+
+```bash
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
 ```
+
+Run one dataset:
+
+```bash
+python main.py --dataset tcga
+python main.py --dataset wids
+```
+
+Run the whole repository pipeline:
+
+```bash
+python main.py --run-all
+```
+
+`--run-all` is the full orchestration entrypoint. It runs the complete TCGA pipeline and the complete WiDS pipeline sequentially, computes every metric/chart/trace artifact for both datasets, and writes an aggregate `run_all_summary.json` at the chosen output root.
+
+Useful flags:
+
+- `--data-dir`: directory containing the TCGA tables / MAF files and `wids_icu.csv`
+- `--output-dir`: base directory for per-dataset outputs
+- `--epochs`, `--batch-size`, `--learning-rate`, `--weight-decay`
+- `--mc-samples`, `--gamma`, `--seed`
+- `--d-model`, `--num-heads`, `--num-layers`, `--dropout`, `--patience`
+- `--seeds 0 1 2 3 4`: run multiple seeds and aggregate submission-ready metrics
+- `--baseline-set standard`: add calibrated logistic regression, ExtraTrees, and histogram gradient boosting baselines
+- `--ablation-set submission`: add symbolic-disabled and rule-truth sensitivity summaries
+- `--export-case-traces`: write curated glass-box case traces for representative held-out patients
+- `--paper-tables`: export aggregate CSV and LaTeX tables under `results/submission`
+
+Notes:
+
+- WiDS uses a dataset-specific batch-size override of `512`
+- `--dataset` is used for single-dataset execution; `--run-all` runs both datasets regardless
+- outputs are namespaced by dataset so TCGA and WiDS artifacts do not overwrite each other
+- multi-seed runs are written under `results/seed_<seed>/...` so repeated submission runs do not overwrite each other
+
+Submission-oriented run:
+
+```bash
+python main.py --run-all --seeds 0 1 2 3 4 --baseline-set standard --ablation-set submission --export-case-traces --paper-tables
+```
+
+This writes:
+
+- `results/submission/multiseed_metrics.csv`
+- `results/submission/baseline_comparison.csv`
+- `results/submission/ablation_summary.csv`
+- `results/submission/case_traces.csv`
+- `results/submission/paper_tables.tex`
+
+The submission artifacts are intended to support a theory-forward framing: NGTA is a glass-box evidential routing interface for clinical transformers, with performance treated as feasibility evidence rather than as a claim of universal superiority.
+
+## Data
+
+TCGA expects the following in [`data/`](data):
+
+- `clinical.tsv`
+- `exposure.tsv`
+- `family_history.tsv`
+- `follow_up.tsv`
+- `pathology_detail.tsv`
+- one or more `*.maf` files
+
+WiDS expects:
+
+- `wids_icu.csv`
+
+## WiDS Configuration
+
+The WiDS branch uses exactly these 15 core features:
+
+- Continuous numeric: `age`, `bmi`, `d1_heartrate_max`, `d1_sysbp_min`, `d1_temp_max`, `d1_lactate_max`, `d1_bun_max`, `d1_creatinine_max`, `d1_glucose_max`, `d1_wbc_max`, `d1_spo2_min`, `d1_platelets_min`, `apache_4a_hospital_death_prob`
+- Binary pass-through: `elective_surgery`
+- Categorical: `gender`
+
+Preprocessing rules:
+
+- `pd.read_csv(..., na_values=['NA'])`
+- drop rows where `hospital_death` is missing
+- stratified `70/15/15` split with the run seed
+- `KNNImputer(n_neighbors=5)` on the 13 continuous features, fit on train only
+- `SimpleImputer(strategy='most_frequent')` + one-hot encoding for `gender`
+- `StandardScaler` on the 13 continuous features only, fit on train only
+
+WiDS symbolic ICU rules are evaluated after KNN imputation and before scaling:
+
+- `d1_lactate_max >= 4.0`
+- `d1_sysbp_min <= 90.0`
+- `age >= 75.0`
+- `d1_creatinine_max >= 2.0`
+
+## Interpretation Caveats
+
+This repository is a first methods implementation, not a clinical validation package.
+
+- The TCGA held-out split has only `69` cases. The transformer variants are close and should not be described as statistically separated from one another.
+- The symbolic rule bases are deliberately thin: four thyroid rules and four ICU rules. They demonstrate that the NARS revision path is active, but they are not independently curated clinical ontologies.
+- Following feedback from Pei Wang on April 21, 2026, the repository treats the variance-to-confidence map as an application-specific heuristic initializer, not as a claim that model variance directly measures NARS evidence amount.
+- The current results do not establish that these exact hand-selected rules are sufficient or optimal. A stronger study would lock a broader expert-curated rule base before evaluation and report sensitivity to rule inclusion and truth-value assignments.
+- There is no external validation cohort in this snapshot. Clinical claims would require temporally or institutionally independent test cohorts with locked preprocessing, model settings, and rule definitions.
+
+## Outputs
+
+Each dataset writes a full artifact bundle under the chosen output root:
+
+- `<output-dir>/tcga/charts`
+- `<output-dir>/tcga/metrics`
+- `<output-dir>/tcga/traces`
+- `<output-dir>/wids/charts`
+- `<output-dir>/wids/metrics`
+- `<output-dir>/wids/traces`
+
+Top-level orchestration output:
+
+- `<output-dir>/run_all_summary.json`
+
+Per-dataset metrics/traces include:
+
+- `metrics.csv`
+- `training_history.csv`
+- `gamma_ablation.csv`
+- `decision_curve.csv`
+- `calibration_reliability.csv`
+- `run_summary.json`
+- `test_predictions.csv`
+- ROC, calibration, training-history, gamma-ablation, and decision-curve plots
+
+`metrics.csv` now reports 95% bootstrap confidence intervals for AUC, Brier score, and ECE across the random forest, baseline transformer, flat-confidence transformer, MC-confidence-only ablation, and NARS-gated transformer. `run_summary.json` also includes paired bootstrap Brier/ECE deltas for the main comparisons.
+
+## Latest Full Run
+
+The current default full run was produced with:
+
+```bash
+python main.py --run-all
+```
+
+This was a single-seed default run with `baseline_set=minimal`, `ablation_set=quick`, `mc_samples=50`, `gamma=2.0`, and seed `0`. The richer multi-seed submission artifacts are produced only by the longer `--seeds ... --baseline-set standard --ablation-set submission --export-case-traces --paper-tables` command.
+
+Result bundles written by that run:
+
+- [`results/run_all_summary.json`](results/run_all_summary.json)
+- [`results/tcga/metrics/run_summary.json`](results/tcga/metrics/run_summary.json)
+- [`results/wids/metrics/run_summary.json`](results/wids/metrics/run_summary.json)
+
+TCGA-THCA full-run summary:
+
+Role in the paper: multi-modal proof of concept for clinical-plus-genomic fusion
+
+- Split: `319 / 69 / 69` train/validation/test from `457` labeled cases
+- Best default AUC: `0.72605`, tied across `flat_confidence`, `mc_confidence_only`, and `nars_gated`
+- Best Brier: `0.21184` for `flat_confidence` with 95% CI `[0.17930, 0.24551]`
+- Best ECE: `0.13897` for `flat_confidence` with 95% CI `[0.11629, 0.25967]`
+- Best accuracy: `0.68116` for `flat_confidence`
+- MC-confidence-only ablation: AUC `0.72605`, Brier `0.21219`, ECE `0.14027`, accuracy `0.66667`
+- Symbolic activity: `42 / 69` held-out cases with any trigger, `79` total feature-level revisions
+- Interpretation: the flat-confidence control is strongest overall among transformer variants, while the MC-confidence-only and NARS-gated variants only tie it on AUC. The transformer variants are not statistically separated on this small split.
+
+WiDS ICU full-run summary:
+
+Role in the paper: primary empirical validation for scale, missingness, and calibration
+
+- Split: `64199 / 13757 / 13757` train/validation/test from `91713` labeled rows
+- Input width: `16` model features after preprocessing
+- Best AUC: `0.88294` for `baseline`
+- Best Brier: `0.05618` for `nars_gated` with 95% CI `[0.05327, 0.05945]`
+- Best ECE: `0.00490` for `flat_confidence` with 95% CI `[0.00411, 0.00969]`
+- Best accuracy: `0.92905` for `mc_confidence_only`
+- MC-confidence-only ablation: AUC `0.88288`, Brier `0.05618`, ECE `0.00495`, accuracy `0.92905`
+- Symbolic activity: `8551 / 13757` held-out cases with any trigger, `13031` total feature-level revisions
+- Paired bootstrap comparisons:
+- `baseline -> nars_gated` Brier `0.05621 -> 0.05618`; paired delta CI `[-0.000004, 0.000061]`
+- `baseline -> nars_gated` ECE `0.00601 -> 0.00494`; paired delta CI `[-0.000355, 0.001796]`
+- `flat_confidence -> nars_gated` Brier `0.05618 -> 0.05618`; paired delta CI `[-0.000009, 0.000015]`
+- `flat_confidence -> nars_gated` ECE `0.00490 -> 0.00494`; paired delta CI `[-0.000598, 0.000790]`
+- `random_forest -> nars_gated` Brier `0.05821 -> 0.05618`; paired delta CI `[0.001351, 0.002726]`
+- `random_forest -> nars_gated` ECE `0.00764 -> 0.00494`; paired delta CI `[-0.001682, 0.005866]`
+- AUC confidence intervals overlap across all WiDS variants.
+- Per-rule test triggers:
+  - `rule_lactate: 1936`
+  - `rule_hypotension: 5338`
+  - `rule_age: 3443`
+  - `rule_creatinine: 2314`
+
+## Repository Layout
+
+- [`main.py`](main.py): CLI entry point and `--run-all` orchestration
+- [`src/data_loader.py`](src/data_loader.py): TCGA ingestion and preprocessing
+- [`src/wids_loader.py`](src/wids_loader.py): WiDS ingestion, preprocessing, and ICU rule-mask generation
+- [`src/knowledge_base.py`](src/knowledge_base.py): TCGA symbolic rule base
+- [`src/wids_knowledge_base.py`](src/wids_knowledge_base.py): WiDS symbolic ICU rule base
+- [`src/neural_encoder.py`](src/neural_encoder.py): tabular Transformer with MC-dropout inference
+- [`src/nars_interface.py`](src/nars_interface.py): heuristic neural truth mapping plus standard NAL deduction, revision, and evidential utility operators
+- [`src/attention_hook.py`](src/attention_hook.py): confidence-based attention gating
+- [`src/pipeline.py`](src/pipeline.py): training, baselines, evaluation, plotting, and summary generation
+- [`paper/main.pdf`](paper/main.pdf): compiled research paper
+- [`paper/main.tex`](paper/main.tex): manuscript source
+
+## Acknowledgments
+
+The repository updates in this snapshot were shaped directly by Pei Wang's email feedback on April 21, 2026. In particular, he pointed out that statistical variance is not the same thing as NARS evidence amount and that the manuscript's deduction confidence formula needed to match standard NAL. The current code and paper now reflect those corrections. The project also relies on public TCGA-THCA data from the NCI Genomic Data Commons.
+
+```
+
+---
+
+## Project: MINTS
+
+**Description:** MINTS is a reproducible mechanistic-interpretability pipeline for genomic transformers.
+
+**Key Stats:** 1 Stars | 0 Forks
+**Tech Stack:** Python, TeX
+**Repository:** https://github.com/ArjunCodess/MINTS
+
+### README Content
+```markdown
+# MINTS
+
+**Mechanistic Interpretability for Nucleotide Transformer Sequences**
+
+**TL;DR:** MINTS is a reproducible mechanistic-interpretability pipeline for genomic transformers. It loads DNABERT-2 and Nucleotide Transformer backends, extracts QK/OV circuit matrices, probes frozen residual streams, scores CTCF motif support from JASPAR, tests QK-to-motif alignment and matched attention enrichment, runs custom DNABERT forward-hook activation patching, and searches for distributed CTCF-aligned SAE features.
+
+MINTS asks a narrow question: can we move from "this genomic transformer predicts biological labels" to "this specific circuit component implements a biological motif detector"? The current answer is useful but disciplined: DNABERT-2 strongly encodes promoter and splice-site labels in its layer-11 residual stream, but the completed strict CTCF scan does **not** prove a single CTCF motif-detector attention head.
+
+Probe-interpretation controls were added after feedback from [Kiho Park](https://kihopark.github.io/), whose work on representation geometry motivated the distinction used here: a high linear-probe score establishes label decodability from the representation, not that the probe has found a causal biological feature. The new controls test GC-content baselines, position-only metadata baselines, GC-matched negatives, random-label probes, and GC-content distribution shifts.
+
+Kiho also suggested that, after tightening the contribution framing and making the probe claims precise, this project could be shaped toward a mechanistic interpretability workshop submission such as the ICML 2026 mechanistic interpretability workshop.
+
+The research paper lives in [`paper/main.pdf`](paper/main.pdf), with source in [`paper/main.tex`](paper/main.tex).
+
+## Key Achievements
+
+- **One-command reproducibility:** `python main.py` runs data checks, model loading, residual probing, QK/OV export, strict CTCF scans, systematic patching, SAE feature search, cross-model comparison, and writes [`results/pipeline_run.json`](results/pipeline_run.json).
+- **Strong residual decodability:** DNABERT-2 layer-11 probes reach AUROC `0.9137`, `0.9383`, `0.8954`, and `0.8847` on promoter/splice tasks, with bootstrap confidence intervals in [`results/tables/linear_probe_metrics.csv`](results/tables/linear_probe_metrics.csv).
+- **Probe interpretation controls:** The cached-residual control pass writes [`results/tables/linear_probe_controls.csv`](results/tables/linear_probe_controls.csv), covering GC-content-only probes, position-only metadata probes when coordinates are available, GC-matched test negatives, random-label residual probes, and GC distribution-shift probes.
+- **Negative strict CTCF proof after BPE alignment:** Across the full `51,249` GM12878 CTCF sequence scan, no tested DNABERT-2 head passed the registered CTCF QK criterion `r >= 0.5, p < 0.05`, and no head passed matched attention enrichment `rho_h >= 2.0`. The best all-layer DNABERT-2 values were `r = 0.3004` and `rho_h = 1.3130`.
+- **Causal patching signal:** Batch DNABERT forward-hook patching found promoter-TATA over-restoration, with best mean restoration `PM = 1.4029` at layer `4`, head `8` over `327` pairs. Because `PM > 1` overshoots the clean-minus-corrupted effect, this is treated as a strong but methodologically sensitive signal rather than a simple "full restoration" result. Splice-donor patching found a weaker but threshold-crossing best head, layer `1`, head `8`, with `PM = 0.5485` over `500` pairs.
+- **OV readout audit:** The previously suspected TATA-restoring layer `2`, head `7` does not directly align strongly with the trained TATA residual-probe direction; its top OV output-write singular-vector cosine is only `0.1261`, and the probe self-gain is `-0.0326`.
+- **Cross-model tokenization comparison:** On the same residual-probe benchmark, DNABERT-2 BPE outperformed the tested Nucleotide Transformer v2 100M fixed-6mer backend in this pipeline, with AUROC deltas from `+0.2408` to `+0.3259` in favor of DNABERT-2. This is a pipeline-level comparison of these two checkpoints, not a general claim about all Nucleotide Transformer models or all fixed-6mer tokenizers.
+- **Distributed feature search:** SAE feature search ran over `2,048` CTCF sequences with the corrected DNABERT GLU MLP hook. The residual stream has shape `2048 x 768`, the MLP post-activation features have shape `2048 x 3072`, and the top CTCF motif cosine is still weak at `0.1158`.
+
+## Overview
+
+### What it does
+
+MINTS prepares nucleotide benchmark data, loads genomic transformer backends, exports model internals, trains residual-stream probes, creates motif-destroying counterfactuals, runs activation patching, and writes a compact artifact bundle under [`results/`](results). The pipeline treats attention heads as hypotheses: a head is not called a motif detector unless QK alignment, motif-local enrichment, and causal restoration agree.
+
+### Why it matters
+
+Genomic transformer predictions alone do not prove biological mechanisms. A high AUROC can come from distributed representations, tokenization artifacts, or dataset shortcuts. MINTS forces a stronger evidence stack: residual decodability, circuit matrix extraction, ground-truth motif scoring, matched-background enrichment, and denoising causal interventions.
+
+### What is novel here
+
+The novel contribution is the combination of computational biology ground truth with mechanistic circuit tests on a reproducible local pipeline. The current run shows why this matters: the representation-level story is positive, but the strict single-head CTCF motif-detector story fails. That negative result is scientifically useful because it prevents an overclaim.
+
+### How it works
+
+1. The pipeline reads [`src/config.py`](src/config.py) and creates `data/` and `results/` directories.
+2. Hugging Face downstream tasks are filtered and tokenized into `data/hf_downstream/`.
+3. ENCODE GM12878 CTCF artifacts and GRCh38 sequence tables are prepared under `data/`.
+4. DNABERT-2 is loaded on CUDA when available through Hugging Face forward hooks after TransformerLens compatibility fallback.
+5. Residual vectors are cached for layers `0`, `5`, and `11`; QK/OV matrices are exported for all `12` DNABERT-2 layers.
+6. Logistic probes are trained on frozen layer-11 residual vectors.
+7. Probe controls are run from cached activations to test correlated distributional signals.
+8. JASPAR `MA0139.1` CTCF motif scores are aligned to model token positions across GM12878 CTCF sequences.
+9. QK-to-motif Pearson correlations and matched motif/background enrichment ratios are computed.
+10. Clean/corrupted motif pairs are generated for activation patching.
+11. Batch denoising patching runs across all `12 x 12` DNABERT-2 layer/head positions.
+12. Sparse autoencoders are trained on CTCF residual/MLP activation exports for distributed-feature search.
+13. DNABERT-2 is compared with `InstaDeepAI/nucleotide-transformer-v2-100m-multi-species` using the same probe and CTCF enrichment workflow.
+
+## Latest Full Run
+
+The latest full run started at `2026-04-14 13:27:07` and ended at `2026-04-14 21:26:30` local time (`Asia/Calcutta`). The root manifest timestamp is `2026-04-14T15:56:30+00:00`. The manifest reports `28,760.213` seconds, or `7.989` hours, across all pipeline steps; the wall-clock log span is `7h 59m 23s`.
+
+Runtime breakdown:
+
+- `write_config`: `0.001s`
+- `ingest_hf_downstream`: `10.607s`
+- `download_encode_ctcf`: `0.258s`
+- `download_grch38`: `2.805s`
+- `prepare_ctcf_sequences`: `2.356s`
+- `circuit_extraction_and_residual_probing`: `659.838s`
+- `strict_mechanistic_proofs`: `9475.141s`
+- `systematic_causal_intervention`: `1344.551s`
+- `distributed_feature_search`: `33.110s`
+- `cross_model_tokenization_comparison`: `17231.546s`
+
+I inspected the full `results/` tree for this documentation update. It contains `125` files totaling about `4.71 GB`: `58` JSON files, `22` CSV files, `3` TSV files, `12` PNG figures, `28` NPZ archives, and `2` PyTorch SAE checkpoints. The large reproducible NPZ/PT/token-motif artifacts are intentionally ignored by Git.
+
+## Main Results
+
+### DNABERT-2 Residual Probes
+
+Layer-11 residual vectors are strongly predictive for all four configured biological tasks:
+
+| Task | Train / Test | AUROC | 95% CI | AUPRC | 95% CI | Accuracy |
+|---|---:|---:|---:|---:|---:|---:|
+| `promoter_tata` | `5062 / 212` | `0.9137` | `0.8751-0.9475` | `0.9241` | `0.8874-0.9557` | `0.8349` |
+| `promoter_no_tata` | `30000 / 1372` | `0.9383` | `0.9253-0.9499` | `0.9475` | `0.9364-0.9577` | `0.8550` |
+| `splice_sites_donors` | `30000 / 3000` | `0.8954` | `0.8839-0.9060` | `0.9049` | `0.8895-0.9191` | `0.8230` |
+| `splice_sites_acceptors` | `30000 / 3000` | `0.8847` | `0.8723-0.8959` | `0.8954` | `0.8802-0.9085` | `0.8090` |
+
+Interpretation: the biological labels are linearly decodable from frozen DNABERT-2 residual states. Following Kiho Park's feedback, this is interpreted as decodability rather than causal feature identification: the probe could exploit causal biological structure, correlated sequence composition, genomic-position artifacts, or other distributional signals. The new control pass is designed to check those alternatives before strengthening the representation claim.
+
+Run the probe-control pass after residual caches exist:
+
+```bash
+python main.py --only-probe-controls
+```
+
+This writes `results/tables/linear_probe_controls.csv` and `results/manifests/linear_probe_controls_manifest.json`.
+
+Probe-control results from the updated run:
+
+| Task | Residual probe AUROC | GC-only AUROC | Position-only AUROC | GC-matched residual AUROC | Random-label AUROC mean | GC-shift AUROC range |
+|---|---:|---:|---:|---:|---:|---:|
+| `promoter_tata` | `0.9137` | `0.8956` | `0.4136` | `0.9137` | `0.4700` | `0.6182-0.8030` |
+| `promoter_no_tata` | `0.9383` | `0.9088` | `0.3865` | `0.9383` | `0.5129` | `0.6312-0.8368` |
+| `splice_sites_donors` | `0.8954` | `0.6560` | `0.4414` | `0.8944` | `0.5064` | `0.8432-0.8669` |
+| `splice_sites_acceptors` | `0.8847` | `0.6361` | `0.4461` | `0.8838` | `0.5005` | `0.8573-0.8580` |
+
+Control interpretation: these controls were added from Kiho Park's suggestion to ask what variation the probe is exploiting. Random-label probes collapse to chance and position-only metadata does not explain the result. For splice donor and acceptor tasks, residual probes exceed GC-only baselines by about `+0.25` AUROC on GC-matched test subsets and remain strong under GC-content shifts, supporting a real residual-representation signal beyond simple composition. For promoter tasks, however, GC-only baselines are already very high (`0.8956` and `0.9088` AUROC), and the residual probe is only `+0.0181` to `+0.0296` AUROC above GC-only on the GC-matched controls. The promoter result is still linearly decodable, but its biological interpretation should be more cautious: DNABERT-2 may be using promoter-relevant sequence composition or other GC-correlated signals, not only a clean promoter motif feature.
+
+### Strict CTCF QK and Enrichment
+
+The strict CTCF scan used all `51,249` prepared GM12878 CTCF sequences.
+
+- DNABERT-2 QK scan: `144` heads across all layers `0-11`
+- Best DNABERT-2 QK-to-motif correlation: layer `1`, head `10`, `r = 0.3004`, `n = 1,843,874`, `p ~= 0`
+- Passing DNABERT-2 QK candidates: `0`
+- Best DNABERT-2 matched enrichment: layer `6`, head `3`, `rho_h = 1.3130`
+- Passing DNABERT-2 enrichment candidates: `0`
+- Motif-support/background tokens in DNABERT-2 enrichment after BPE span correction: `281,915 / 281,915`
+
+Interpretation: the QK correlations are statistically nonzero because the scan is very large, but the effect sizes are far below the registered `r >= 0.5` criterion. The enrichment ratios are close to background. The run does not prove a strict CTCF motif-detector head.
+
+![CTCF QK-to-motif Pearson heatmap](results/figures/ctcf_qk_alignment_pearson_heatmap.png)
+
+![CTCF matched attention enrichment heatmap](results/figures/ctcf_qk_alignment_matched_attention_enrichment_rho_heatmap.png)
+
+### Activation Patching
+
+Single-pair promoter-TATA patching found a partial causal signal:
+
+- Pair: `chr20:257674-257974|1`
+- Mutation: `TATAAA` at `[20, 26)` to `GCGCGC`
+- Best head: layer `7`, head `8`
+- Restoration: `PM = 0.5983`
+- Mean restoration across finite heads: `0.00463`
+
+Batch denoising patching is more important for the current run:
+
+| Task | Pairs | Best layer/head | Best PM | Mean PM | Denominator failures |
+|---|---:|---:|---:|---:|---:|
+| `promoter_tata` | `327` | layer `4`, head `8` | `1.4029` | `0.1604` | `0` |
+| `splice_sites_donors` | `500` | layer `1`, head `8` | `0.5485` | `0.0157` | `0` |
+
+Interpretation: promoter-TATA has a strong causal signal under batch patching, but the best mean `PM = 1.4029` is an over-restoration result rather than a clean `PM = 1` recovery. That can mean the patched head activation amplifies the probe direction in the corrupted context, or it can reflect denominator sensitivity, probe geometry, or out-of-distribution patched states. Splice donor has a weaker but threshold-crossing best head. These are task-specific causal signals; they do not rescue the failed CTCF strict motif-detector claim.
+
+The OV readout audit for the earlier candidate layer `2`, head `7` found weak direct alignment with the trained TATA residual-probe direction:
+
+- Top OV output-write singular-vector absolute cosine: `0.1261`
+- Top OV input/read singular-vector absolute cosine in the exported top-25 table: `0.0577`
+- Manifest-level top input/read absolute cosine across all singular vectors: `0.1205`
+- Probe self-gain through the OV matrix: `-0.0326`
+- Spectral norm: `6.8211`
+
+Interpretation: layer `2`, head `7` can contribute to TATA restoration, but its OV matrix is not simply writing along the trained TATA-promoter probe direction.
+
+![TATA layer-2 head-7 OV readout alignment](results/figures/tata_l2h7_ov_probe_alignment.png)
+
+![Promoter-TATA batch activation patching heatmap](results/figures/promoter_tata_batch_dnabert_activation_patching_heatmap.png)
+
+![Splice donor batch activation patching heatmap](results/figures/splice_sites_donors_batch_dnabert_activation_patching_heatmap.png)
+
+### Distributed SAE Feature Search
+
+The distributed feature search trained sparse autoencoders on `2,048` CTCF sequences:
+
+- Residual activation shape: `2048 x 768`
+- MLP post-activation feature shape: `2048 x 3072`
+- MLP hook target: `mlp.gated_layers.post_activation_glu`
+- Dictionary size: `512`
+- Epochs: `10`
+- Best residual CTCF motif cosine: `0.0884`, feature `31`, activation frequency `0.5049`
+- Best MLP CTCF motif cosine: `0.1158`, feature `414`, activation frequency `0.4795`
+- Global top-10 SAE features: `5` MLP features and `5` residual features
+
+The corrected run no longer has the residual/MLP identity bug: residual and MLP tensors have different shapes, and the activation manifest records `residual_mlp_same_shape = false`.
+
+Interpretation: no strong monosemantic CTCF SAE feature was found. The weak top cosine is consistent with the broader result that CTCF information is not isolated in a simple attention-head detector in this configuration.
+
+![CTCF residual SAE top-10 alignment](results/figures/ctcf_residual_sae_top10_alignment.png)
+
+![CTCF MLP SAE top-10 alignment](results/figures/ctcf_mlp_sae_top10_alignment.png)
+
+### Cross-Model Tokenization Comparison
+
+The cross-model comparison evaluated:
+
+- DNABERT-2: `zhihan1996/DNABERT-2-117M`, tokenization family `BPE`, hidden width `768`, `12` heads in tested layers
+- Nucleotide Transformer: `InstaDeepAI/nucleotide-transformer-v2-100m-multi-species`, tokenization family `fixed_6mer`, hidden width `512`, `16` heads in tested layers
+
+Probe comparison:
+
+| Task | DNABERT-2 AUROC | NT AUROC | DNABERT-2 delta | DNABERT-2 AUPRC | NT AUPRC | DNABERT-2 delta |
+|---|---:|---:|---:|---:|---:|---:|
+| `promoter_tata` | `0.9137` | `0.6502` | `+0.2634` | `0.9241` | `0.6703` | `+0.2538` |
+| `promoter_no_tata` | `0.9383` | `0.6976` | `+0.2408` | `0.9475` | `0.6996` | `+0.2479` |
+| `splice_sites_donors` | `0.8954` | `0.5695` | `+0.3259` | `0.9049` | `0.5577` | `+0.3472` |
+| `splice_sites_acceptors` | `0.8847` | `0.5647` | `+0.3200` | `0.8954` | `0.5496` | `+0.3457` |
+
+CTCF strict-scan comparison:
+
+- DNABERT-2 best QK correlation in the latest all-layer primary scan: `r = 0.3004`
+- Nucleotide Transformer best QK correlation: `r = 0.0192`
+- DNABERT-2 best enrichment in the latest all-layer primary scan: `rho_h = 1.3130`
+- Nucleotide Transformer best enrichment: `rho_h = 1.00009`
+- Passing QK/enrichment candidates for either model: `0`
+
+Interpretation: in this exact benchmark and implementation, DNABERT-2 produced higher residual-probe scores than the tested Nucleotide Transformer v2 100M fixed-6mer backend. This comparison is not meant as a universal statement about Nucleotide Transformer pretraining, all fixed-6mer models, or fine-tuned NT variants. However, neither tested backend yields a strict CTCF motif-detector head under the registered thresholds.
+
+## Running
+
+Create an environment and install dependencies:
+
+```bash
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+```
+
+Run the full repository pipeline:
+
+```bash
+python main.py
+```
+
+Run a capped debug pass:
+
+```bash
+python main.py --max-probe-train 512 --max-probe-test 256 --max-qk-alignment-sequences 128 --max-cross-model-qk-alignment-sequences 128 --max-feature-search-sequences 128 --sae-epochs 1
+```
+
+Useful flags:
+
+- `--overwrite`: rebuild generated datasets and redownload artifacts when needed
+- `--max-probe-train`: cap train examples per task for activation caching and probing
+- `--max-probe-test`: cap test examples per task for activation caching and probing
+- `--max-qk-alignment-sequences`: cap CTCF sequences for strict QK motif-alignment exports
+- `--max-patching-pairs`: cap systematic denoising activation-patching pairs per task
+- `--max-feature-search-sequences`: cap CTCF sequences for residual/MLP SAE feature search
+- `--sae-epochs`: control SAE training epochs
+- `--max-cross-model-qk-alignment-sequences`: cap CTCF sequences for cross-model QK/enrichment comparison
+- `--probe-bootstrap-samples`: bootstrap resamples for probe confidence intervals
+- `--probe-ci-level`: probe confidence interval level
+- `--probe-control-random-label-runs`: number of random-label residual-probe repeats in the control pass
+- `--only-probe-controls`: rerun only the cached-residual probe controls without loading the model or continuing through later pipeline steps
+- `--from-step`: start from a named checkpoint and continue forward
+- `--json`: print a machine-readable completion payload
+
+Resume from a later checkpoint:
+
+```bash
+python main.py --only-probe-controls
+python main.py --from-step probe_controls
+python main.py --from-step systematic_causal_intervention
+python main.py --from-step distributed_feature_search
+python main.py --from-step cross_model_tokenization_comparison
+```
+
+Use `--only-probe-controls` when you want to rerun just the new Kiho Park-inspired probe controls from existing activation caches. Use `--from-step probe_controls` when you want to run those controls and then continue with the rest of the full pipeline.
+
+## Data
+
+The pipeline expects the ENCODE URL list in [`data/`](data):
+
+- `ENCODE4_v1.5.1_GRCh38.txt`
+
+The configured ENCODE URL file should include direct downloads for:
+
+- `ENCFF680XUD.bigWig`
+- `ENCFF827JRI.bed.gz`
+- `ENCFF511URZ.bigBed`
+
+The Hugging Face downstream data is downloaded programmatically and saved under:
+
+- `data/hf_downstream/promoter_tata`
+- `data/hf_downstream/promoter_no_tata`
+- `data/hf_downstream/splice_sites_donors`
+- `data/hf_downstream/splice_sites_acceptors`
+
+CTCF-derived sequence tables are written under:
+
+- `data/ctcf/`
+
+## Outputs
+
+Primary outputs:
+
+- [`results/pipeline_run.json`](results/pipeline_run.json)
+- [`results/tables/linear_probe_metrics.csv`](results/tables/linear_probe_metrics.csv)
+- `results/tables/linear_probe_controls.csv`
+- [`results/tables/cross_model_tokenization_comparison.json`](results/tables/cross_model_tokenization_comparison.json)
+- [`results/qk_alignment/ctcf_qk_alignment.csv`](results/qk_alignment/ctcf_qk_alignment.csv)
+- [`results/enrichment/ctcf_qk_alignment_matched_attention_enrichment.csv`](results/enrichment/ctcf_qk_alignment_matched_attention_enrichment.csv)
+- [`results/patching/promoter_tata_batch_dnabert_activation_patching.csv`](results/patching/promoter_tata_batch_dnabert_activation_patching.csv)
+- [`results/patching/splice_sites_donors_batch_dnabert_activation_patching.csv`](results/patching/splice_sites_donors_batch_dnabert_activation_patching.csv)
+- [`results/tables/tata_l2h7_ov_probe_alignment.csv`](results/tables/tata_l2h7_ov_probe_alignment.csv)
+- [`results/distributed_features/ctcf_sae_feature_alignment_top10.csv`](results/distributed_features/ctcf_sae_feature_alignment_top10.csv)
+
+Important figures:
+
+- [`results/figures/ctcf_qk_alignment_pearson_heatmap.png`](results/figures/ctcf_qk_alignment_pearson_heatmap.png)
+- [`results/figures/ctcf_qk_alignment_matched_attention_enrichment_rho_heatmap.png`](results/figures/ctcf_qk_alignment_matched_attention_enrichment_rho_heatmap.png)
+- [`results/figures/promoter_tata_dnabert_activation_patching_heatmap.png`](results/figures/promoter_tata_dnabert_activation_patching_heatmap.png)
+- [`results/figures/promoter_tata_batch_dnabert_activation_patching_heatmap.png`](results/figures/promoter_tata_batch_dnabert_activation_patching_heatmap.png)
+- [`results/figures/splice_sites_donors_batch_dnabert_activation_patching_heatmap.png`](results/figures/splice_sites_donors_batch_dnabert_activation_patching_heatmap.png)
+- [`results/figures/tata_l2h7_ov_probe_alignment.png`](results/figures/tata_l2h7_ov_probe_alignment.png)
+- [`results/figures/ctcf_residual_sae_top10_alignment.png`](results/figures/ctcf_residual_sae_top10_alignment.png)
+- [`results/figures/ctcf_mlp_sae_top10_alignment.png`](results/figures/ctcf_mlp_sae_top10_alignment.png)
+
+Large generated artifacts are intentionally ignored by Git and removed from the repository commit surface. They are reproducible outputs, not source files. The largest classes are activation caches, QK/OV matrix archives, SAE checkpoints/activation archives, and token-level motif-score dumps.
+
+Do not commit these generated artifact classes:
+
+- `results/**/activations/*.npz`
+- `results/**/circuits/*.npz`
+- `results/distributed_features/*.npz`
+- `results/**/*.pt`
+- `results/**/enrichment/*token_motif_scores.csv`
+
+Examples from the latest run:
+
+- `results/circuits/qk_ov_matrices.npz` (`651.20 MiB`)
+- `results/cross_model/zhihan1996__dnabert_2_117m/circuits/qk_ov_matrices.npz` (`651.20 MiB`)
+- `results/cross_model/instadeepai__nucleotide_transformer_v2_100m_multi_species/circuits/qk_ov_matrices.npz` (`378.37 MiB`)
+- `results/enrichment/ctcf_qk_alignment_token_motif_scores.csv` (`121.10 MiB`)
+- `results/enrichment/ctcf_bpe_corrected_qk_alignment_token_motif_scores.csv` (`121.10 MiB`)
+- `results/cross_model/zhihan1996__dnabert_2_117m/enrichment/zhihan1996__dnabert_2_117m_ctcf_qk_alignment_token_motif_scores.csv` (`121.10 MiB`)
+- `results/cross_model/instadeepai__nucleotide_transformer_v2_100m_multi_species/enrichment/instadeepai__nucleotide_transformer_v2_100m_multi_species_ctcf_qk_alignment_token_motif_scores.csv` (`99.83 MiB`)
+- `results/cross_model/zhihan1996__dnabert_2_117m/activations/splice_sites_donors_train_residual_mean.npz` (`251.93 MiB`)
+- `results/cross_model/zhihan1996__dnabert_2_117m/activations/splice_sites_acceptors_train_residual_mean.npz` (`251.92 MiB`)
+- `results/cross_model/zhihan1996__dnabert_2_117m/activations/promoter_no_tata_train_residual_mean.npz` (`248.83 MiB`)
+- `results/cross_model/instadeepai__nucleotide_transformer_v2_100m_multi_species/activations/splice_sites_donors_train_residual_mean.npz` (`171.84 MiB`)
+- `results/cross_model/instadeepai__nucleotide_transformer_v2_100m_multi_species/activations/splice_sites_acceptors_train_residual_mean.npz` (`171.84 MiB`)
+- `results/cross_model/instadeepai__nucleotide_transformer_v2_100m_multi_species/activations/promoter_no_tata_train_residual_mean.npz` (`168.40 MiB`)
+- `results/distributed_features/ctcf_layer11_residual_mlp_activations.npz` (`27.97 MiB`)
+- `results/distributed_features/ctcf_mlp_sae.pt` (`12.05 MiB`)
+
+These files can be regenerated by rerunning `python main.py`. The repository keeps the small CSV/JSON summaries and figures that are useful for review.
+
+## Repository Layout
+
+- [`main.py`](main.py): CLI entry point for the one-command pipeline
+- [`src/config.py`](src/config.py): paths, model defaults, task names, analysis layers, and run caps
+- [`src/cli.py`](src/cli.py): command-line flags and pipeline invocation
+- [`src/reproduce.py`](src/reproduce.py): orchestration and root run-summary writing
+- [`src/data_ingestion.py`](src/data_ingestion.py): Hugging Face task filtering, tokenization, and ENCODE artifact handling
+- [`src/ctcf.py`](src/ctcf.py): GRCh38 FASTA handling and CTCF sequence extraction
+- [`src/modeling.py`](src/modeling.py): DNABERT-2 and Nucleotide Transformer loading, compatibility patches, and hook adapter fallback
+- [`src/motif_scoring.py`](src/motif_scoring.py): JASPAR CTCF motif loading and token-level motif scoring
+- [`src/qk_alignment.py`](src/qk_alignment.py): QK-to-motif correlation and QK-reconstructed enrichment exports
+- [`src/mechanistic_proofs.py`](src/mechanistic_proofs.py): strict proof and systematic patching orchestration
+- [`src/activations.py`](src/activations.py): residual-stream caching for probe features
+- [`src/circuits.py`](src/circuits.py): QK/OV matrix extraction
+- [`src/probing.py`](src/probing.py): frozen residual logistic probes, bootstrap confidence intervals, and probe-control reruns for GC content, position metadata, matched negatives, random labels, and GC shifts
+- [`src/enrichment.py`](src/enrichment.py): motif-support attention enrichment utilities
+- [`src/counterfactuals.py`](src/counterfactuals.py): motif-destroying clean/corrupted sequence pairs
+- [`src/patching.py`](src/patching.py): restoration metrics, tensor patching, batch patching, and heatmap export
+- [`src/distributed_features.py`](src/distributed_features.py): residual/MLP activation extraction and sparse autoencoder feature ranking
+- [`src/cross_model.py`](src/cross_model.py): DNABERT-2 vs Nucleotide Transformer tokenization comparison
+- [`paper/main.pdf`](paper/main.pdf): compiled research paper
+- [`paper/main.tex`](paper/main.tex): manuscript source
+
+```
+
+---
+
+## Project: audion
+
+**Description:** Audion is an ML-first audio classification project. The repository keeps the model pipeline and the web interface separate so the local and Modal inference path can stay simple before adding more UI.
+
+**Key Stats:** 1 Stars | 0 Forks
+**Tech Stack:** Python, TypeScript, CSS
+**Live Demo:** https://audion-audio-cnn.vercel.app
+**Repository:** https://github.com/ArjunCodess/audion
+
+### README Content
+```markdown
+<h2 align="center">Audion - Audio CNN Inference Visualizer</h2>
+
+<p align="center">
+  Train a small audio classification CNN, serve it through Modal, and inspect predictions, waveforms, spectrograms, and convolutional feature maps from a minimal Next.js app.
+</p>
+
+## Table of Contents
+
+- [About](#about)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [ML Workflow](#ml-workflow)
+- [Web App](#web-app)
+- [Environment Variables](#environment-variables)
+- [Built Using](#built-using)
+
+## About
+
+Audion is an ML-first audio classification project. The repository keeps the model pipeline and the web interface separate so the local and Modal inference path can stay simple before adding more UI.
+
+The ML side downloads FSD50K metadata from Hugging Face, prepares deterministic manifests, converts audio to fixed-size log-mel spectrograms, trains a residual CNN on Modal, and exposes a Modal FastAPI endpoint for inference.
+
+The web app uploads one `.wav` file at a time, forwards it to the Modal endpoint through a server route, and renders the top predictions along with the waveform, input spectrogram, and selected convolutional activations.
+
+## Project Structure
+
+```text
+audion/
+  ml/    Python ML pipeline, Modal training, and Modal inference endpoint
+  app/   Next.js app and API bridge for running inference from the browser
+```
+
+## Getting Started
+
+### Requirements
+
+- Python 3.11
+- Node.js 20 or newer
+- pnpm
+- Modal account and CLI authentication
+- Hugging Face access for the `Fhrozen/FSD50k` dataset
+
+### Install ML Dependencies
+
+```bash
+cd ml
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### Install Web Dependencies
+
+```bash
+cd app
+pnpm install
+```
+
+## ML Workflow
+
+Run these from the `ml/` directory:
+
+```bash
+python bootstrap.py
+python dataset.py
+python subsets.py
+python preprocess.py
+python model.py
+python overfit.py
+python -m modal run train.py
+python -m modal deploy infer.py
+```
+
+The scripts are intentionally standalone:
+
+- `bootstrap.py` prepares the local directory layout.
+- `dataset.py` downloads FSD50K label metadata and writes `artifacts/labels.json`.
+- `subsets.py` creates deterministic tiny and full manifests.
+- `preprocess.py` creates mono 16 kHz, 4 second log-mel inputs.
+- `model.py` defines `AudionCNN` and saves an initial checkpoint.
+- `overfit.py` runs a local tiny overfit check.
+- `train.py` trains on Modal and stores artifacts in Modal volumes.
+- `infer.py` deploys a Modal FastAPI endpoint for `.wav` inference.
+
+## Web App
+
+Create `app/.env.local`, then run:
+
+```bash
+cd app
+pnpm dev
+```
+
+Open `http://localhost:3000` and upload one `.wav` file. The app sends the file to `/api/infer`, which proxies the request to the configured Modal endpoint.
+
+Useful web commands:
+
+```bash
+pnpm dev
+pnpm build
+pnpm lint
+```
+
+## Environment Variables
+
+Add these to `app/.env.local`:
+
+```env
+AUDION_MODAL_INFER_URL=
+AUDION_MODAL_KEY=
+AUDION_MODAL_SECRET=
+```
+
+`AUDION_MODAL_INFER_URL` is required. `AUDION_MODAL_KEY` and `AUDION_MODAL_SECRET` are used when the Modal endpoint requires proxy authentication.
+
+## Built Using
+
+- Python
+- PyTorch and torchaudio
+- Hugging Face Hub
+- FSD50K
+- Modal
+- FastAPI
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+```
+
+---
+
