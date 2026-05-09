@@ -1,5 +1,9 @@
 import CertificateImage from "@/components/certificate-image";
 import { CustomCard } from "@/components/custom-card";
+import {
+  GitHubContributions,
+  GitHubContributionsFallback,
+} from "@/components/github-contributions";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import Float from "@/components/fancy/blocks/float";
@@ -11,11 +15,15 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { DATA } from "@/data/resume";
+import { getCachedContributions } from "@/lib/get-cached-contributions";
 import { Download } from "lucide-react";
 import Link from "next/link";
+import { Suspense } from "react";
 import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
+const GITHUB_USERNAME = "ArjunCodess";
+const GITHUB_PROFILE_URL = `https://github.com/${GITHUB_USERNAME}`;
 
 function formatPeriod(start: string, end?: string) {
   if (!end || end === start) {
@@ -26,6 +34,8 @@ function formatPeriod(start: string, end?: string) {
 }
 
 export default function Page() {
+  const contributions = getCachedContributions(GITHUB_USERNAME);
+
   return (
     <main className="flex flex-col min-h-[100dvh] z-10 space-y-10">
       <section id="hero">
@@ -78,6 +88,16 @@ export default function Page() {
             {DATA.summary}
           </Markdown>
         </BlurFade>
+      </section>
+      <section id="github-contributions">
+        <Suspense fallback={<GitHubContributionsFallback />}>
+          <BlurFade delay={BLUR_FADE_DELAY * 4.25}>
+            <GitHubContributions
+              contributions={contributions}
+              githubProfileUrl={GITHUB_PROFILE_URL}
+            />
+          </BlurFade>
+        </Suspense>
       </section>
       <section id="resume">
         <BlurFade delay={BLUR_FADE_DELAY * 4.5}>
