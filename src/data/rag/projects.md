@@ -13,7 +13,8 @@
 **Topics:** gemini, python, selenium, thordata
 
 ### README Content
-```markdown
+
+````markdown
 <h1 align="center">WebCrawlAI - AI-Powered Web Scraping Platform</h1>
 
 <div align="center">
@@ -128,6 +129,7 @@ These instructions will get you a copy of the project up and running on your loc
    git clone https://github.com/ArjunCodess/WebCrawlAI.git
    cd WebCrawlAI
    ```
+````
 
 2. **Install dependencies**
 
@@ -162,13 +164,11 @@ Currently, the project uses manual testing and user acceptance testing. Automate
 ### Manual Testing
 
 1. **Development Testing**
-
    - Run the development server with `python main.py`
    - Test core features: web scraping, AI extraction, JSON output
    - Verify error handling and retry mechanisms
 
 2. **Integration Testing**
-
    - Test with various website types (static, dynamic, with CAPTCHAs)
    - Verify AI extraction accuracy with different prompts
    - Test API endpoints and response formats
@@ -183,25 +183,21 @@ Currently, the project uses manual testing and user acceptance testing. Automate
 ### Core Features
 
 1. **Web Scraping**
-
    - Handle static and dynamic websites
    - Bypass CAPTCHAs and anti-bot measures
    - Support for JavaScript-heavy sites
 
 2. **AI-Powered Extraction**
-
    - Natural language prompts for data extraction
    - Precise parsing using Gemini AI
    - Structured JSON output
 
 3. **Web Interface**
-
    - User-friendly interface for non-technical users
    - Real-time extraction results
    - Error handling and status updates
 
 4. **API Integration**
-
    - RESTful API for programmatic access
    - Clean JSON responses
    - Easy integration into existing workflows
@@ -226,7 +222,6 @@ The project is configured for deployment on Render with the following setup:
 ### Production Deployment
 
 1. **Render Deployment**
-
    - Connect your repository to Render
    - Configure environment variables in Render dashboard
    - Deploy automatically on pushes to main branch
@@ -241,13 +236,11 @@ The project is configured for deployment on Render with the following setup:
    ```
 
 3. **Service Configuration**
-
    - Configure as a Web Service on Render
    - Set build command: `pip install -r requirements.txt`
    - Set start command: `python main.py`
 
 4. **Monitoring and Error Tracking**
-
    - GetAnalyzr integration for event tracking
    - Built-in error handling and logging
    - Performance monitoring capabilities
@@ -366,7 +359,7 @@ _Built with ❤️ for developers and data enthusiasts_
 
 </div>
 
-```
+````
 
 ---
 
@@ -458,20 +451,20 @@ Here are some of the core features of Analyzr:
 - **Real-Time Tracking:** See what's happening on your website as it happens.
 
 - **Custom Event Tracking:** Track specific actions your visitors take (for example, clicks on certain buttons).
-  
+
   Here's how to track custom events:
 
   Using JavaScript/Node.js:
   ```javascript
   const axios = require('axios');
-  
+
   const API_KEY = "YOUR_API_KEY";
   const url = "https://getanalyzr.vercel.app/api/events";
   const headers = {
       "Content-Type": "application/json",
       "Authorization": `Bearer ${API_KEY}`
   };
-  
+
   const eventData = {
       name: "",        // required - event name
       domain: "",      // required - your website domain
@@ -480,12 +473,12 @@ Here are some of the core features of Analyzr:
       fields: [       // optional - additional fields for Discord notification
         {
           name: "Field Name",
-          value: "Field Value", 
+          value: "Field Value",
           inline: true // optional - display fields in same line
         }
       ]
   };
-  
+
   const sendRequest = async () => {
       try {
         const response = await axios.post(url, eventData, { headers });
@@ -494,47 +487,48 @@ Here are some of the core features of Analyzr:
         console.error("Error:", error.response ? error.response.data : error.message);
       }
   };
-  
+
   sendRequest();
-  ```
+````
 
-  Using Python:
-  ```python
-  import requests
-  
-  API_KEY = "YOUR_API_KEY"
-  url = "https://getanalyzr.vercel.app/api/events"
-  headers = {
-      "Content-Type": "application/json",
-      "Authorization": f"Bearer {API_KEY}"
-  }
-  
-  event_data = {
-      "name": "",        # required - event name
-      "domain": "",      # required - your website domain
-      "description": "", # required - event description
-      "emoji": "🔔",    # optional - emoji for Discord notification
-      "fields": [       # optional - additional fields for Discord notification
-        {
-          "name": "Field Name",
-          "value": "Field Value",
-          "inline": True # optional - display fields in same line
-        }
-      ]
-  }
-  
-  def send_request():
-      try:
-          response = requests.post(url, json=event_data, headers=headers)
-          response.raise_for_status()
-          print("Event sent successfully", response.json())
-      except requests.exceptions.RequestException as error:
-          print("Error:", error)
-  
-  send_request()
-  ```
+Using Python:
 
-  Yes, it's that simple!
+```python
+import requests
+
+API_KEY = "YOUR_API_KEY"
+url = "https://getanalyzr.vercel.app/api/events"
+headers = {
+    "Content-Type": "application/json",
+    "Authorization": f"Bearer {API_KEY}"
+}
+
+event_data = {
+    "name": "",        # required - event name
+    "domain": "",      # required - your website domain
+    "description": "", # required - event description
+    "emoji": "🔔",    # optional - emoji for Discord notification
+    "fields": [       # optional - additional fields for Discord notification
+      {
+        "name": "Field Name",
+        "value": "Field Value",
+        "inline": True # optional - display fields in same line
+      }
+    ]
+}
+
+def send_request():
+    try:
+        response = requests.post(url, json=event_data, headers=headers)
+        response.raise_for_status()
+        print("Event sent successfully", response.json())
+    except requests.exceptions.RequestException as error:
+        print("Error:", error)
+
+send_request()
+```
+
+Yes, it's that simple!
 
 - **Performance Monitoring:** Monitor how fast your site loads (and find areas to improve with smart suggestions on what to optimize next).
 
@@ -623,20 +617,21 @@ Once set up, you'll get real-time notifications for:
 It's super easy to get started:
 
 1. **Add the Tracking Script (and other stuff if needed)**
-   
+
    For Vanilla/React apps:
+
    ```html
    <script
      defer
      data-domain="your-website.com"
      src="https://getanalyzr.vercel.app/tracking-script.js"
-   >
-   </script>
+   ></script>
    ```
 
    For Next.js apps:
+
    ```html
-   <Script
+   <script
      defer
      data-domain="your-website.com"
      src="https://getanalyzr.vercel.app/tracking-script.js"
@@ -668,7 +663,7 @@ Got questions? Ideas? Just want to say hi.
 - Drop an issue on GitHub
 - DM me on Discord or X (@ArjunCodess)
 
-We love hearing from users! 
+We love hearing from users!
 
 ---
 
@@ -714,7 +709,8 @@ P.S. If you like it, maybe give us a star on GitHub and an upvote on Product Hun
    - No complex setup needed
    - Privacy-focused approach
    - Completely open source
-```
+
+````
 
 ---
 
@@ -820,7 +816,7 @@ This enables AI clients, such as Cursor or Claude Desktop, to interact with Stor
    ```sh
    git clone https://github.com/ArjunCodess/storyblok-mcp.git
    cd storyblok-mcp
-   ```
+````
 
 2. Install dependencies:
 
@@ -840,10 +836,10 @@ This enables AI clients, such as Cursor or Claude Desktop, to interact with Stor
 
 ### Clone the repo:
 
-   ```sh
-   git clone https://github.com/ArjunCodess/storyblok-mcp.git
-   cd storyblok-mcp
-   ```
+```sh
+git clone https://github.com/ArjunCodess/storyblok-mcp.git
+cd storyblok-mcp
+```
 
 ### Connect with Cursor
 
@@ -905,7 +901,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Restore a story to a previous version.
 
 - **import_story**  
-  Import a story, optionally specifying language code and whether to import language settings.
+ Import a story, optionally specifying language code and whether to import language settings.
 </details>
 
 <details>
@@ -921,7 +917,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Create a tag and immediately assign it to a story.
 
 - **delete_tag**  
-  Delete a tag by its ID.
+ Delete a tag by its ID.
 </details>
 
 <details>
@@ -940,7 +936,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update an existing webhook's endpoint, events, or other properties.
 
 - **delete_webhook**  
-  Delete a webhook by its ID.
+ Delete a webhook by its ID.
 </details>
 
 <details>
@@ -962,7 +958,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Publish all stories in a release.
 
 - **delete_release**  
-  Delete a release.
+ Delete a release.
 </details>
 
 <details>
@@ -981,7 +977,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update an existing preset's content, name, or appearance settings.
 
 - **delete_preset**  
-  Delete a preset by its ID.
+ Delete a preset by its ID.
 </details>
 
 <details>
@@ -1000,7 +996,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update an existing story scheduling (e.g., change publish time or language).
 
 - **delete_story_scheduling**  
-  Delete a story scheduling by its ID.
+ Delete a story scheduling by its ID.
 </details>
 
 <details>
@@ -1019,7 +1015,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update an existing access token's properties (type, name, min_cache, story_ids, branch_id).
 
 - **delete_access_token**  
-  Delete an access token by its ID.
+ Delete an access token by its ID.
 </details>
 
 <details>
@@ -1038,7 +1034,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Start uploading a new asset.
 
 - **complete_asset_upload**  
-  Complete the asset upload process.
+ Complete the asset upload process.
 </details>
 
 <details>
@@ -1054,7 +1050,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Rename an asset folder.
 
 - **delete_asset_folder**  
-  Delete an asset folder.
+ Delete an asset folder.
 </details>
 
 <details>
@@ -1073,7 +1069,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update a component's schema or settings.
 
 - **delete_component**  
-  Delete a component.
+ Delete a component.
 </details>
 
 <details>
@@ -1083,14 +1079,14 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Search for stories using advanced filters (by slug, tag, etc.).
 
 - **get_story_by_slug**  
-  Fetch a story by its slug.
+ Fetch a story by its slug.
 </details>
 
 <details>
 <summary>12. Folder Info</summary>
 
 - **fetch_folders**  
-  List all story folders.
+ List all story folders.
 </details>
 
 <details>
@@ -1109,7 +1105,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update an existing datasource (name, slug, dimensions).
 
 - **delete_datasource**  
-  Delete a datasource by its ID.
+ Delete a datasource by its ID.
 </details>
 
 <details>
@@ -1128,96 +1124,96 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update an existing datasource entry.
 
 - **delete_datasource_entry**  
-  Delete a datasource entry by its ID.
+ Delete a datasource entry by its ID.
 </details>
 
 <details>
 <summary>15. Utility</summary>
 
 - **ping**  
-  Check if the server and Storyblok API are reachable.
+ Check if the server and Storyblok API are reachable.
 </details>
 
 <details>
 <summary>16. Component Folders Management</summary>
 
-* **fetch_component_folders**  
+- **fetch_component_folders**  
   List all component folders in the space.
 
-* **get_component_folder**  
+- **get_component_folder**  
   Fetch a single component folder by its ID.
 
-* **create_component_folder**  
+- **create_component_folder**  
   Create a new component folder with optional parent ID.
 
-* **update_component_folder**  
+- **update_component_folder**  
   Update an existing component folder's name or parent ID.
 
-* **delete_component_folder**  
-  Delete a component folder by its ID.
+- **delete_component_folder**  
+ Delete a component folder by its ID.
 </details>
 
 <details>
 <summary>17. Space Roles Management</summary>
 
-* **fetch_space_roles**  
+- **fetch_space_roles**  
   List all space roles in your Storyblok space.
 
-* **get_space_role**  
+- **get_space_role**  
   Fetch a single space role by its ID.
 
-* **create_space_role**  
+- **create_space_role**  
   Create a new space role with custom permissions settings.
 
-* **update_space_role**  
+- **update_space_role**  
   Update an existing space role's permissions and settings.
 
-* **delete_space_role**  
-  Delete a space role by its ID.
+- **delete_space_role**  
+ Delete a space role by its ID.
 </details>
 
 <details>
 <summary>18. Space Management</summary>
 
-* **fetch_spaces**  
+- **fetch_spaces**  
   List all spaces accessible to your account. Supports pagination.
 
-* **get_space**  
+- **get_space**  
   Get information about the current Storyblok space.
 
-* **create_space**  
+- **create_space**  
   Create a new space with optional configuration for billing, environments, and custom options.
 
-* **update_space**  
+- **update_space**  
   Update an existing space's settings including name, domain, hooks, and configuration options.
 
-* **delete_space**  
+- **delete_space**  
   Delete a space by its ID.
 
-* **duplicate_space**  
+- **duplicate_space**  
   Create a copy of an existing space with options to duplicate content and components.
 
-* **backup_space**  
-  Trigger a backup for a space.
+- **backup_space**  
+ Trigger a backup for a space.
 </details>
 
 <details>
 <summary>19. AI Tools</summary>
 
-* **generate_alt_text**  
+- **generate_alt_text**  
   Automatically create alt text for images based on content or context.
 
-* **translate_story**  
+- **translate_story**  
   Translate the content of a story into different languages using AI.
 
-* **generate_meta_tags**  
+- **generate_meta_tags**  
   Generate SEO-friendly meta titles and descriptions for any story.
 
-* **summarize_story**  
+- **summarize_story**  
   Get a brief AI-generated summary of a story's content.
 
-* **tag_story_with_ai**  
-  Auto-generate relevant tags for a story using natural language processing.
+- **tag_story_with_ai**  
+ Auto-generate relevant tags for a story using natural language processing.
 </details>
 
 <details>
@@ -1239,7 +1235,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Create a duplicate of an existing workflow with a new name and content types.
 
 - **delete_workflow**  
-  Delete a workflow by its ID.
+ Delete a workflow by its ID.
 </details>
 
 <details>
@@ -1258,7 +1254,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Update an existing workflow stage's permissions, name, color, or position.
 
 - **delete_workflow_stage**  
-  Delete a workflow stage by its ID.
+ Delete a workflow stage by its ID.
 </details>
 
 <details>
@@ -1271,7 +1267,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Fetch a single workflow stage change by its ID.
 
 - **create_workflow_stage_change**  
-  Create a new workflow stage change by assigning a story to a specific workflow stage.
+ Create a new workflow stage change by assigning a story to a specific workflow stage.
 </details>
 
 <details>
@@ -1302,7 +1298,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Compare content between two branches to see differences.
 
 - **copy_stories_between_branches**  
-  Copy stories from one branch to another.
+ Copy stories from one branch to another.
 </details>
 
 <details>
@@ -1315,7 +1311,7 @@ https://github.com/user-attachments/assets/98b77544-81c4-49b3-8dc2-14849e6ba7e5
   Create a new branch deployment with required branch ID and optional release UUIDs. Requires the Pipelines application to be installed.
 
 - **get_branch_deployment**  
-  Fetch a single branch deployment by its ID.
+ Fetch a single branch deployment by its ID.
 </details>
 
 ---
@@ -1329,10 +1325,10 @@ Found bugs or want features? Open an issue.
 
 ## Useful Links
 
-* [Storyblok Docs](https://www.storyblok.com/docs)
-* [MCP Protocol](https://github.com/modelcontextprotocol)
-* [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
-* [DEV.to Challenge](https://dev.to/challenges/storyblok)
+- [Storyblok Docs](https://www.storyblok.com/docs)
+- [MCP Protocol](https://github.com/modelcontextprotocol)
+- [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
+- [DEV.to Challenge](https://dev.to/challenges/storyblok)
 
 ---
 
@@ -1345,7 +1341,8 @@ Made with ❤️ for the [DEV.to Storyblok Challenge](https://dev.to/challenges/
 ## License
 
 MIT
-```
+
+````
 
 ---
 
@@ -1871,7 +1868,7 @@ The [create_datasets.py](src/create_datasets.py) script:
    ```sh
    git clone https://github.com/ArjunCodess/men2-predictor.git
    cd men2-predictor
-   ```
+````
 
 2. Create and activate virtual environment:
 
@@ -1932,7 +1929,6 @@ Choose which dataset to use:
 - `e` or `expanded`: Expanded with synthetic controls + SMOTE (default)
 - `b` or `both`: Run on both datasets for comparison
 
-
 ### Examples
 
 ```sh
@@ -1954,7 +1950,6 @@ python main.py --m=random_forest --d=both
 # ⚠️ NOT RECOMMENDED: Expanded dataset (lower recall for safest models)
 python main.py --m=random_forest --d=expanded  # Only for research comparison
 ```
-
 
 ### Model Comparison Mode
 
@@ -2003,18 +1998,19 @@ python src/ablation_study.py --m=random_forest --d=both
 
 **Ablation Configurations:**
 
-| Configuration | Features Removed | Purpose |
-|---------------|------------------|---------|
-| `baseline` | None | Full model performance |
-| `no_risk_level` | `ret_risk_level`, interactions | Test ATA risk contribution |
-| `no_variants` | All `variant_*` dummies | Test variant encoding contribution |
-| `no_genetics` | All genetic features | Pure biomarker prediction |
-| `no_calcitonin` | `calcitonin_*` features | Test if genetics alone suffice |
-| `no_cea` | `cea_level_numeric` | Address CEA imputation concerns |
-| `genetics_only` | All biomarkers, nodules | Test if model is "just consensus" |
-| `biomarkers_only` | All genetic features | Clinical utility without genetics |
+| Configuration     | Features Removed               | Purpose                            |
+| ----------------- | ------------------------------ | ---------------------------------- |
+| `baseline`        | None                           | Full model performance             |
+| `no_risk_level`   | `ret_risk_level`, interactions | Test ATA risk contribution         |
+| `no_variants`     | All `variant_*` dummies        | Test variant encoding contribution |
+| `no_genetics`     | All genetic features           | Pure biomarker prediction          |
+| `no_calcitonin`   | `calcitonin_*` features        | Test if genetics alone suffice     |
+| `no_cea`          | `cea_level_numeric`            | Address CEA imputation concerns    |
+| `genetics_only`   | All biomarkers, nodules        | Test if model is "just consensus"  |
+| `biomarkers_only` | All genetic features           | Clinical utility without genetics  |
 
 **Results saved to:** `results/ablation/`
+
 - `{model}_{dataset}_ablation_results.txt` - Detailed findings
 - `{model}_{dataset}_ablation_results.csv` - For analysis
 
@@ -2061,6 +2057,7 @@ client.view_api()
 **What you get:**
 
 The comparison table includes for each test patient:
+
 - **Patient identification**: study_id for original data, source_id for synthetic controls
 - **Complete clinical data**: age, sex, RET variant, risk level, calcitonin levels, nodules, family history, etc.
 - **Actual diagnosis**: MTC or No_MTC
@@ -2071,6 +2068,7 @@ The comparison table includes for each test patient:
 **Saved file:** `results/model_comparison_{dataset_type}_detailed_results.txt`
 
 This file includes:
+
 - Complete legend explaining all abbreviations
 - Data split methodology (80/20, stratified, random_state=42)
 - SMOTE application details (only on training data)
@@ -2245,20 +2243,23 @@ This project is licensed under the MIT License.
 ## Authors & Contributions
 
 ### Harnoor Kaur
-*City Montessori School, Kanpur Road, Lucknow, India*  
-*E-mail: har.nooor16@gmail.com*
+
+_City Montessori School, Kanpur Road, Lucknow, India_  
+_E-mail: har.nooor16@gmail.com_
 
 **Contributions:** Literature search, study identification, data curation, and biological interpretation.
 
 ### Arjun Vijay Prakash
-*City Montessori School, Kanpur Road, Lucknow, India*  
-*E-mail: arjunv.prakash12345@gmail.com*
+
+_City Montessori School, Kanpur Road, Lucknow, India_  
+_E-mail: arjunv.prakash12345@gmail.com_
 
 **Contributions:** Designed and implemented the machine learning pipeline, trained models, performed computational analysis, developed the Hugging Face Space deployment, and maintained the reproducible codebase.
 
 ### Shashwat Mishra (Corresponding Author)
-*City Montessori School, Kanpur Road, Lucknow, India*  
-*E-mail: mishra.shashwat4002@gmail.com*
+
+_City Montessori School, Kanpur Road, Lucknow, India_  
+_E-mail: mishra.shashwat4002@gmail.com_
 
 **Contributions:** Mentorship, advised on methodological decisions including the MICE+PMM imputation strategy, and oversaw project direction.
 
@@ -2283,7 +2284,7 @@ Special thanks to the authors of the research studies that provided clinical dat
 - Xu et al. Thyroid (2016) - RET K666N carriers
 - European Journal of Endocrinology (2006) - Multi-variant RET carriers
 
-```
+````
 
 ---
 
@@ -2294,7 +2295,7 @@ Special thanks to the authors of the research studies that provided clinical dat
 **Key Stats:** ⭐ 2 Stars | 🍴 1 Forks
 **Tech Stack:** TypeScript, CSS, JavaScript
 **Live Demo:** https://pilot-ops-app.vercel.app
-**Repository:** https://github.com/pilot-ops-crm/app
+**Repository:** https://github.com/getpilot/app
 
 ### README Content
 ```markdown
@@ -2308,8 +2309,8 @@ Special thanks to the authors of the research studies that provided clinical dat
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/pilot-ops-crm/app.svg)](https://github.com/pilot-ops-crm/app/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/pilot-ops-crm/app.svg)](https://github.com/pilot-ops-crm/app/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/getpilot/app.svg)](https://github.com/getpilot/app/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/getpilot/app.svg)](https://github.com/getpilot/app/pulls)
 [![License](https://img.shields.io/badge/license-Proprietary-blue.svg)]()
 
 </div>
@@ -2355,9 +2356,9 @@ These instructions will get you a copy of the project up and running on your loc
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/pilot-ops-crm/app.git
+   git clone https://github.com/getpilot/app.git
    cd app
-   ```
+````
 
 2. **Install dependencies**
 
@@ -2398,13 +2399,11 @@ Currently, the project uses manual testing and user acceptance testing. Automate
 ### Manual Testing
 
 1. **Development Testing**
-
    - Run the development server with `pnpm dev`
    - Test core features: Instagram login, contact management, automation creation, sidekick interactions
    - Verify database operations and API endpoints
 
 2. **Integration Testing**
-
    - Test Instagram API connections
    - Verify webhook functionality
    - Test real-time features and chat integration
@@ -2431,27 +2430,23 @@ pnpm typecheck
 ### Core Features
 
 1. **Instagram Integration**
-
    - Connect your Instagram account via OAuth
    - Set up automated responses to reels and stories
    - Configure lead capture from direct messages
 
 2. **Contact Management**
-
    - View and organize Instagram contacts in a centralized table
    - Score contacts based on engagement and relevance
    - Add custom tags and notes for better organization
    - Filter and search through your contact database
 
 3. **Automation Workflows**
-
    - Create custom automation templates
    - Set up triggers based on Instagram interactions
    - Configure automated responses and follow-ups
    - Monitor automation performance and logs
 
 4. **AI Sidekick**
-
    - Set up your personalized AI assistant
    - Configure prompts and behavior preferences
    - Use for deal management and recommendations
@@ -2480,7 +2475,6 @@ The project is configured for deployment on Vercel with the following services:
 ### Production Deployment
 
 1. **Vercel Deployment**
-
    - Connect your repository to Vercel
    - Configure environment variables in Vercel dashboard
    - Deploy automatically on pushes to main branch
@@ -2545,8 +2539,8 @@ The main app integrates with the marketing website (`pilot-ops.vercel.app`) thro
 To connect the marketing site to this app, you need to set the same token in both repositories:
 
 1. **Generate a secure token** (any random string like `your-super-secret-token-12345`)
-2. **Add to this app** (`pilot-ops-crm/app`): Set `WAITLIST_API_TOKEN=your-token-here` in your `.env.local`
-3. **Add to marketing site** (`pilot-ops-crm/website`): Set `WAITLIST_API_TOKEN=your-token-here` in their `.env.local`
+2. **Add to this app** (`getpilot/app`): Set `WAITLIST_API_TOKEN=your-token-here` in your `.env.local`
+3. **Add to marketing site** (`getpilot/website`): Set `WAITLIST_API_TOKEN=your-token-here` in their `.env.local`
 
 The token can be simple - just make sure it's identical in both places and keep it secure in your environment variables.
 
@@ -2631,7 +2625,7 @@ _Built with ❤️ for creators and entrepreneurs_
 
 </div>
 
-```
+````
 
 ---
 
@@ -2642,7 +2636,7 @@ _Built with ❤️ for creators and entrepreneurs_
 **Key Stats:** ⭐ 1 Stars | 🍴 0 Forks
 **Tech Stack:** TypeScript, CSS, JavaScript
 **Live Demo:** https://pilot-ops.vercel.app
-**Repository:** https://github.com/pilot-ops-crm/website
+**Repository:** https://github.com/getpilot/website
 
 ### README Content
 ```markdown
@@ -2656,8 +2650,8 @@ _Built with ❤️ for creators and entrepreneurs_
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/pilot-ops-crm/website.svg)](https://github.com/pilot-ops-crm/website/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/pilot-ops-crm/website.svg)](https://github.com/pilot-ops-crm/website/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/getpilot/website.svg)](https://github.com/getpilot/website/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/getpilot/website.svg)](https://github.com/getpilot/website/pulls)
 [![License](https://img.shields.io/badge/license-Proprietary-blue.svg)]()
 
 </div>
@@ -2704,9 +2698,9 @@ Want to run this marketing site locally? Here's what you need to do.
 1. **Grab the code**
 
    ```bash
-   git clone https://github.com/pilot-ops-crm/website.git
+   git clone https://github.com/getpilot/website.git
    cd website
-   ```
+````
 
 2. **Install everything**
 
@@ -2716,6 +2710,7 @@ Want to run this marketing site locally? Here's what you need to do.
 
 3. **Set up your environment**
    Copy `.env.example` to `.env.local` and add your WAITLIST_API_TOKEN:
+
    ```env
    WAITLIST_API_TOKEN=your_token_from_main_app
    ```
@@ -2768,7 +2763,7 @@ To set up the connection between the marketing site and main app, you just need 
 
 1. **Generate a secure token** (can be any random string like `your-super-secret-token-12345`)
 2. **Add to marketing site** (this repo): Set `WAITLIST_API_TOKEN=your-token-here` in your `.env.local`
-3. **Add to main app** (`pilot-ops-crm/app`): Set `WAITLIST_API_TOKEN=your-token-here` in your `.env.local`
+3. **Add to main app** (`getpilot/app`): Set `WAITLIST_API_TOKEN=your-token-here` in your `.env.local`
 
 The token doesn't need to be complex - just make sure it's the same in both places and keep it secure.
 
@@ -2792,6 +2787,7 @@ This site is set up to deploy on Vercel, just like the main app.
    Connect your GitHub repo to Vercel, set up the environment variables in their dashboard, and it will deploy automatically when you push to main.
 
 2. **Environment Variables You Need**
+
    ```env
    WAITLIST_API_TOKEN=your_token_from_main_app
    ```
@@ -2851,7 +2847,7 @@ _Built with ❤️ for creators and entrepreneurs_
 
 </div>
 
-```
+````
 
 ---
 
@@ -2877,7 +2873,7 @@ Store - https://vendx-store.vercel.app/
 
 This application provides a complete solution for managing and displaying products, categories, and orders, complete with user authentication and a fully functional admin dashboard.
 
-> **NOTE**: This project is based on a tutorial by Code With Antonio (https://youtu.be/5miHyP6lExg). 
+> **NOTE**: This project is based on a tutorial by Code With Antonio (https://youtu.be/5miHyP6lExg).
 
 > Please note that this project is not an exact replica of the one shown in the video due to differences in the tech stack:
 
@@ -2918,7 +2914,7 @@ This application provides a complete solution for managing and displaying produc
 2. A REAL Payment Flow (use `isPaid: true` for queries in the dashboard)
 3. Multiple Stores per User Functionality
 4. Use `isArchived: true` Property in the Dashboard
-```
+````
 
 ---
 
@@ -2932,6 +2928,7 @@ This application provides a complete solution for managing and displaying produc
 **Repository:** https://github.com/ArjunCodess/VendX-Store
 
 ### README Content
+
 ```markdown
 # VendX
 
@@ -2944,7 +2941,7 @@ Store - https://vendx-store.vercel.app/
 
 This application provides a complete solution for managing and displaying products, categories, and orders, complete with user authentication and a fully functional admin dashboard.
 
-> **NOTE**: This project is based on a tutorial by Code With Antonio (https://youtu.be/5miHyP6lExg). 
+> **NOTE**: This project is based on a tutorial by Code With Antonio (https://youtu.be/5miHyP6lExg).
 
 > Please note that this project is not an exact replica of the one shown in the video due to differences in the tech stack:
 
@@ -2999,22 +2996,21 @@ This application provides a complete solution for managing and displaying produc
 **Repository:** https://github.com/ArjunCodess/typethelyrics
 
 ### README Content
-```markdown
+
+````markdown
 # TypeTheLyrics - Type Along with Your Favorite Songs
 
-This project is a fun and engaging web application that allows users to practice their typing skills while following along with synchronized lyrics from their favorite Spotify songs.  It combines a typing test with a music player, creating an interactive and motivating experience. Users can input a Spotify track URL, and the application will fetch the lyrics and synchronize the typing test with the music playback.
-
+This project is a fun and engaging web application that allows users to practice their typing skills while following along with synchronized lyrics from their favorite Spotify songs. It combines a typing test with a music player, creating an interactive and motivating experience. Users can input a Spotify track URL, and the application will fetch the lyrics and synchronize the typing test with the music playback.
 
 ## Features
 
-*   **Synchronized Lyrics:**  Type along with the music in real-time, thanks to synchronized lyrics.
-*   **Typing Test:**  Tracks words per minute (WPM) and accuracy.
-*   **Spotify Integration:**  Seamlessly integrates with Spotify to fetch song details and lyrics.
-*   **Leaderboard:**  Compete with others by viewing the leaderboard of top typists and most played songs.
-*   **User Authentication:** Secure user accounts for score saving.
-*   **Customizable Filters:** Option to enable lowercase only or remove punctuation from the lyrics.
-*   **Responsive Design:**  Works smoothly on various screen sizes.
-
+- **Synchronized Lyrics:** Type along with the music in real-time, thanks to synchronized lyrics.
+- **Typing Test:** Tracks words per minute (WPM) and accuracy.
+- **Spotify Integration:** Seamlessly integrates with Spotify to fetch song details and lyrics.
+- **Leaderboard:** Compete with others by viewing the leaderboard of top typists and most played songs.
+- **User Authentication:** Secure user accounts for score saving.
+- **Customizable Filters:** Option to enable lowercase only or remove punctuation from the lyrics.
+- **Responsive Design:** Works smoothly on various screen sizes.
 
 ## Usage
 
@@ -3025,7 +3021,6 @@ This project is a fun and engaging web application that allows users to practice
 5.  View your WPM, raw WPM, and accuracy after finishing the test.
 6.  Check out the Leaderboard to see how you rank against other users and popular songs.
 
-
 ## Installation
 
 1.  Clone the repository: `git clone https://github.com/[YourGitHubUsername]/TypeTheLyrics.git`
@@ -3033,21 +3028,19 @@ This project is a fun and engaging web application that allows users to practice
 3.  Install dependencies: `npm install` or `yarn install` or `pnpm install` or `bun install`
 4.  Run the development server: `npm run dev` or `yarn dev` or `pnpm dev` or `bun dev`
 
-
 ## Technologies Used
 
-*   **Next.js:**  React framework for building the user interface.
-*   **React:**  JavaScript library for building user interfaces.
-*   **Tailwind CSS:**  Utility-first CSS framework for styling.
-*   **Supabase:**  Backend service for authentication and database management.  Provides authentication and a PostgreSQL database for user data and song tracking.
-*   **Spotify Web API:**  Used to fetch song information and lyrics from Spotify.
-*   **`@supabase/auth-helpers-nextjs`:**  Supabase helper library for Next.js authentication.
-*   **Lucide:** Icon library for UI elements.
-*   **clsx:** Utility for efficiently joining classNames.
-*   **tailwind-merge:** Utility for merging Tailwind CSS classes.
-*   **class-variance-authority:** Utility for creating reusable and variant-aware CSS classes.
-*   **`next/font`:** Next.js's font optimization library.
-
+- **Next.js:** React framework for building the user interface.
+- **React:** JavaScript library for building user interfaces.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **Supabase:** Backend service for authentication and database management. Provides authentication and a PostgreSQL database for user data and song tracking.
+- **Spotify Web API:** Used to fetch song information and lyrics from Spotify.
+- **`@supabase/auth-helpers-nextjs`:** Supabase helper library for Next.js authentication.
+- **Lucide:** Icon library for UI elements.
+- **clsx:** Utility for efficiently joining classNames.
+- **tailwind-merge:** Utility for merging Tailwind CSS classes.
+- **class-variance-authority:** Utility for creating reusable and variant-aware CSS classes.
+- **`next/font`:** Next.js's font optimization library.
 
 ## API Documentation
 
@@ -3062,7 +3055,7 @@ Returns the top 10 users and top 10 songs.
 ```json
 {
   "topUsers": [
-    { "username": "user1", "score": 1000 },
+    { "username": "user1", "score": 1000 }
     // ... more users
   ],
   "topSongs": [
@@ -3072,11 +3065,12 @@ Returns the top 10 users and top 10 songs.
       "play_count": 50,
       "spotify_url": "spotify_url",
       "most_played_by_username": "user1"
-    },
+    }
     // ... more songs
   ]
 }
 ```
+````
 
 ### `/api/lyrics`
 
@@ -3167,24 +3161,21 @@ Tracks a song play, updating play count and potentially the user who played it m
 }
 ```
 
-
 ## Dependencies
 
 Refer to `package.json` for a complete list of project dependencies.
-
 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-
 ## Testing
 
-No explicit testing framework is present in this codebase.  Adding unit or integration tests is recommended for future development.
+No explicit testing framework is present in this codebase. Adding unit or integration tests is recommended for future development.
 
+_README.md was made with [Etchr](https://etchr.dev)_
 
-*README.md was made with [Etchr](https://etchr.dev)*
-```
+````
 
 ---
 
@@ -3249,17 +3240,17 @@ It offers a full set of tools and components. These tools work together to make 
 
 ### 2. **Scalable, and Easy to Maintain**
 Starfall's architecture is built for growth.
-   
+
 It uses best practices for organizing folders, designing components, and managing state. This helps keep your project easy to maintain as it expands. Security features are also built-in to keep your project safe.
 
 ### 3. **Beautifully Designed UI**
 Starfall makes your app look modern, thanks to Shadcn/UI and Aceternity UI.
-   
+
 You can easily switch between dark and light modes. Plus, you can customize gradients and blur effects for a unique look.
 
 ### 4. **Focus on Developer Experience**
 Starfall is made with developers in mind.
-   
+
 The code is clean and easy to understand. It follows modern best practices and comes with good documentation. Pre-configured environments mean you spend less time setting up and more time building features.
 
 ## 📚 Getting Started
@@ -3275,15 +3266,14 @@ To begin using Starfall, all that is required is a couple of things.
 
 ```bash
 git clone https://github.com/ArjunCodess/neon-oss-starter-kit.git my-app
-```
-    
+````
 
 ### Step 3
 
 ```bash
 cd my-app
 ```
-    
+
 ### Step 4
 
 ```bash
@@ -3293,11 +3283,11 @@ npm install
 ### Step 5
 
 Rename the .env.example file to .env. And pull up your environment variables and paste them in the .env file.
-    
+
 Having trouble? Check out the [configuration guide](https://starfall-docs.vercel.app/docs/configuration)
 
 ### Step 6
-    
+
 ```bash
 npm run dev
 ```
@@ -3325,7 +3315,7 @@ These are the commands that you can use and what they do in brief:
 
 I chose this stack because it provides a complete set of tools for modern web development.
 
-Using Next.js and Tailwind CSS makes building fast, responsive apps easy. Neon and Drizzle ORM simplify database management. Clerk handles authentication, which is crucial for secure applications. TypeScript adds extra reliability to the code. 
+Using Next.js and Tailwind CSS makes building fast, responsive apps easy. Neon and Drizzle ORM simplify database management. Clerk handles authentication, which is crucial for secure applications. TypeScript adds extra reliability to the code.
 
 Throughout this process, I learned how to integrate these tools effectively. It was challenging but rewarding to see everything come together in a single starter kit. I would like to thank DEV and Neon for organising a challenge like this!
 
@@ -3371,13 +3361,13 @@ If you have any questions or feedback, feel free to reach out or open an issue o
 
 Connect with me: [Linktree](https://linktr.ee/arjuncodess). Follow me on [X](https://x.com/arjuncodess).
 
-```
+````
 
 ---
 
 ## Project: astroscope
 
-**Description:** AstroScope is an interactive dashboard that visualizes near-Earth asteroid data from NASA's NeoWs API. 
+**Description:** AstroScope is an interactive dashboard that visualizes near-Earth asteroid data from NASA's NeoWs API.
 
 **Key Stats:** ⭐ 7 Stars | 🍴 1 Forks
 **Tech Stack:** Python
@@ -3423,19 +3413,22 @@ AstroScope is an interactive dashboard that visualizes near-Earth asteroid data 
    - How will you use the APIs? (optional)
 3. Submit the form and check your email to receive your API key.
 4. Add the key to your `.env` file:
-   ```
-   NASA_API_KEY="YOUR_KEY_HERE"
-   ```
+````
+
+NASA_API_KEY="YOUR_KEY_HERE"
+
+````
 
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/ArjunCodess/astroscope.git
-   cd astroscope
-   ```
+```bash
+git clone https://github.com/ArjunCodess/astroscope.git
+cd astroscope
+````
 
 2. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -3466,6 +3459,7 @@ python -m streamlit run app.py
 The dashboard will be available at [http://localhost:8501](http://localhost:8501).
 
 The application will automatically:
+
 1. Check if data files exist
 2. If not, fetch asteroid data from NASA's NeoWs API
 3. Process the raw data into a clean format
@@ -3474,6 +3468,7 @@ The application will automatically:
    - Includes a "Daily Closest Miss" table showing the closest approach per day and ranking the top 10 dates by proximity
 
 > **Note**: You can still run the data pipeline steps separately if needed:
+>
 > - `python -m lib.data_fetcher` - Fetch data only
 > - `python -m lib.data_processing` - Process data only
 > - `python -m lib.analysis` - Analyze data only
@@ -3493,7 +3488,8 @@ The application will automatically:
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-```
+
+````
 
 ---
 
@@ -3555,7 +3551,7 @@ Want to run ChemistryCheck locally? Here's what you need to do.
    ```bash
    git clone https://github.com/ArjunCodess/chemistrycheck.git
    cd chemistrycheck
-   ```
+````
 
 2. **Install everything**
 
@@ -3713,6 +3709,7 @@ This application is set up to deploy on Vercel.
    - Deploy automatically when you push to main
 
 2. **Environment Variables You Need**
+
    ```env
    GOOGLE_GENERATIVE_AI_API_KEY=
    BLOB_READ_WRITE_TOKEN=
@@ -3760,7 +3757,7 @@ _Built with ❤️ for those seeking honest insights_
 
 </div>
 
-```
+````
 
 ---
 
@@ -3799,14 +3796,17 @@ Requirements:
 **Installation:**
 ```py
 pip install pygame
-```
+````
+
 Running the Program:
+
 ```py
 python sortingwiz.py
 ```
 
 **Features**
 Visualization of the following sorting algorithms:
+
 - Bubble Sort
 - Insertion Sort
 - Selection Sort
@@ -3816,6 +3816,7 @@ Visualization of the following sorting algorithms:
 There are the key user controls for the sorting program: a start/stop button, reset button, sorting order change(ascending/descending), and switch to another algorithm.
 
 **Controls**
+
 - Q: Quit the program.
 
 - R: Reset the list.
@@ -3847,6 +3848,7 @@ There are the key user controls for the sorting program: a start/stop button, re
 
 **Contributing**
 If you'd like to contribute to SortingWiz, please follow these steps:
+
 - Fork the repository.
 - Create a new branch for your feature or bug fix.
 - Make your changes.
@@ -3858,7 +3860,7 @@ If you'd like to contribute to SortingWiz, please follow these steps:
 **Acknowledgments**
 This project was developed as a part of the CS50 Fall 2023 Final Project - SortingWiz.
 
-```
+````
 
 ---
 
@@ -3922,7 +3924,7 @@ Want to run Flash Reels locally? Here's what you need to do.
    ```bash
    git clone https://github.com/your-username/FlashReels.git
    cd FlashReels
-   ```
+````
 
 2. **Install everything**
 
@@ -3935,7 +3937,7 @@ Want to run Flash Reels locally? Here's what you need to do.
    ```
 
 3. **Set up your environment**
-   
+
    Create a `.env.local` file in the root directory and add all required environment variables (see [Environment Variables](#environment_variables) section below).
 
 4. **Set up the database**
@@ -4127,7 +4129,7 @@ The site will be live and ready to create AI-powered videos!
 
 ## ✍️ Author <a name = "authors"></a>
 
-- **ArjunCodess** - *Built and maintain Flash Reels*
+- **ArjunCodess** - _Built and maintain Flash Reels_
 
 **I believe** in making video creation accessible to everyone through the power of AI. If you want to collaborate or have questions, feel free to reach out.
 
@@ -4150,7 +4152,7 @@ _Built with ❤️ for creators and content makers_
 
 </div>
 
-```
+````
 
 ---
 
@@ -4223,7 +4225,7 @@ Want to run TBH locally? Here's what you need.
    ```bash
    git clone https://github.com/ArjunCodess/tbh.git
    cd tbh
-   ```
+````
 
 2. **Install everything**
 
@@ -4233,6 +4235,7 @@ Want to run TBH locally? Here's what you need.
 
 3. **Set up your environment**
    Copy `.env.example` to `.env.local` and add your configuration:
+
    ```env
    MONGODB_URI=your_mongodb_connection_string
    NEXTAUTH_SECRET=your_nextauth_secret
@@ -4326,6 +4329,7 @@ TBH is set up to deploy on Vercel with MongoDB Atlas for the database.
    Connect your GitHub repo to Vercel and set up the environment variables in their dashboard.
 
 2. **Environment Variables You Need**
+
    ```env
    MONGODB_URI=your_mongodb_atlas_connection_string
    NEXTAUTH_SECRET=your_secure_random_secret
@@ -4365,3 +4369,4 @@ _Built with ❤️ for authentic conversations_
 
 ---
 
+```

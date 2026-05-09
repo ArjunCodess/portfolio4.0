@@ -96,7 +96,7 @@
 
 ## Current Role: CTO @ Pilot
 
-**Organization:** Pilot (pilot-ops-crm on GitHub)
+**Organization:** Pilot (getpilot on GitHub)
 **Your Position:** CTO (Chief Technology Officer)
 **Co-founders:** 3 people, all age 15-16
 
@@ -125,9 +125,9 @@ AI-powered Instagram automation platform for creators. Helps creators manage DMs
 
 **Key Repositories:**
 
-- Main app: https://github.com/pilot-ops-crm/app
-- Marketing website: https://github.com/pilot-ops-crm/website
-- Organization: https://github.com/pilot-ops-crm
+- Main app: https://github.com/getpilot/app
+- Marketing website: https://github.com/getpilot/website
+- Organization: https://github.com/getpilot
 
 **Status (Jan 2026):**
 

@@ -8,8 +8,8 @@ const REPOS_TO_FETCH = [
   "analyzr",
   "storyblok-mcp",
   "men2-predictor",
-  "pilot-ops-crm/app", // Org repo example
-  "pilot-ops-crm/website", // Org repo example
+  "getpilot/app", // Org repo example
+  "getpilot/website", // Org repo example
   "VendX-Admin",
   "VendX-Store",
   "typethelyrics",
