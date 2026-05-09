@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, FilePen } from "lucide-react";
+import { FilePen, FolderKanban, HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Arjun Vijay Prakash",
@@ -76,6 +76,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/projects", icon: FolderKanban, label: "Projects" },
     { href: "/guestbook", icon: FilePen, label: "Guestbook" },
   ],
   cs50_images: [
@@ -219,14 +220,16 @@ export const DATA = {
       href: "https://huggingface.co/spaces/arjuncodess/men2-predictor",
       dates: "2025",
       active: true,
+      category: "Research",
+      featured: true,
       description:
         "**INSEF Regional Fair Bronze Prize Winner.** Medical ML pipeline for predicting MEN2 syndrome. Achieves 97.20% accuracy with 100% sensitivity on real clinical data from 152 patients across 20 studies (24 RET variants).",
       technologies: [
         "Python",
         "Machine Learning",
+        "Medical AI",
+        "Research",
         "scikit-learn",
-        "LightGBM",
-        "XGBoost",
         "Gradio",
       ],
       links: [
@@ -244,10 +247,64 @@ export const DATA = {
       image: "/projects/men2-predictor.png",
     },
     {
+      title: "NGTA",
+      href: "https://github.com/ArjunCodess/NGTA",
+      dates: "2026",
+      active: true,
+      category: "Research",
+      featured: true,
+      description:
+        "Research project on NARS-guided transformer attention for clinical prediction under extreme missingness. Maps neural uncertainty into NARS truth values and feeds revised confidence back into Transformer attention.",
+      technologies: [
+        "Python",
+        "Machine Learning",
+        "Research",
+        "Medical AI",
+        "Transformers",
+        "NARS",
+        "TeX",
+      ],
+      links: [
+        {
+          type: "Source Code",
+          href: "https://github.com/ArjunCodess/NGTA",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+    },
+    {
+      title: "MINTS",
+      href: "https://github.com/ArjunCodess/MINTS",
+      dates: "2026",
+      active: true,
+      category: "Research",
+      featured: true,
+      description:
+        "Research project on mechanistic interpretability for nucleotide transformers. Tests whether genomic transformer circuits implement biological motif detectors using probes, QK/OV analysis, patching, and SAE feature search.",
+      technologies: [
+        "Python",
+        "Machine Learning",
+        "Research",
+        "Genomics",
+        "Mechanistic Interpretability",
+        "Transformers",
+        "TeX",
+      ],
+      links: [
+        {
+          type: "Source Code",
+          href: "https://github.com/ArjunCodess/MINTS",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+    },
+    {
       title: "Analyzr",
       href: "https://getanalyzr.vercel.app",
       dates: "2024",
       active: true,
+      category: "Web",
+      featured: true,
       description:
         "**200+ Product Hunt upvotes, 31 GitHub stars.** Free, open-source analytics requiring just one line of code. Built-in Discord notifications and real-time tracking for any website.",
       technologies: [
@@ -256,6 +313,7 @@ export const DATA = {
         "Supabase",
         "Tailwind CSS",
         "Shadcn/UI",
+        "Analytics",
       ],
       links: [
         {
@@ -276,6 +334,8 @@ export const DATA = {
       href: "https://webcrawlai.onrender.com/",
       dates: "2024",
       active: true,
+      category: "AI/ML",
+      featured: false,
       description:
         "**119 GitHub stars.** AI-powered web scraping platform using Gemini AI. Handles dynamic content, CAPTCHAs, and provides clean JSON output.",
       technologies: [
@@ -286,6 +346,7 @@ export const DATA = {
         "Gemini AI",
         "BeautifulSoup",
         "Tailwind CSS",
+        "Web Scraping",
       ],
       links: [
         {
@@ -306,6 +367,8 @@ export const DATA = {
       href: "https://chemistrycheck.vercel.app",
       dates: "2025",
       active: true,
+      category: "AI/ML",
+      featured: true,
       description:
         "AI-powered chat analysis tool with RAG chatbot. Upload WhatsApp, Telegram, or Instagram exports and chat with an AI that has full context of your conversation. Get insights into communication patterns, relationship dynamics, and potential red flags.",
       technologies: [
@@ -313,6 +376,7 @@ export const DATA = {
         "TypeScript",
         "Drizzle ORM",
         "Gemini AI",
+        "RAG",
         "Tailwind CSS",
         "Better Auth",
       ],
@@ -335,6 +399,8 @@ export const DATA = {
       href: "https://flashreels.vercel.app",
       dates: "2025",
       active: true,
+      category: "AI/ML",
+      featured: true,
       description:
         "AI-powered video creation platform. Generate professional reels with just a topic — AI handles script, images, voiceover (Edge TTS), and captions (Deepgram) automatically using Remotion.",
       technologies: [
@@ -346,6 +412,7 @@ export const DATA = {
         "Edge TTS",
         "Deepgram",
         "Clerk",
+        "Video AI",
       ],
       links: [
         {
@@ -362,10 +429,44 @@ export const DATA = {
       image: "/projects/flashreels.png",
     },
     {
+      title: "audion",
+      href: "https://audion-audio-cnn.vercel.app",
+      dates: "2026",
+      active: true,
+      category: "AI/ML",
+      featured: false,
+      description:
+        "ML-first audio classification project with a CNN training pipeline and Next.js inference visualizer. Upload audio and inspect predictions, waveforms, spectrograms, and convolutional feature maps.",
+      technologies: [
+        "Python",
+        "PyTorch",
+        "Audio ML",
+        "Modal",
+        "FastAPI",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Live Website",
+          href: "https://audion-audio-cnn.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source Code",
+          href: "https://github.com/ArjunCodess/audion",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+    },
+    {
       title: "AstroScope",
       href: "https://astroscope.streamlit.app/",
       dates: "2024",
       active: true,
+      category: "Data Science",
+      featured: false,
       description:
         "**7 GitHub stars.** Interactive dashboard visualizing near-Earth asteroid data from NASA's NeoWs API. Shows asteroid sizes, velocities, miss distances, and hazard levels.",
       technologies: ["Python", "Streamlit", "NASA API", "Data Visualization"],
@@ -388,6 +489,8 @@ export const DATA = {
       href: "https://github.com/ArjunCodess/storyblok-mcp",
       dates: "2025",
       active: true,
+      category: "DevTools",
+      featured: false,
       description:
         "DEV.to Challenge Entry. Connect AI tools to Storyblok instantly — use natural language to manage your CMS. Built for the Storyblok Headless CMS Challenge.",
       technologies: [
@@ -410,6 +513,8 @@ export const DATA = {
       href: "https://vendx-admin.vercel.app",
       dates: "2024",
       active: true,
+      category: "Web",
+      featured: false,
       description:
         "Full-stack e-commerce platform with admin dashboard and storefront. Manage products, categories, colors, sizes, and orders.",
       technologies: [
@@ -420,6 +525,7 @@ export const DATA = {
         "Neon",
         "Shadcn/UI",
         "Clerk",
+        "E-commerce",
       ],
       links: [
         {
@@ -440,6 +546,8 @@ export const DATA = {
       href: "https://starfall-kit.vercel.app",
       dates: "2024",
       active: true,
+      category: "DevTools",
+      featured: false,
       description:
         "**12 GitHub stars.** Neon-powered full-stack web application starter kit with Next.js, Tailwind CSS, Shadcn/UI, Drizzle ORM, and Clerk auth pre-configured.",
       technologies: [
@@ -449,6 +557,7 @@ export const DATA = {
         "Drizzle ORM",
         "Neon",
         "Clerk",
+        "Starter Kit",
       ],
       links: [
         {
@@ -469,6 +578,8 @@ export const DATA = {
       href: "https://typethelyrics.vercel.app",
       dates: "2024",
       active: true,
+      category: "Games",
+      featured: false,
       description:
         "Practice typing skills with synchronized Spotify lyrics. Tracks WPM and accuracy with a leaderboard system.",
       technologies: [
@@ -477,6 +588,7 @@ export const DATA = {
         "Supabase",
         "Tailwind CSS",
         "Spotify API",
+        "Game",
       ],
       links: [
         {
@@ -492,6 +604,8 @@ export const DATA = {
       href: "https://mytbh.vercel.app/",
       dates: "2024",
       active: true,
+      category: "Web",
+      featured: false,
       description:
         "Anonymous Q&A app with AI-powered daily prompts. Friends can ask questions, reply publicly, create threads, and keep conversations going.",
       technologies: [
@@ -501,6 +615,7 @@ export const DATA = {
         "Tailwind CSS",
         "NextAuth",
         "Gemini AI",
+        "Social App",
       ],
       links: [
         {
@@ -521,9 +636,11 @@ export const DATA = {
       href: "https://www.youtube.com/watch?v=hjY9Ifs8L6U",
       dates: "2024",
       active: true,
+      category: "Games",
+      featured: false,
       description:
         "Python and Pygame-based interactive sorting algorithm visualizer. Watch Bubble Sort, Insertion Sort, Selection Sort, and Heap Sort in real-time.",
-      technologies: ["Python", "Pygame"],
+      technologies: ["Python", "Pygame", "Algorithms", "Visualization"],
       links: [
         {
           type: "Video Demo",

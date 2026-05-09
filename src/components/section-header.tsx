@@ -3,7 +3,7 @@ import BlurFade from "@/components/magicui/blur-fade";
 interface SectionHeaderProps {
   badge: string;
   title: string;
-  description: string;
+  description: React.ReactNode;
   delay?: number;
 }
 
