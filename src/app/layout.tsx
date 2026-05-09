@@ -79,11 +79,13 @@ export default function RootLayout({
           <TooltipProvider delayDuration={0}>
             <SidebarProvider defaultOpen={false}>
               <SidebarInset>
-                <div className="max-w-2xl mx-auto pt-10 pb-24 sm:pt-10 sm:pb-28 px-4">
-                  {children}
-                  <Navbar />
-                  <Analytics />
-                  <SpeedInsights />
+                <div className="max-w-screen overflow-x-hidden px-4">
+                  <div className="max-w-2xl mx-auto pt-10 pb-24 sm:pt-10 sm:pb-28">
+                    {children}
+                    <Navbar />
+                    <Analytics />
+                    <SpeedInsights />
+                  </div>
                 </div>
               </SidebarInset>
               <ChatTrigger />
